@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SusPecT\Documents\VuGen\Scripts\01_Search_Flight
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\suspect\documents\vugen\scripts\01_search_flight\\logfile.log
+d:\suspect\documents\vugen\scripts\01_search_flight\\combined_01_Search_Flight.c
+d:\suspect\documents\vugen\scripts\01_search_flight\\pre_cci.c

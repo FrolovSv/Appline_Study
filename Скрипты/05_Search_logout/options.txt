@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SusPecT\Documents\VuGen\Scripts\05_Search_logout
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\suspect\documents\vugen\scripts\05_search_logout\\logfile.log
+d:\suspect\documents\vugen\scripts\05_search_logout\\combined_05_Search_logout.c
+d:\suspect\documents\vugen\scripts\05_search_logout\\pre_cci.c
