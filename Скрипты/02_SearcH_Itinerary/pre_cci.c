@@ -2667,7 +2667,7 @@ Action()
 		lr_start_transaction("goto_Flight");		
 			
 			 
-			web_reg_find("Text=Web Tours Navigation Bar",
+			web_reg_find("Text=Flight Selections",
 			"LAST");
 			
 			web_url("welcome.pl", 

@@ -13,7 +13,7 @@ Action()
 		
 		lr_start_transaction("goto_Flight");		
 			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Web Tours Navigation Bar",
+			web_reg_find("Text=Flight Selections",
 			LAST);
 			
 			web_url("welcome.pl", 
@@ -92,8 +92,17 @@ Action()
 	
 		lr_start_transaction("choise_ticket");	
 			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Flight Reservation",
-            	LAST);
+			web_reg_find("Search=Body",
+				"Text=Flight Reservation",
+				LAST);	
+			web_reg_find("Search=Body",
+				"Text={User_Name}",
+				LAST);
+			web_reg_find("Search=Body",
+				"Text={User_FirstName}",
+				LAST);			
+			
+			
 			web_submit_data("reservations.pl_2",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
 				"Method=POST",
@@ -119,15 +128,22 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Ticket");
 			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Reservation Made!",
-            	LAST);		
-			
-//			if (numpass>2){
-//			   
-//			}else{
-//			   
-//			}
-//			
+			web_reg_find("Search=Body",
+				"Text={depart}",
+				LAST);
+			web_reg_find("Search=Body",
+				"Text={arrive}",
+				LAST);	
+			web_reg_find("Search=Body",
+				"Text=A {seatType} Class ticket",
+				LAST);		
+//			web_reg_find("Search=Body",
+//				"Text=leaves {depart}  for {arrive}",
+//				LAST);	
+			web_reg_find("Search=Body",
+				"Text={departDate}",
+				LAST);				
+		
 			web_submit_data("reservations.pl_3",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
 				"Method=POST",

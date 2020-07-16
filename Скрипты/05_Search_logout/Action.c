@@ -61,7 +61,7 @@ Action()
 		
 		lr_start_transaction("goto_Flight");		
 			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Web Tours Navigation Bar",
+			web_reg_find("Text=Flight Selections",
 			LAST);			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -79,8 +79,13 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Flight Selections",
-			LAST);			
+			web_reg_find("Search=Body",
+				"Text=From {depart}",
+				LAST);
+			web_reg_find("Search=Body",
+				"Text=To {arrive}",
+				LAST);
+			
 			web_submit_data("reservations.pl", 
 				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 				"Method=POST", 

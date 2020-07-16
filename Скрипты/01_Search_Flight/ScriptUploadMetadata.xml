@@ -95,6 +95,14 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="login_password.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv43D.903.log" Filter="1" />
+    <FileEntry Name="mdrvEAQ.451.log" Filter="1" />
+    <FileEntry Name="mdrveuj.129.log" Filter="1" />
+    <FileEntry Name="mdrvHMU.431.log" Filter="1" />
+    <FileEntry Name="mdrvmsm.695.log" Filter="1" />
+    <FileEntry Name="mdrvONG.901.log" Filter="1" />
+    <FileEntry Name="mdrvVny.91.log" Filter="1" />
+    <FileEntry Name="mdrvYYc.23.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="Name.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

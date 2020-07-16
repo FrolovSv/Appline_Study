@@ -2672,7 +2672,7 @@ Action()
 		
 		lr_start_transaction("goto_Flight");		
 			 
-			web_reg_find("Text=Web Tours Navigation Bar",
+			web_reg_find("Text=Flight Selections",
 			"LAST");
 			
 			web_url("welcome.pl", 
@@ -2751,8 +2751,17 @@ Action()
 	
 		lr_start_transaction("choise_ticket");	
 			 
-			web_reg_find("Text=Flight Reservation",
-            	"LAST");
+			web_reg_find("Search=Body",
+				"Text=Flight Reservation",
+				"LAST");	
+			web_reg_find("Search=Body",
+				"Text={User_Name}",
+				"LAST");
+			web_reg_find("Search=Body",
+				"Text={User_FirstName}",
+				"LAST");			
+			
+			
 			web_submit_data("reservations.pl_2",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
 				"Method=POST",
@@ -2778,15 +2787,22 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Ticket");
 			 
-			web_reg_find("Text=Reservation Made!",
-            	"LAST");		
-			
+			web_reg_find("Search=Body",
+				"Text={depart}",
+				"LAST");
+			web_reg_find("Search=Body",
+				"Text={arrive}",
+				"LAST");	
+			web_reg_find("Search=Body",
+				"Text=A {seatType} Class ticket",
+				"LAST");		
  
  
  
- 
- 
- 
+			web_reg_find("Search=Body",
+				"Text={departDate}",
+				"LAST");				
+		
 			web_submit_data("reservations.pl_3",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
 				"Method=POST",

@@ -99,7 +99,7 @@ value_for_each_vuser=""
 [parameter:User_Login]
 ColumnName="Col 1"
 Delimiter=","
-GenerateNewVal="EachIteration"
+GenerateNewVal="EachOccurrence"
 OriginalValue="jojo"
 OutOfRangePolicy="ContinueWithLast"
 ParamName="User_Login"
