@@ -2667,12 +2667,11 @@ Action()
 	lr_start_transaction("01_Search_Flight");
 	
 		 
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 		
 		lr_start_transaction("goto_Flight");		
 			 
-			web_reg_find("Text=Web Tours Navigation Bar",
+			web_reg_find("Text=Find Flight",
 			"LAST");			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -2690,8 +2689,13 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			 
-			web_reg_find("Text=Flight Selections",
-			"LAST");			
+			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
+				"LAST");
+			if (lr_eval_string("{roundtrip}")=="on"){
+				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
+					"LAST");
+		    }	
+						
 			web_submit_data("reservations.pl", 
 				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 				"Method=POST", 
@@ -2723,7 +2727,7 @@ Action()
 		
 		lr_start_transaction("goto_home");
 			 
-			web_reg_find("Text=User has returned to the home page.",
+			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
 				"LAST");
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 

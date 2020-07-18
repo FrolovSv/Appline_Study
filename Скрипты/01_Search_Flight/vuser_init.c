@@ -16,7 +16,7 @@ vuser_init()
 		"RequestUrl=*/nav.pl*",
 		LAST);
 
-	//Проверка соответсвия на корректности загрузки страницы
+	//Проверка соответсвия на корректность загрузки страницы
 	web_reg_find("Text=Welcome to the Web Tours site", LAST);
 	
 	web_url("WebTours",
@@ -35,7 +35,7 @@ vuser_init()
 		//ожидание от пользователя ввода login pass	
 		//lr_think_time(5);	
 		
-		//Проверка соответсвия на корректности загрузки страницы
+		//Проверка соответсвия на корректность загрузки страницы
 		web_reg_find("Text=User password was correct", LAST);
 
 		//lr_start_transaction("login user");		

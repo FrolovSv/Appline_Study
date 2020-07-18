@@ -2659,7 +2659,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
- 
+	int pass_count = 0;
  
  
  
@@ -2672,7 +2672,7 @@ Action()
 		
 		lr_start_transaction("goto_Flight");		
 			 
-			web_reg_find("Text=Flight Selections",
+			web_reg_find("Text=Find Flight",
 			"LAST");
 			
 			web_url("welcome.pl", 
@@ -2691,12 +2691,12 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Flight");	
 			 
-			web_reg_find("Search=Body",
-				"Text=From {depart}",
+			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
 				"LAST");
-			web_reg_find("Search=Body",
-				"Text=To {arrive}",
-				"LAST");
+			if (lr_eval_string("{roundtrip}")=="on"){
+				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
+					"LAST");
+		    }
 			
 			 
 			web_reg_save_param_attrib(
@@ -2708,6 +2708,26 @@ Action()
 				"SEARCH_FILTERS",
 				"IgnoreRedirections=No",
 				"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 			
 			 
 			web_reg_save_param_attrib(
@@ -2760,8 +2780,7 @@ Action()
 			web_reg_find("Search=Body",
 				"Text={User_FirstName}",
 				"LAST");			
-			
-			
+						
 			web_submit_data("reservations.pl_2",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
 				"Method=POST",
@@ -2771,7 +2790,8 @@ Action()
 				"Snapshot=t5.inf",
 				"Mode=HTML",
 				"ITEMDATA",
-				"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+				 
+				"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
 				"Name=returnFlight", "Value={returnFlight}", "ENDITEM",
 				"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
 				"Name=advanceDiscount", "Value=0", "ENDITEM",
@@ -2788,19 +2808,10 @@ Action()
 		lr_start_transaction("Entry_Data_Ticket");
 			 
 			web_reg_find("Search=Body",
-				"Text={depart}",
+				"Text=Thank you for booking through Web Tours.",
 				"LAST");
 			web_reg_find("Search=Body",
-				"Text={arrive}",
-				"LAST");	
-			web_reg_find("Search=Body",
-				"Text=A {seatType} Class ticket",
-				"LAST");		
- 
- 
- 
-			web_reg_find("Search=Body",
-				"Text={departDate}",
+				"Text=from {depart} to {arrive}.",
 				"LAST");				
 		
 			web_submit_data("reservations.pl_3",
@@ -2823,7 +2834,8 @@ Action()
 				"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
 				"Name=seatType", "Value={seatType}", "ENDITEM",
 				"Name=seatPref", "Value={seatPref}", "ENDITEM",
-				"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+				 
+				"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
 				"Name=advanceDiscount", "Value=0", "ENDITEM",
 				"Name=returnFlight", "Value={returnFlight}", "ENDITEM",
 				"Name=JSFormSubmit", "Value=off", "ENDITEM",
@@ -2838,8 +2850,9 @@ Action()
 	
 		lr_start_transaction("goto_home");	
 			 
-			web_reg_find("Text=User has returned to the home page.",
-				"LAST");		
+			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
+				"LAST");
+			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 				"TargetFrame=", 

@@ -1,6 +1,6 @@
 vuser_end()
 {
-	//Проверка соответсвия на корректности загрузки страницы
+	//Проверка соответсвия на корректность загрузки страницы
 	web_reg_find("Text=To make reservations,please enter your account information to the left.",
 		LAST);
 

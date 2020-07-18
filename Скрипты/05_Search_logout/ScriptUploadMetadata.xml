@@ -30,8 +30,10 @@
     <FileEntry Name="05_Search_logout.prm.bak" Filter="1" />
     <FileEntry Name="111241652440.idx" Filter="1" />
     <FileEntry Name="11124165244_8oM.131.idx" Filter="1" />
+    <FileEntry Name="11124165244_baF.139.idx" Filter="1" />
     <FileEntry Name="11124165244_bIC.353.idx" Filter="1" />
     <FileEntry Name="11124165244_e6r.367.idx" Filter="1" />
+    <FileEntry Name="11124165244_ihQ.427.idx" Filter="1" />
     <FileEntry Name="11124165244_LsZ.63.idx" Filter="1" />
     <FileEntry Name="11124165244_ok9.751.idx" Filter="1" />
     <FileEntry Name="11124165244_viZ.107.idx" Filter="1" />
@@ -44,15 +46,19 @@
     <FileEntry Name="25007781244_3tH.365.idx" Filter="1" />
     <FileEntry Name="25007781244_bcv.105.idx" Filter="1" />
     <FileEntry Name="25007781244_euj.129.idx" Filter="1" />
+    <FileEntry Name="25007781244_kBI.425.idx" Filter="1" />
     <FileEntry Name="25007781244_LJr.749.idx" Filter="1" />
     <FileEntry Name="25007781244_ozK.351.idx" Filter="1" />
+    <FileEntry Name="25007781244_tpC.137.idx" Filter="1" />
     <FileEntry Name="252202863440.idx" Filter="1" />
     <FileEntry Name="25220286344_1FY.352.idx" Filter="1" />
+    <FileEntry Name="25220286344_Hy2.138.idx" Filter="1" />
     <FileEntry Name="25220286344_J5K.366.idx" Filter="1" />
     <FileEntry Name="25220286344_K5v.750.idx" Filter="1" />
     <FileEntry Name="25220286344_mYu.62.idx" Filter="1" />
     <FileEntry Name="25220286344_Ue9.130.idx" Filter="1" />
     <FileEntry Name="25220286344_YNE.106.idx" Filter="1" />
+    <FileEntry Name="25220286344_zvW.426.idx" Filter="1" />
     <FileEntry Name="257276912440.idx" Filter="1" />
     <FileEntry Name="65512445440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -73,7 +79,6 @@
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
-    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

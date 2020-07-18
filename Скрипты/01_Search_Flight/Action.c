@@ -6,12 +6,11 @@ Action()
 	lr_start_transaction("01_Search_Flight");
 	
 		//SLA 5 секунд ожидание действия пользователя
-		lr_think_time(5);
-		
+		lr_think_time(5);		
 		
 		lr_start_transaction("goto_Flight");		
-			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=Flight Selections",
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=Find Flight",
 			LAST);			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -28,13 +27,14 @@ Action()
 		lr_think_time(26);
 	
 		lr_start_transaction("Entry_Data_Flight");		
-			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Search=Body",
-				"Text=From {depart}",
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
 				LAST);
-			web_reg_find("Search=Body",
-				"Text=To {arrive}",
-				LAST);			
+			if (lr_eval_string("{roundtrip}")=="on"){
+				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
+					LAST);
+		    }	
+						
 			web_submit_data("reservations.pl", 
 				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 				"Method=POST", 
@@ -65,8 +65,8 @@ Action()
 		lr_think_time(15);
 		
 		lr_start_transaction("goto_home");
-			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=User has returned to the home page.",
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
 				LAST);
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 

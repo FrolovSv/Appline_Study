@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SusPecT\Documents\VuGen\Scripts\02_SearcH_Itinerary_Delete
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\suspect\documents\vugen\scripts\02_search_itinerary_delete\\logfile.log
+d:\suspect\documents\vugen\scripts\02_search_itinerary_delete\\combined_02_SearcH_Itinerary_Delete.c
+d:\suspect\documents\vugen\scripts\02_search_itinerary_delete\\pre_cci.c

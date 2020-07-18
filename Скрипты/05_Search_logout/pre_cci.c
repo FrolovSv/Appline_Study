@@ -2662,7 +2662,7 @@ Action()
 		
 		lr_start_transaction("goto_Flight");		
 			 
-			web_reg_find("Text=Flight Selections",
+			web_reg_find("Text=Find Flight",
 			"LAST");			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -2680,12 +2680,12 @@ Action()
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			 
-			web_reg_find("Search=Body",
-				"Text=From {depart}",
+			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
 				"LAST");
-			web_reg_find("Search=Body",
-				"Text=To {arrive}",
-				"LAST");
+			if (lr_eval_string("{roundtrip}")=="on"){
+				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
+					"LAST");
+		    }
 			
 			web_submit_data("reservations.pl", 
 				"Action=http://localhost:1080/cgi-bin/reservations.pl", 

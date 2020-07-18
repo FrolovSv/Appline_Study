@@ -2601,7 +2601,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("04_Login_itinerary");
+	lr_start_transaction("04_Login_itinerary_Logout");
 		
 		lr_start_transaction("goto_main");
 	
@@ -2695,7 +2695,7 @@ Action()
 		lr_end_transaction("Logout", 2);
 		
 		
-	lr_end_transaction("04_Login_itinerary", 2);
+	lr_end_transaction("04_Login_itinerary_Logout", 2);
 
 	return 0;
 }

@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\SusPecT\Documents\VuGen\Scripts\02_SearcH_Itinerary
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suspect\documents\vugen\scripts\02_search_itinerary\\logfile.log
-d:\suspect\documents\vugen\scripts\02_search_itinerary\\combined_02_SearcH_Itinerary.c
-d:\suspect\documents\vugen\scripts\02_search_itinerary\\pre_cci.c
