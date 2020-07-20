@@ -36,7 +36,7 @@ vuser_init()
 		//lr_think_time(5);	
 		
 		//Проверка соответсвия на корректность загрузки страницы
-		web_reg_find("Text=User password was correct", LAST);
+		web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.", LAST);
 
 		//lr_start_transaction("login user");		
 		web_submit_data("login.pl",
@@ -58,5 +58,6 @@ vuser_init()
 		web_set_sockets_option("SSL_VERSION", "AUTO");	
 		//lr_end_transaction("login user",LR_AUTO);
 	
+		lr_save_string(lr_eval_string("{User_Login}"),"login");
 	return 0;
 }

@@ -66,8 +66,9 @@ Action()
 		
 		lr_start_transaction("goto_home");
 			//Проверка соответсвия на корректность загрузки страницы
-			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
+			web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
 				LAST);
+			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 				"TargetFrame=", 

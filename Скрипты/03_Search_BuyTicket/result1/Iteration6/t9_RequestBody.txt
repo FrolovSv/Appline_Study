@@ -1,5 +1,0 @@
-"firstName=Vysotskaya&lastName=Maksim&address1=ulitsa+Pokhodnyy+proyezd&address2=Moscow+MO+Mosc"
-"ow&pass1=Anikita+Arepyev&creditCard=1234568032298150&expDate=09%2F23&oldCCOption=on&numPasseng"
-"ers=1&seatType=First&seatPref=Window&outboundFlight=390%3B752%3B07%2F16%2F2020&advanceDiscount"
-"=0&returnFlight=930%3B649%3B07%2F19%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&"
-"buyFlights.y=8"

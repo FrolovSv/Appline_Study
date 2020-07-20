@@ -1,3 +1,3 @@
-"advanceDiscount=0&depart=Portland&departDate=07%2F19%2F2020&arrive=Portland&returnDate=07%2F22"
-"%2F2020&numPassengers=1&roundtrip=on&seatPref=Aisle&seatType=Business&.cgifields=roundtrip&.cg"
-"ifields=seatType&.cgifields=seatPref&findFlights.x=52&findFlights.y=10"
+"advanceDiscount=0&depart=Paris&departDate=07%2F20%2F2020&arrive=Paris&returnDate=07%2F23%2F202"
+"0&numPassengers=1&roundtrip=off&seatPref=Window&seatType=Coach&.cgifields=roundtrip&.cgifields"
+"=seatType&.cgifields=seatPref&findFlights.x=52&findFlights.y=10"

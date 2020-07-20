@@ -2632,7 +2632,7 @@ vuser_init()
 		 
 		
 		 
-		web_reg_find("Text=User password was correct", "LAST");
+		web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.", "LAST");
 
 		 
 		web_submit_data("login.pl",
@@ -2654,6 +2654,7 @@ vuser_init()
 		web_set_sockets_option("SSL_VERSION", "AUTO");	
 		 
 	
+		lr_save_string(lr_eval_string("{User_Login}"),"login");
 	return 0;
 }
 # 4 "d:\\suspect\\documents\\vugen\\scripts\\01_search_flight\\\\combined_01_Search_Flight.c" 2
@@ -2727,8 +2728,9 @@ Action()
 		
 		lr_start_transaction("goto_home");
 			 
-			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
+			web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
 				"LAST");
+			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 				"TargetFrame=", 

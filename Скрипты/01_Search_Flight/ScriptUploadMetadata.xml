@@ -147,6 +147,7 @@
     <FileEntry Name="mdrveuj.129.log" Filter="1" />
     <FileEntry Name="mdrvHMU.431.log" Filter="1" />
     <FileEntry Name="mdrvmsm.695.log" Filter="1" />
+    <FileEntry Name="mdrvOM6.857.log" Filter="1" />
     <FileEntry Name="mdrvONG.901.log" Filter="1" />
     <FileEntry Name="mdrvVny.91.log" Filter="1" />
     <FileEntry Name="mdrvYYc.23.log" Filter="1" />
@@ -156,6 +157,7 @@
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="Passangers.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />

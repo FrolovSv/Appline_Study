@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 20 Jul 2020 07:58:06 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 19 Jul 2020 07:58:06 GMT
+Set-Cookie: MTUserInfo=firstName&Semen&username&istomina&address2&Moscow%20MO%20Moscow&hash&33&address1&pereulok%20Shitova&lastName&Istomina%0A; path=/
+Keep-Alive: timeout=5, max=90
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

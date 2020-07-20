@@ -1,5 +1,0 @@
-"firstName=Vysotskaya&lastName=Maksim&address1=ulitsa+Pokhodnyy+proyezd&address2=Moscow+MO+Mosc"
-"ow&pass1=Varfolomey+Vlasyev&creditCard=1234567993874980&expDate=04%2F23&oldCCOption=on&numPass"
-"engers=1&seatType=Coach&seatPref=Aisle&outboundFlight=800%3B792%3B07%2F16%2F2020&advanceDiscou"
-"nt=0&returnFlight=080%3B792%3B07%2F19%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=4"
-"1&buyFlights.y=8"

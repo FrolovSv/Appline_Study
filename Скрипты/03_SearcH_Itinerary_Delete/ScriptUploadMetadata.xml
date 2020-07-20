@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>03_SearcH_Itinerary_Delete</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="03_SearcH_Itinerary_Delete.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="03_SearcH_Itinerary_Delete.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="CreditCard.dat" Filter="2" />
+    <FileEntry Name="loginNamePass.dat" Filter="2" />
+    <FileEntry Name="Passangers.dat" Filter="2" />
+    <FileEntry Name="roundtrip.dat" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
+    <FileEntry Name="Depart.dat" Filter="2" />
+    <FileEntry Name="seatPref.dat" Filter="2" />
+    <FileEntry Name="seatType.dat" Filter="2" />
+    <FileEntry Name="combined_03_SearcH_Itinerary_Delete.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="02_SearcH_Itinerary.prm" Filter="1" />
+    <FileEntry Name="02_SearcH_Itinerary.prm.bak" Filter="1" />
+    <FileEntry Name="02_SearcH_Itinerary_Delete.prm.bak" Filter="1" />
+    <FileEntry Name="03_SearcH_Itinerary_Delete.c.pickle" Filter="1" />
+    <FileEntry Name="03_SearcH_Itinerary_Delete.ci" Filter="1" />
+    <FileEntry Name="03_SearcH_Itinerary_Delete.prb" Filter="1" />
+    <FileEntry Name="03_SearcH_Itinerary_Delete.prm.bak" Filter="1" />
+    <FileEntry Name="113238252440.idx" Filter="1" />
+    <FileEntry Name="125529653440.idx" Filter="1" />
+    <FileEntry Name="167834785440.idx" Filter="1" />
+    <FileEntry Name="189250532440.idx" Filter="1" />
+    <FileEntry Name="191062825440.idx" Filter="1" />
+    <FileEntry Name="237269581440.idx" Filter="1" />
+    <FileEntry Name="48013884440.idx" Filter="1" />
+    <FileEntry Name="768223440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="departDate.dat" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv2yx.205.log" Filter="1" />
+    <FileEntry Name="mdrv5at.423.log" Filter="1" />
+    <FileEntry Name="mdrvJ0H.751.log" Filter="1" />
+    <FileEntry Name="mdrvlje.511.log" Filter="1" />
+    <FileEntry Name="mdrvrDa.279.log" Filter="1" />
+    <FileEntry Name="mdrvTDo.629.log" Filter="1" />
+    <FileEntry Name="mdrvtNV.927.log" Filter="1" />
+    <FileEntry Name="mdrvXUM.335.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

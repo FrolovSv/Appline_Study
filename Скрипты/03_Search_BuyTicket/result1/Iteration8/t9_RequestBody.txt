@@ -1,5 +1,0 @@
-"firstName=Vysotskaya&lastName=Maksim&address1=ulitsa+Pokhodnyy+proyezd&address2=Moscow+MO+Mosc"
-"ow&pass1=Sergey+Frolov&creditCard=1234568194222400&expDate=05%2F23&oldCCOption=on&numPassenger"
-"s=1&seatType=Coach&seatPref=Aisle&outboundFlight=360%3B60%3B07%2F16%2F2020&advanceDiscount=0&r"
-"eturnFlight=630%3B60%3B07%2F19%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&buyFl"
-"ights.y=8"

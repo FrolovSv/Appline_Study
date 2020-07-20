@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t9.inf",
+                "time": 1595244976457
+            }
+        ],
+        "transactions": []
+    }
+]

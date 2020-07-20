@@ -1,5 +1,0 @@
-"firstName=Andreyev&lastName=Dementiy&address1=kvartal+Volzhskiy+Bulvar+114a&address2=Moscow+MO"
-"+Moscow&pass1=Andrey+Ardalionov&creditCard=1234568183086820&expDate=04%2F23&oldCCOption=on&num"
-"Passengers=1&seatType=First&seatPref=Window&outboundFlight=730%3B327%3B07%2F17%2F2020&advanceD"
-"iscount=0&returnFlight=370%3B327%3B07%2F20%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlight"
-"s.x=41&buyFlights.y=8"

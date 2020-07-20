@@ -1,0 +1,7 @@
+"1=on&flightID=148-1523159-GM&flightID=244453733-1938585-GM&flightID=244453733-2707816-GM&fligh"
+"tID=244453733-3477046-GM&flightID=244480386-445453-GM&flightID=244480386-522376-GM&flightID=24"
+"4480386-599299-GM&flightID=30379266-647723-GM&flightID=30379266-724646-GM&flightID=30379266-80"
+"1569-GM&flightID=18614855-8938630-GM&flightID=18614855-9707861-GM&flightID=18614855-10477092-G"
+"M&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgifields=9&.cgifields=12&.cgifields=2"
+"&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=13&.cgifields=10&.cgifields=5&removeFlights"
+".x=73&removeFlights.y=15"

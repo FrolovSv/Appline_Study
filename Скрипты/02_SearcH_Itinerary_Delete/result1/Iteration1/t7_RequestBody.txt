@@ -1,7 +1,0 @@
-"1=on&flightID=2100329687-1523316-IS&flightID=5219266-176182-ZR&flightID=1085437088-2969442-VL&"
-"flightID=195186313-330841-IR&flightID=178907417-388503-AD&flightID=274109655-5146262-AD&flight"
-"ID=87429640-543122-BK&flightID=6300759-631615-AD&flightID=278900382-702369-BK&flightID=1952192"
-"72-791592-BY&flightID=257408532-869286-IS&flightID=252616670-966170-IS&flightID=252616670-1043"
-"093-IS&flightID=252616670-1120016-IS&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgi"
-"fields=9&.cgifields=12&.cgifields=2&.cgifields=14&.cgifields=8&.cgifields=1&.cgifields=4&.cgif"
-"ields=13&.cgifields=10&.cgifields=5&removeFlights.x=73&removeFlights.y=15"
