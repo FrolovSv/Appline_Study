@@ -2652,6 +2652,10 @@ vuser_init()
 		web_set_sockets_option("SSL_VERSION", "AUTO");	
 		 
 	
+		lr_save_string(lr_eval_string("{User_Name}"),"name");
+		lr_save_string(lr_eval_string("{User_FirstName}"),"firstName");
+		lr_save_string(lr_eval_string("{User_Login}"),"login");
+		                              
 	return 0;
 }
 # 4 "d:\\suspect\\documents\\vugen\\scripts\\02_search_buyticket\\\\combined_02_Search_BuyTicket.c" 2
@@ -2775,10 +2779,10 @@ Action()
 				"Text=Flight Reservation",
 				"LAST");	
 			web_reg_find("Search=Body",
-				"Text={User_Name}",
+				"Text={name}",
 				"LAST");
 			web_reg_find("Search=Body",
-				"Text={User_FirstName}",
+				"Text={firstName}",
 				"LAST");			
 						
 			web_submit_data("reservations.pl_2",
@@ -2850,7 +2854,7 @@ Action()
 	
 		lr_start_transaction("goto_home");	
 			 
-			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
+			web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
 				"LAST");
 			
 			web_url("welcome.pl", 

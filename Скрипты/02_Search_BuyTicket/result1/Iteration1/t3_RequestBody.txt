@@ -1,2 +1,2 @@
-"userSession=129220.888051843zztzHQQptcQVzzzHDQiiApHQzfHf&username=istomina&password=semo&JSFor"
+"userSession=129222.307492912zztziHcpttVzzzzHDQiiVpcDtzf&username=gronskaya&password=sduv&JSFor"
 "mSubmit=off&login.x=60&login.y=9"

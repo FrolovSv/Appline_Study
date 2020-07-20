@@ -58,5 +58,9 @@ vuser_init()
 		web_set_sockets_option("SSL_VERSION", "AUTO");	
 		//lr_end_transaction("login user",LR_AUTO);
 	
+		lr_save_string(lr_eval_string("{User_Name}"),"name");
+		lr_save_string(lr_eval_string("{User_FirstName}"),"firstName");
+		lr_save_string(lr_eval_string("{User_Login}"),"login");
+		                              
 	return 0;
 }

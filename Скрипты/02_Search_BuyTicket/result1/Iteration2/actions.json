@@ -1,0 +1,81 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1595249388479
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t7.inf",
+                "time": 1595249388674
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t8.inf",
+                "time": 1595249388861
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t9.inf",
+                "time": 1595249389039
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t10.inf",
+                "time": 1595249389304
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "goto_Flight",
+                "rawStartTime": 1595249388164,
+                "rawEndTime": 1595249388480,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03578472137451172
+            },
+            {
+                "transactionName": "Entry_Data_Flight",
+                "rawStartTime": 1595249388482,
+                "rawEndTime": 1595249388676,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03231167793273926
+            },
+            {
+                "transactionName": "choise_ticket",
+                "rawStartTime": 1595249388678,
+                "rawEndTime": 1595249388862,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0231931209564209
+            },
+            {
+                "transactionName": "Entry_Data_Ticket",
+                "rawStartTime": 1595249388864,
+                "rawEndTime": 1595249389040,
+                "thinkTime": 0.0,
+                "wastedTime": 0.021795034408569337
+            },
+            {
+                "transactionName": "goto_home",
+                "rawStartTime": 1595249389042,
+                "rawEndTime": 1595249389305,
+                "thinkTime": 0.0,
+                "wastedTime": 0.025560855865478517
+            },
+            {
+                "transactionName": "03_Search_BuyTicket",
+                "rawStartTime": 1595249388162,
+                "rawEndTime": 1595249389306,
+                "thinkTime": 0.0,
+                "wastedTime": 0.13864541053771974
+            }
+        ]
+    }
+]
