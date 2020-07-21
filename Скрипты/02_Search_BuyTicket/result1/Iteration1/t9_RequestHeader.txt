@@ -7,6 +7,6 @@ Accept-Language: ru-RU
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1595249386; MTUserInfo=firstName&Nikita&address2&Moscow%20MO%20Moscow&username&gronskaya&hash&65&lastName&Gronskaya%0A&address1&pereulok%20Shitova&creditCard&&expDate&%0A
-Content-Length: 383
+Cookie: MSO=SID&1595337270; MTUserInfo=firstName&Kirill&address2&Moscow%20MO%20Moscow&username&bogdanov&hash&22&lastName&Bogdanov%0A&address1&ulitsa%20Polimernaya%20&creditCard&&expDate&%0A
+Content-Length: 384
 

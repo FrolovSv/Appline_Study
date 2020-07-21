@@ -4,13 +4,66 @@ Action()
 //	
 //	numpass = atoi(lr_eval_string("{numPassengers}");
 //	   
-	
 	lr_start_transaction("03_Search_BuyTicket");
+		
+		lr_start_transaction("Load_start_Page");
 	
+			/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
+			web_reg_save_param_attrib(
+				"ParamName=userSession",
+				"TagName=input",
+				"Extract=value",
+				"Name=userSession",
+				"Type=hidden",
+				SEARCH_FILTERS,
+				"IgnoreRedirections=No",
+				"RequestUrl=*/nav.pl*",
+				LAST);
+		
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=Welcome to the Web Tours site", LAST);
+			
+			web_url("WebTours",
+				"URL=http://localhost:1080/WebTours/", 
+				"TargetFrame=", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=", 
+				"Snapshot=t1.inf", 
+				"Mode=HTML", 
+				LAST);
+					
+		lr_end_transaction("Load_start_Page", LR_AUTO);
+		
+		//ожидание от пользователя ввода login pass	
+		lr_think_time(5);
+			
+		//Проверка соответсвия на корректность загрузки страницы
+		web_reg_find("Text=User password was correct", LAST);
+	
+		lr_start_transaction("login user");		
+			web_submit_data("login.pl",
+				"Action=http://localhost:1080/cgi-bin/login.pl",
+				"Method=POST",
+				"TargetFrame=body",
+				"RecContentType=text/html",
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+				"Snapshot=t2.inf",
+				"Mode=HTML",
+				ITEMDATA,
+				"Name=userSession", "Value={userSession}", ENDITEM,
+				"Name=username", "Value={User_Login}", ENDITEM,
+				"Name=password", "Value={User_Pass}", ENDITEM,
+				"Name=JSFormSubmit", "Value=off", ENDITEM,
+				"Name=login.x", "Value=60", ENDITEM,
+				"Name=login.y", "Value=9", ENDITEM,
+				LAST);		
+			web_set_sockets_option("SSL_VERSION", "AUTO");	
+		lr_end_transaction("login user",LR_AUTO);
+		
 		//SLA 5 секунд ожидание действия пользователя
 		lr_think_time(5);
-		
-		
+				
 		lr_start_transaction("goto_Flight");		
 			//Проверка соответсвия на корректность загрузки страницы
 			web_reg_find("Text=Find Flight",
@@ -116,10 +169,10 @@ Action()
 				"Text=Flight Reservation",
 				LAST);	
 			web_reg_find("Search=Body",
-				"Text={name}",
+				"Text={User_Name}",
 				LAST);
 			web_reg_find("Search=Body",
-				"Text={firstName}",
+				"Text={User_FirstName}",
 				LAST);			
 						
 			web_submit_data("reservations.pl_2",
@@ -191,7 +244,7 @@ Action()
 	
 		lr_start_transaction("goto_home");	
 			//Проверка соответсвия на корректность загрузки страницы
-			web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
+			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
 				LAST);
 			
 			web_url("welcome.pl", 
@@ -204,6 +257,23 @@ Action()
 				"Mode=HTML", 
 				LAST);		
 		lr_end_transaction("goto_home",LR_AUTO);
+		
+		//Проверка соответсвия на корректность загрузки страницы
+		web_reg_find("Text=To make reservations,please enter your account information to the left.",
+			LAST);
+	
+		lr_start_transaction("Logout");
+		web_url("welcome.pl",
+			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+			"TargetFrame=", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+			"Snapshot=t9.inf", 
+			"Mode=HTML", 
+			LAST);
+		lr_end_transaction("Logout", LR_AUTO);
+		
 	
 	lr_end_transaction("03_Search_BuyTicket", LR_AUTO);
 

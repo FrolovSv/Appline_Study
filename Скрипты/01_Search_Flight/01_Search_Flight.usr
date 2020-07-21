@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="01_Search_Flight__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__goto_home"
+Order="01_Search_Flight__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__goto_home__*delimiter*__Load_start_Page__*delimiter*__login user__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,3 +63,6 @@ ActiveRunName=result1
 goto_Flight=
 Entry_Data_Flight=
 goto_home=
+Load_start_Page=
+"login user"=
+Logout=

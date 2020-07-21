@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="03_Search_BuyTicket__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__choise_ticket__*delimiter*__Entry_Data_Ticket__*delimiter*__goto_home"
+Order="03_Search_BuyTicket__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__choise_ticket__*delimiter*__Entry_Data_Ticket__*delimiter*__goto_home__*delimiter*__Load_start_Page__*delimiter*__login user__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -65,3 +65,6 @@ Entry_Data_Flight=
 choise_ticket=
 Entry_Data_Ticket=
 goto_home=
+Load_start_Page=
+"login user"=
+Logout=
