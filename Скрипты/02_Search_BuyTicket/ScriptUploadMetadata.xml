@@ -40,10 +40,7 @@
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
-    <FileEntry Name="departDate.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
-    <FileEntry Name="login_name.dat" Filter="1" />
-    <FileEntry Name="login_password.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv0j0.975.log" Filter="1" />
@@ -55,12 +52,10 @@
     <FileEntry Name="mdrvp7i.293.log" Filter="1" />
     <FileEntry Name="mdrvqlY.811.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
-    <FileEntry Name="numPassengers.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
-    <FileEntry Name="Pass2_LastName.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />

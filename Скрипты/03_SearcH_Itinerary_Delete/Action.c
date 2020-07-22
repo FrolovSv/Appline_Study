@@ -119,8 +119,8 @@ Action()
 				
 		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
 		
-			//SLA 15 секунд ожидание действий пользователя
-			lr_think_time(15);
+		//SLA 15 секунд ожидание действий пользователя
+		lr_think_time(15);
 	
 		lr_start_transaction("goto_Itinerary");	
 
@@ -149,10 +149,15 @@ Action()
 				LAST);			
 						
 		lr_end_transaction("goto_Itinerary", LR_AUTO);	
-						
+					
+		//SLA 15 секунд ожидание действий пользователя
+		lr_think_time(10);
+
+		
 		if (atoi(lr_eval_string("{flightId_count}")) == 0){
 			lr_error_message("No flight to delete");		
 		}else {
+			
 			lr_start_transaction("Delete_first");
 		
 				//lr_output_message("Flight to delete");
@@ -169,6 +174,7 @@ Action()
 			        "Name=removeFlights.x", "Value=73", ENDITEM, 
 			        "Name=removeFlights.y", "Value=15", ENDITEM, 
 			        LAST);
+				
 				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
 					lr_output_message("Delete first flight  was successful");
 				}else{
@@ -195,11 +201,14 @@ Action()
 		
 		lr_end_transaction("goto_home",LR_AUTO);
 		
+		
+		
+		lr_start_transaction("Logout");
+		
 		//Проверка соответсвия на корректность загрузки страницы
 		web_reg_find("Text=To make reservations,please enter your account information to the left.",
 			LAST);
 		
-		lr_start_transaction("Logout");
 			web_url("welcome.pl",
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 				"TargetFrame=", 

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 22 Jul 2020 10:52:58 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Daniil&address2&Moscow%20MO%20Moscow&username&aleksandrov&hash&22&lastName&Aleksandrov%0A&address1&Volgogradskiy%20prospekt%20Volzhskiy%20Bulvar%20113a&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

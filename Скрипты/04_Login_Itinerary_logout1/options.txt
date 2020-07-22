@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\SusPecT\Documents\VuGen\Scripts\04_Login_Itinerary_logout1
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suspect\documents\vugen\scripts\04_login_itinerary_logout1\\logfile.log
-d:\suspect\documents\vugen\scripts\04_login_itinerary_logout1\\combined_04_Login_Itinerary_logout1.c
-d:\suspect\documents\vugen\scripts\04_login_itinerary_logout1\\pre_cci.c

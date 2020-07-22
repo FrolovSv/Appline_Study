@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SusPecT\Documents\VuGen\Scripts\04_Itinerary
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\suspect\documents\vugen\scripts\04_itinerary\\logfile.log
+d:\suspect\documents\vugen\scripts\04_itinerary\\combined_04_Itinerary.c
+d:\suspect\documents\vugen\scripts\04_itinerary\\pre_cci.c

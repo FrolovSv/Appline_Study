@@ -1,5 +1,0 @@
-"1=on&flightID=244480386-137761-GM&flightID=244480386-214684-GM&flightID=244480386-291607-GM&fl"
-"ightID=30379266-340031-GM&flightID=30379266-416954-GM&flightID=30379266-493877-GM&flightID=186"
-"14855-5861707-GM&flightID=18614855-6630938-GM&flightID=18614855-7400169-GM&.cgifields=6&.cgifi"
-"elds=3&.cgifields=7&.cgifields=9&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.cgifield"
-"s=5&removeFlights.x=73&removeFlights.y=15"

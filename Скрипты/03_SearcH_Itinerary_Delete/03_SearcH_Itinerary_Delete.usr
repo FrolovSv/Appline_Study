@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="02_Search_itinerary__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__goto_Itinerary__*delimiter*__Delete_first__*delimiter*__goto_home__*delimiter*__Load_start_Page__*delimiter*__login user__*delimiter*__Logout"
+Order="02_Search_itinerary__*delimiter*__Load_start_Page__*delimiter*__login user__*delimiter*__goto_Flight__*delimiter*__Entry_Data_Flight__*delimiter*__goto_Itinerary__*delimiter*__Delete_first__*delimiter*__goto_home__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,11 +60,11 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 02_Search_itinerary=
+Load_start_Page=
+"login user"=
 goto_Flight=
 Entry_Data_Flight=
 goto_Itinerary=
 Delete_first=
 goto_home=
-Load_start_Page=
-"login user"=
 Logout=

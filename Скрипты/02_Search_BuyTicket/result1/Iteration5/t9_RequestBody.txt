@@ -1,5 +1,0 @@
-"firstName=Galaktionov&lastName=Maksimilian&address1=ulitsa+Potylikha&address2=Moscow+MO+Moscow"
-"&pass1=Gleb+Gri&creditCard=1234568049899490&expDate=08%2F23&oldCCOption=on&numPassengers=1&sea"
-"tType=Coach&seatPref=Window&outboundFlight=510%3B320%3B07%2F20%2F2020&advanceDiscount=0&return"
-"Flight=150%3B320%3B07%2F23%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&buyFlight"
-"s.y=8"

@@ -7,7 +7,7 @@ Project("59E62985-F1EA-4BE7-BC64-778DBD3B845D") = "02_Search_BuyTicket", "02_Sea
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDJfU2VhcmNoX0J1eVRpY2tldFwwMl9TZWFyY2hfQnV5VGlja2V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wMl9TZWFyY2hfQnV5VGlja2V0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjBUMTA6NTQ6MDIuNjQ3NTA4MiswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("1F24C82B-A736-4F83-9BE5-8359D958F8BC") = "03_SearcH_Itinerary_Delete", "03_SearcH_Itinerary_Delete\03_SearcH_Itinerary_Delete.usr", "1F24C82B-A736-4F83-9BE5-8359D958F8BC"
@@ -15,31 +15,31 @@ Project("1F24C82B-A736-4F83-9BE5-8359D958F8BC") = "03_SearcH_Itinerary_Delete", 
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDNfU2VhcmNIX0l0aW5lcmFyeV9EZWxldGVcMDNfU2VhcmNIX0l0aW5lcmFyeV9EZWxldGUudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPjAzX1NlYXJjSF9JdGluZXJhcnlfRGVsZXRlLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjBUMTA6NTM6NDguNzIzNzExOCswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
-Project("36DAFB7C-9EF8-465C-8CA4-D491615C0FF4") = "01_Search_Flight", "01_Search_Flight\01_Search_Flight.usr", "36DAFB7C-9EF8-465C-8CA4-D491615C0FF4"
+Project("36DAFB7C-9EF8-465C-8CA4-D491615C0FF4") = "01_Search_Itinerary", "01_Search_Itinerary\01_Search_Itinerary.usr", "36DAFB7C-9EF8-465C-8CA4-D491615C0FF4"
 	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDFfU2VhcmNoX0ZsaWdodFwwMV9TZWFyY2hfRmxpZ2h0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wMV9TZWFyY2hfRmxpZ2h0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMThUMTE6MTQ6MDAuMjIyNjcyMyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDFfU2VhcmNoX0l0aW5lcmFyeVwwMV9TZWFyY2hfSXRpbmVyYXJ5LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wMV9TZWFyY2hfSXRpbmVyYXJ5LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjJUMTM6MTY6MTUuMjY2ODk2NiswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
-Project("F230D4D4-4AA6-4871-8670-5B656307B06D") = "04_Login_Itinerary_logout1", "04_Login_Itinerary_logout1\04_Login_Itinerary_logout1.usr", "F230D4D4-4AA6-4871-8670-5B656307B06D"
+Project("F230D4D4-4AA6-4871-8670-5B656307B06D") = "04_Itinerary", "04_Itinerary\04_Itinerary.usr", "F230D4D4-4AA6-4871-8670-5B656307B06D"
 	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDRfTG9naW5fSXRpbmVyYXJ5X2xvZ291dDFcMDRfTG9naW5fSXRpbmVyYXJ5X2xvZ291dDEudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPjA0X0xvZ2luX0l0aW5lcmFyeV9sb2dvdXQxLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMTdUMDE6MTY6NTcuNjkyMTE3MiswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDRfSXRpbmVyYXJ5XDA0X0l0aW5lcmFyeS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MDRfSXRpbmVyYXJ5LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjJUMTM6MTc6NTkuNjk0ODY5NSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
-Project("2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65") = "05_Search_logout", "05_Search_logout\05_Search_logout.usr", "2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65"
+Project("2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65") = "05_Search", "05_Search\05_Search.usr", "2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65"
 	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDVfU2VhcmNoX2xvZ291dFwwNV9TZWFyY2hfbG9nb3V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wNV9TZWFyY2hfbG9nb3V0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMThUMTM6NDU6MzMuOTIzNzc3MyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDVfU2VhcmNoXDA1X1NlYXJjaC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MDVfU2VhcmNoLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjJUMTM6MTg6MTkuMTQ5OTgyMyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("FA05C3B2-0ED0-4E70-8E47-CDC51891990E") = "BuyTicket_all", "BuyTicket_all\BuyTicket_all.usr", "FA05C3B2-0ED0-4E70-8E47-CDC51891990E"
@@ -50,9 +50,9 @@ Project("FA05C3B2-0ED0-4E70-8E47-CDC51891990E") = "BuyTicket_all", "BuyTicket_al
 		Value = False
 	EndProjectSection
 EndProject
-Project("47E5D47D-30F2-47E1-8B77-0EF25B8630C0") = "06_sign_up", "06_sign_up\06_sign_up.usr", "47E5D47D-30F2-47E1-8B77-0EF25B8630C0"
+Project("47E5D47D-30F2-47E1-8B77-0EF25B8630C0") = "User_Registration", "User_Registration\User_Registration.usr", "47E5D47D-30F2-47E1-8B77-0EF25B8630C0"
 	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcMDZfc2lnbl91cFwwNl9zaWduX3VwLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wNl9zaWduX3VwLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMTlUMDI6MDI6MzMuOTY4MzUwNyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcVXNlcl9SZWdpc3RyYXRpb25cVXNlcl9SZWdpc3RyYXRpb24udXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPlVzZXJfUmVnaXN0cmF0aW9uLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjJUMTM6MTQ6MDMuOTUwMzg1NyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
 		Value = False

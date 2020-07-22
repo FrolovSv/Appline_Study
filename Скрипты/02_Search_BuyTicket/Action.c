@@ -35,7 +35,7 @@ Action()
 					
 		lr_end_transaction("Load_start_Page", LR_AUTO);
 		
-		//ожидание от пользователя ввода login pass	
+		//ожидание от пользователя ввода login pass		
 		lr_think_time(5);
 			
 		//Проверка соответсвия на корректность загрузки страницы

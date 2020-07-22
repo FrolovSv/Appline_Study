@@ -1,5 +1,0 @@
-"firstName=Arkhipov&lastName=Yevgeniy&address1=pereulok+Volkonskiy+2-y&address2=Moscow+MO+Mosco"
-"w&pass1=Matvey+Arkadov&creditCard=1234567929952440&expDate=10%2F23&oldCCOption=on&numPassenger"
-"s=1&seatType=Coach&seatPref=None&outboundFlight=680%3B735%3B07%2F20%2F2020&advanceDiscount=0&r"
-"eturnFlight=860%3B735%3B07%2F23%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&buyF"
-"lights.y=8"
