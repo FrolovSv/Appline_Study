@@ -2644,7 +2644,7 @@ Action()
 		 
 		web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.", "LAST");
 
-		lr_start_transaction("login user");		
+		lr_start_transaction("login_user");		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -2662,7 +2662,7 @@ Action()
 				"Name=login.y", "Value=9", "ENDITEM",
 				"LAST");		
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
-		lr_end_transaction("login user",2);
+		lr_end_transaction("login_user",2);
 	
 		 
 	
@@ -2686,7 +2686,7 @@ Action()
 		lr_end_transaction("goto_Flight",2);
 	
 		 
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			 

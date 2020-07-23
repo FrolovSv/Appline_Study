@@ -2607,7 +2607,7 @@ vuser_init()
 Action()
 {
 	int flightId_Count = 0;
-	lr_start_transaction("02_Search_itinerary");
+	lr_start_transaction("02_Search_itinerary_delete");
 	
 	lr_start_transaction("Load_start_Page");
 	
@@ -2644,7 +2644,7 @@ Action()
 		 
 		web_reg_find("Text=User password was correct", "LAST");
 	
-		lr_start_transaction("login user");		
+		lr_start_transaction("login_user");		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -2662,7 +2662,7 @@ Action()
 				"Name=login.y", "Value=9", "ENDITEM",
 				"LAST");		
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
-		lr_end_transaction("login user",2);
+		lr_end_transaction("login_user",2);
 	
 		 
 		lr_think_time(5);			
@@ -2686,7 +2686,7 @@ Action()
 		lr_end_transaction("goto_Flight",2);
 		
 		 
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");
 		
@@ -2725,8 +2725,8 @@ Action()
 				
 		lr_end_transaction("Entry_Data_Flight",2);
 		
-			 
-			lr_think_time(15);
+		 
+		lr_think_time(15);
 	
 		lr_start_transaction("goto_Itinerary");	
 
@@ -2755,10 +2755,15 @@ Action()
 				"LAST");			
 						
 		lr_end_transaction("goto_Itinerary", 2);	
-						
+					
+		 
+		lr_think_time(10);
+
+		
 		if (atoi(lr_eval_string("{flightId_count}")) == 0){
 			lr_error_message("No flight to delete");		
 		}else {
+			
 			lr_start_transaction("Delete_first");
 		
 				 
@@ -2775,6 +2780,7 @@ Action()
 			        "Name=removeFlights.x", "Value=73", "ENDITEM", 
 			        "Name=removeFlights.y", "Value=15", "ENDITEM", 
 			        "LAST");
+				
 				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
 					lr_output_message("Delete first flight  was successful");
 				}else{
@@ -2802,10 +2808,14 @@ Action()
 		lr_end_transaction("goto_home",2);
 		
 		 
+		lr_think_time(5);
+		
+		lr_start_transaction("Logout");
+		
+		 
 		web_reg_find("Text=To make reservations,please enter your account information to the left.",
 			"LAST");
 		
-		lr_start_transaction("Logout");
 			web_url("welcome.pl",
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 				"TargetFrame=", 
@@ -2817,7 +2827,7 @@ Action()
 				"LAST");
 		lr_end_transaction("Logout", 2);
 		
-	lr_end_transaction("02_Search_itinerary", 2);
+	lr_end_transaction("02_Search_itinerary_delete", 2);
 
 
 	return 0;

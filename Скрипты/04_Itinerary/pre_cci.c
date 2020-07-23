@@ -2601,7 +2601,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("04_Login_itinerary_Logout");
+	lr_start_transaction("04_itinerary");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -2657,6 +2657,9 @@ Action()
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
 		lr_end_transaction("login_user",2);
 	
+		 
+		lr_think_time(5);
+		
 		lr_start_transaction("goto_Itinerary");
 	
 			 
@@ -2695,7 +2698,7 @@ Action()
 		lr_end_transaction("Logout", 2);
 		
 		
-	lr_end_transaction("04_Login_itinerary_Logout", 2);
+	lr_end_transaction("04_itinerary", 2);
 
 	return 0;
 }

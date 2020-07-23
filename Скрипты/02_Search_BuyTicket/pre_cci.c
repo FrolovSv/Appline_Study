@@ -2609,34 +2609,34 @@ Action()
  
  
 	lr_start_transaction("03_Search_BuyTicket");
+		
 		lr_start_transaction("Load_start_Page");
 	
-		 
-		web_reg_save_param_attrib(
-			"ParamName=userSession",
-			"TagName=input",
-			"Extract=value",
-			"Name=userSession",
-			"Type=hidden",
-			"SEARCH_FILTERS",
-			"IgnoreRedirections=No",
-			"RequestUrl=*/nav.pl*",
-			"LAST");
-	
-		 
-		web_reg_find("Text=Welcome to the Web Tours site", "LAST");
+			 
+			web_reg_save_param_attrib(
+				"ParamName=userSession",
+				"TagName=input",
+				"Extract=value",
+				"Name=userSession",
+				"Type=hidden",
+				"SEARCH_FILTERS",
+				"IgnoreRedirections=No",
+				"RequestUrl=*/nav.pl*",
+				"LAST");
 		
-		web_url("WebTours",
-			"URL=http://localhost:1080/WebTours/", 
-			"TargetFrame=", 
-			"Resource=0", 
-			"RecContentType=text/html", 
-			"Referer=", 
-			"Snapshot=t1.inf", 
-			"Mode=HTML", 
-			"LAST");
-	
-		
+			 
+			web_reg_find("Text=Welcome to the Web Tours site", "LAST");
+			
+			web_url("WebTours",
+				"URL=http://localhost:1080/WebTours/", 
+				"TargetFrame=", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=", 
+				"Snapshot=t1.inf", 
+				"Mode=HTML", 
+				"LAST");
+					
 		lr_end_transaction("Load_start_Page", 2);
 		
 		 
@@ -2645,7 +2645,7 @@ Action()
 		 
 		web_reg_find("Text=User password was correct", "LAST");
 	
-		lr_start_transaction("login user");		
+		lr_start_transaction("login_user");		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -2663,7 +2663,7 @@ Action()
 				"Name=login.y", "Value=9", "ENDITEM",
 				"LAST");		
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
-		lr_end_transaction("login user",2);
+		lr_end_transaction("login_user",2);
 		
 		 
 		lr_think_time(5);
@@ -2685,7 +2685,7 @@ Action()
 		lr_end_transaction("goto_Flight",2);
 	
 		 
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");	
 			 
@@ -2801,7 +2801,7 @@ Action()
 		lr_end_transaction("choise_ticket",2);
 		
 		 
-		lr_think_time(60);
+		lr_think_time(40);
 	
 		lr_start_transaction("Entry_Data_Ticket");
 			 
@@ -2844,7 +2844,7 @@ Action()
 		lr_end_transaction("Entry_Data_Ticket",2);
 		
 		 
-		lr_think_time(15);
+		lr_think_time(5);
 	
 		lr_start_transaction("goto_home");	
 			 

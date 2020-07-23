@@ -52,10 +52,12 @@
     <FileEntry Name="mdrvss6.847.log" Filter="1" />
     <FileEntry Name="mdrvTeI.251.log" Filter="1" />
     <FileEntry Name="mdrvTh6.963.log" Filter="1" />
+    <FileEntry Name="mdrvwuB.957.log" Filter="1" />
     <FileEntry Name="mdrvYYs.595.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

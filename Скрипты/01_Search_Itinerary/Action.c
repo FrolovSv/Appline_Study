@@ -39,7 +39,7 @@ Action()
 		//ѕроверка соответсви€ на корректность загрузки страницы
 		web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.", LAST);
 
-		lr_start_transaction("login user");		
+		lr_start_transaction("login_user");		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -57,7 +57,7 @@ Action()
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
-		lr_end_transaction("login user",LR_AUTO);
+		lr_end_transaction("login_user",LR_AUTO);
 	
 		//lr_save_string(lr_eval_string("{User_Login}"),"login");
 	
@@ -81,7 +81,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA 26 секунд на ввод всех данных в форму на странице
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -148,6 +148,41 @@ Action()
 				LAST);			
 						
 		lr_end_transaction("goto_Itinerary", LR_AUTO);	
+		
+		
+		// подгонка под значени€ из домашнего задани€
+		lr_start_transaction("choise_ticket");	
+			//ѕроверка соответсви€ на корректность загрузки страницы
+			web_reg_find("Search=Body",
+				"Text=Flight Reservation",
+				LAST);	
+			web_reg_find("Search=Body",
+				"Text={User_Name}",
+				LAST);
+			web_reg_find("Search=Body",
+				"Text={User_FirstName}",
+				LAST);			
+						
+			web_submit_data("reservations.pl_2",
+				"Action=http://localhost:1080/cgi-bin/reservations.pl",
+				"Method=POST",
+				"TargetFrame=",
+				"RecContentType=text/html",
+				"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+				"Snapshot=t5.inf",
+				"Mode=HTML",
+				ITEMDATA,
+				//"Name=outboundFlight", "Value={out}", ENDITEM, 
+				"Name=outboundFlight", "Value={outboundFlight}", ENDITEM, 
+				"Name=returnFlight", "Value={returnFlight}", ENDITEM,
+				"Name=numPassengers", "Value={numPassengers}", ENDITEM,
+				"Name=advanceDiscount", "Value=0", ENDITEM,
+				"Name=seatType", "Value={seatType}", ENDITEM,
+				"Name=seatPref", "Value={seatPref}", ENDITEM,
+				"Name=reserveFlights.x", "Value=60", ENDITEM,
+				"Name=reserveFlights.y", "Value=8", ENDITEM,
+				LAST);	
+		lr_end_transaction("choise_ticket",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действий пользовател€
 		lr_think_time(5);

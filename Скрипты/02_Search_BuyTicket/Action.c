@@ -4,7 +4,7 @@ Action()
 //	
 //	numpass = atoi(lr_eval_string("{numPassengers}");
 //	   
-	lr_start_transaction("03_Search_BuyTicket");
+	lr_start_transaction("02_Search_BuyTicket");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -41,7 +41,7 @@ Action()
 		//Проверка соответсвия на корректность загрузки страницы
 		web_reg_find("Text=User password was correct", LAST);
 	
-		lr_start_transaction("login user");		
+		lr_start_transaction("login_user");		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -59,7 +59,7 @@ Action()
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
-		lr_end_transaction("login user",LR_AUTO);
+		lr_end_transaction("login_user",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действия пользователя
 		lr_think_time(5);
@@ -81,7 +81,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA 5 секунд ожидание действия пользователя
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");	
 			//Проверка соответсвия на корректность загрузки страницы
@@ -102,26 +102,6 @@ Action()
 				SEARCH_FILTERS,
 				"IgnoreRedirections=No",
 				LAST);
-//			web_reg_save_param_attrib(
-//				"ParamName=outboundFlight",
-//				"TagName=input",
-//				"Extract=value",
-//				"Name=outboundFlight",
-//				"Type=radio",
-//				"Ordinal=all",
-//				SEARCH_FILTERS,
-//				"IgnoreRedirections=No",
-//				LAST);
-
-//			pass_count = atoi(lr_eval_string("{outboundFlight}_count"));
-//			if (pass_count>1){
-//				lr_save_string(lr_eval_string("{outboundFlight_1}"),"out");
-//				lr_output_message("{out}");
-//
-//			}else{
-//				lr_save_string(lr_eval_string("{outboundFlight_2}"),"out");
-//				lr_output_message(lr_eval_string("{out}"));
-//			}
 			
 			/*Correlation comment - Do not change!  Original value='022;600;09/17/2020' Name ='returnFlight' Type ='ResponseBased'*/
 			web_reg_save_param_attrib(
@@ -197,7 +177,7 @@ Action()
 		lr_end_transaction("choise_ticket",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действия пользователя
-		lr_think_time(60);
+		lr_think_time(40);
 	
 		lr_start_transaction("Entry_Data_Ticket");
 			//Проверка соответсвия на корректность загрузки страницы
@@ -240,7 +220,7 @@ Action()
 		lr_end_transaction("Entry_Data_Ticket",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действия пользователя
-		lr_think_time(15);
+		lr_think_time(5);
 	
 		lr_start_transaction("goto_home");	
 			//Проверка соответсвия на корректность загрузки страницы
@@ -275,7 +255,7 @@ Action()
 		lr_end_transaction("Logout", LR_AUTO);
 		
 	
-	lr_end_transaction("03_Search_BuyTicket", LR_AUTO);
+	lr_end_transaction("02_Search_BuyTicket", LR_AUTO);
 
 
 	return 0;

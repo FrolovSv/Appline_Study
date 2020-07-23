@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("04_Login_itinerary");
+	lr_start_transaction("05_Search");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -75,7 +75,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA секунд на ввод всех данных в форму на странице
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -132,7 +132,7 @@ Action()
 		lr_end_transaction("Logout", LR_AUTO);
 		
 		
-	lr_end_transaction("04_Login_itinerary", LR_AUTO);
+	lr_end_transaction("05_Search", LR_AUTO);
 
 	return 0;
 }

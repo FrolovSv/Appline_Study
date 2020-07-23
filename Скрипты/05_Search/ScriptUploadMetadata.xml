@@ -45,6 +45,7 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv9w7.771.log" Filter="1" />
+    <FileEntry Name="mdrvB2L.331.log" Filter="1" />
     <FileEntry Name="mdrvDd8.315.log" Filter="1" />
     <FileEntry Name="mdrvdrU.391.log" Filter="1" />
     <FileEntry Name="mdrvK5Q.649.log" Filter="1" />
@@ -54,6 +55,7 @@
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

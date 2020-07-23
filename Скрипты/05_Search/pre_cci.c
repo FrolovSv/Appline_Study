@@ -2601,7 +2601,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("04_Login_itinerary");
+	lr_start_transaction("05_Search");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -2676,7 +2676,7 @@ Action()
 		lr_end_transaction("goto_Flight",2);
 	
 		 
-		lr_think_time(26);
+		lr_think_time(25);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			 
@@ -2733,7 +2733,7 @@ Action()
 		lr_end_transaction("Logout", 2);
 		
 		
-	lr_end_transaction("04_Login_itinerary", 2);
+	lr_end_transaction("05_Search", 2);
 
 	return 0;
 }

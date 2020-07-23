@@ -19,6 +19,7 @@
     <FileEntry Name="01_Search_Itinerary.c.pickle" Filter="1" />
     <FileEntry Name="01_Search_Itinerary.ci" Filter="1" />
     <FileEntry Name="01_Search_Itinerary.prb" Filter="1" />
+    <FileEntry Name="01_Search_Itinerary.prm.bak" Filter="1" />
     <FileEntry Name="106823938440.idx" Filter="1" />
     <FileEntry Name="125098078440.idx" Filter="1" />
     <FileEntry Name="127559493440.idx" Filter="1" />
@@ -37,6 +38,8 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv43D.903.log" Filter="1" />
+    <FileEntry Name="mdrv8op.873.log" Filter="1" />
+    <FileEntry Name="mdrvbrX.13.log" Filter="1" />
     <FileEntry Name="mdrvEAQ.451.log" Filter="1" />
     <FileEntry Name="mdrveuj.129.log" Filter="1" />
     <FileEntry Name="mdrvHMU.431.log" Filter="1" />

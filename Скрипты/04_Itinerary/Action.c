@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("04_Login_itinerary_Logout");
+	lr_start_transaction("04_itinerary");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -56,6 +56,9 @@ Action()
 			web_set_sockets_option("SSL_VERSION", "AUTO");	
 		lr_end_transaction("login_user",LR_AUTO);
 	
+		//SLA секунд ожидание действий пользователя
+		lr_think_time(5);
+		
 		lr_start_transaction("goto_Itinerary");
 	
 			//Проверка соответсвия на корректности загрузки страницы
@@ -94,7 +97,7 @@ Action()
 		lr_end_transaction("Logout", LR_AUTO);
 		
 		
-	lr_end_transaction("04_Login_itinerary_Logout", LR_AUTO);
+	lr_end_transaction("04_itinerary", LR_AUTO);
 
 	return 0;
 }
