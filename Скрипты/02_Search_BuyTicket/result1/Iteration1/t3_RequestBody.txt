@@ -1,2 +1,2 @@
-"userSession=129244.920210612zztiADfpfiDDDDDDDQiiipcVDf&username=kovl&password=sen&JSFormSubmit"
-"=off&login.x=60&login.y=9"
+"userSession=129250.142567841zztiDAtpcAiDDDDDDQiiQpicfcf&username=galaktionov&password=svoy&JSF"
+"ormSubmit=off&login.x=60&login.y=9"

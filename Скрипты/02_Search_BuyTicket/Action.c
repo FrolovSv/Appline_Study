@@ -36,12 +36,14 @@ Action()
 		lr_end_transaction("Load_start_Page", LR_AUTO);
 		
 		//ожидание от пользовател€ ввода login pass		
-		lr_think_time(5);
+		//lr_think_time(5);
 			
-		//ѕроверка соответсви€ на корректность загрузки страницы
-		web_reg_find("Text=User password was correct", LAST);
+		
 	
-		lr_start_transaction("login_user");		
+		lr_start_transaction("login_user");	
+			//ѕроверка соответсви€ на корректность загрузки страницы
+			web_reg_find("Text=User password was correct", LAST);
+		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -81,7 +83,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(25);
+		lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Flight");	
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -141,7 +143,7 @@ Action()
 		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(20);
+		lr_think_time(5);
 	
 		lr_start_transaction("choise_ticket");	
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -177,7 +179,7 @@ Action()
 		lr_end_transaction("choise_ticket",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(40);
+		lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Ticket");
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -220,7 +222,7 @@ Action()
 		lr_end_transaction("Entry_Data_Ticket",LR_AUTO);
 		
 		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(5);
+		//lr_think_time(5);
 	
 		lr_start_transaction("goto_home");	
 			//ѕроверка соответсви€ на корректность загрузки страницы
@@ -238,20 +240,22 @@ Action()
 				LAST);		
 		lr_end_transaction("goto_home",LR_AUTO);
 		
-		//ѕроверка соответсви€ на корректность загрузки страницы
-		web_reg_find("Text=To make reservations,please enter your account information to the left.",
-			LAST);
-	
+				
 		lr_start_transaction("Logout");
-		web_url("welcome.pl",
-			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-			"TargetFrame=", 
-			"Resource=0", 
-			"RecContentType=text/html", 
-			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-			"Snapshot=t9.inf", 
-			"Mode=HTML", 
-			LAST);
+		
+			//ѕроверка соответсви€ на корректность загрузки страницы
+			web_reg_find("Text=To make reservations,please enter your account information to the left.",
+				LAST);
+			
+			web_url("welcome.pl",
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+				"TargetFrame=", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+				"Snapshot=t9.inf", 
+				"Mode=HTML", 
+				LAST);
 		lr_end_transaction("Logout", LR_AUTO);
 		
 	

@@ -7,6 +7,6 @@ Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1595529332; MTUserInfo=firstName&Platon&address2&Moscow%20MO%20Moscow&username&dubrovskaya&hash&65&lastName&Dubrovskaya%0A&address1&ulitsa%20%28Kryukovo%29%20Shkolnaya%20&creditCard&&expDate&%0A
-Content-Length: 263
+Cookie: MSO=SID&1595597793; MTUserInfo=firstName&Ruslan&address2&Moscow%20MO%20Moscow&username&ivnov&hash&22&lastName&Ivnov%0A&address1&pereulok%20Volkonskiy%202-y&creditCard&&expDate&%0A
+Content-Length: 259
 

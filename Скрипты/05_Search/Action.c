@@ -57,7 +57,7 @@ Action()
 		lr_end_transaction("login_user",LR_AUTO);
 	
 		//SLA секунд ожидание действия пользователя
-		lr_think_time(10);		
+		lr_think_time(5);		
 		
 		lr_start_transaction("goto_Flight");		
 			//Проверка соответсвия на корректности загрузки страницы
@@ -75,7 +75,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA секунд на ввод всех данных в форму на странице
-		lr_think_time(25);
+		lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			//Проверка соответсвия на корректность загрузки страницы
@@ -115,21 +115,8 @@ Action()
 		//SLA секунд ожидание действий пользователя
 		lr_think_time(5);
 		
-		lr_start_transaction("Logout");
-		
-			//Проверка соответсвия на корректности загрузки страницы
-			web_reg_find("Text=To make reservations,please enter your account information to the left.",
-				LAST);
-			web_url("welcome.pl",
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-				"Snapshot=t9.inf", 
-				"Mode=HTML", 
-				LAST);
-		lr_end_transaction("Logout", LR_AUTO);
+		//SLA секунд ожидание действий пользователя
+		lr_think_time(13);
 		
 		
 	lr_end_transaction("05_Search", LR_AUTO);

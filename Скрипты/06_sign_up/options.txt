@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\SusPecT\Documents\VuGen\Scripts\06_sign_up
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suspect\documents\vugen\scripts\06_sign_up\\logfile.log
-d:\suspect\documents\vugen\scripts\06_sign_up\\combined_06_sign_up.c
-d:\suspect\documents\vugen\scripts\06_sign_up\\pre_cci.c

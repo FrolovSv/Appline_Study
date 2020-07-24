@@ -1,5 +1,0 @@
-"firstName=Kulikovskaya&lastName=Yuriy&address1=proyezd+Poperechnyy+2-y&address2=Moscow+MO+Mosc"
-"ow&pass1=Makar+Arefin&creditCard=1234567975208130&expDate=02%2F23&oldCCOption=on&numPassengers"
-"=1&seatType=First&seatPref=Window&outboundFlight=610%3B808%3B07%2F19%2F2020&advanceDiscount=0&"
-"returnFlight=160%3B808%3B07%2F22%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&buy"
-"Flights.y=8"

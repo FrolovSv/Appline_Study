@@ -3,7 +3,7 @@ Action()
 	//Для того, чтобы не было совпадения города вылета с городом прилета, 
 	//убрал из переменной со списком городов прибытия город Denver
 	
-	lr_start_transaction("01_Search_Flight");
+	lr_start_transaction("01_Search_Itinerary");
 	
 		lr_start_transaction("Load_start_Page");			
 	
@@ -81,7 +81,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 	
 		//SLA 26 секунд на ввод всех данных в форму на странице
-		lr_think_time(25);
+		lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Flight");		
 			//Проверка соответсвия на корректность загрузки страницы
@@ -119,36 +119,7 @@ Action()
 		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
 	
 		//SLA 15 секунд ожидание действий пользователя
-		lr_think_time(15);
-		
-		lr_start_transaction("goto_Itinerary");	
-
-			//Проверка соответсвия на корректность загрузки страницы
-			web_reg_find("Fail=Found",
-				"Text=No flights have been reserved",
-				"SaveCount=erroMess",
-				LAST);
-						
-			web_reg_save_param_ex(
-				"ParamName=flightId",
-				"LB=name=\"flightID\" value=\"",
-				"RB=\"  />",
-				"Ordinal=ALL",
-				SEARCH_FILTERS,
-				LAST);		
-			
-			web_url("Itinerary Button", 
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-				"Snapshot=t3.inf", 
-				"Mode=HTML", 
-				LAST);			
-						
-		lr_end_transaction("goto_Itinerary", LR_AUTO);	
-		
+		lr_think_time(5);
 		
 		// подгонка под значения из домашнего задания
 		lr_start_transaction("choise_ticket");	
@@ -184,6 +155,37 @@ Action()
 				LAST);	
 		lr_end_transaction("choise_ticket",LR_AUTO);
 		
+		//SLA 15 секунд ожидание действий пользователя
+		lr_think_time(5);
+		
+		lr_start_transaction("goto_Itinerary");	
+
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Fail=Found",
+				"Text=No flights have been reserved",
+				"SaveCount=erroMess",
+				LAST);
+						
+			web_reg_save_param_ex(
+				"ParamName=flightId",
+				"LB=name=\"flightID\" value=\"",
+				"RB=\"  />",
+				"Ordinal=ALL",
+					SEARCH_FILTERS,
+				LAST);		
+			
+			web_url("Itinerary Button", 
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+				"Snapshot=t3.inf", 
+				"Mode=HTML", 
+				LAST);			
+						
+		lr_end_transaction("goto_Itinerary", LR_AUTO);
+		
 		//SLA 5 секунд ожидание действий пользователя
 		lr_think_time(5);
 		
@@ -203,12 +205,14 @@ Action()
 				LAST);	
 		lr_end_transaction("goto_home",LR_AUTO);
 		
-		
+		//SLA 5 секунд ожидание действий пользователя
+		lr_think_time(3);
+	
+		lr_start_transaction("Logout");
 		//Проверка соответсвия на корректность загрузки страницы
 		web_reg_find("Text=To make reservations,please enter your account information to the left.",
 			LAST);
-	
-		lr_start_transaction("Logout");
+		
 		web_url("welcome.pl",
 			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 			"TargetFrame=", 
@@ -220,7 +224,7 @@ Action()
 			LAST);
 		lr_end_transaction("Logout", LR_AUTO);
 	
-	lr_end_transaction("01_Search_Flight", LR_AUTO);
+	lr_end_transaction("01_Search_Itinerary", LR_AUTO);
 
 
 	return 0;

@@ -2607,7 +2607,7 @@ vuser_init()
 Action()
 {
 	int flightId_Count = 0;
-	lr_start_transaction("02_Search_itinerary_delete");
+	lr_start_transaction("03_Search_itinerary_delete");
 	
 	lr_start_transaction("Load_start_Page");
 	
@@ -2688,45 +2688,82 @@ Action()
 		 
 		lr_think_time(25);
 	
-		lr_start_transaction("Entry_Data_Flight");
-		
-			 
-			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
-				"LAST");
-			if (lr_eval_string("{roundtrip}")=="on"){
-				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
-					"LAST");
-		    }
-			
-			web_submit_data("reservations.pl", 
-				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-				"Method=POST", 
-				"TargetFrame=", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
-				"Snapshot=t13.inf", 
-				"Mode=HTML", 
-				"ITEMDATA", 
-				"Name=advanceDiscount", "Value=0", "ENDITEM", 
-				"Name=depart", "Value={depart}", "ENDITEM", 
-				"Name=departDate", "Value={departDate}", "ENDITEM", 
-				"Name=arrive", "Value={arrive}", "ENDITEM", 
-				"Name=returnDate", "Value={returnDate}", "ENDITEM", 
-				"Name=numPassengers", "Value={numPassengers}", "ENDITEM", 
-				"Name=roundtrip", "Value={roundtrip}", "ENDITEM", 
-				"Name=seatPref", "Value={seatPref}", "ENDITEM", 
-				"Name=seatType", "Value={seatType}", "ENDITEM", 
-				"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
-				"Name=.cgifields", "Value=seatType", "ENDITEM", 
-				"Name=.cgifields", "Value=seatPref", "ENDITEM", 
-				"Name=findFlights.x", "Value=52", "ENDITEM", 
-				"Name=findFlights.y", "Value=10", "ENDITEM", 
-				"LAST");
-				
-		lr_end_transaction("Entry_Data_Flight",2);
-		
-		 
-		lr_think_time(15);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	
 		lr_start_transaction("goto_Itinerary");	
 
@@ -2807,27 +2844,27 @@ Action()
 		
 		lr_end_transaction("goto_home",2);
 		
-		 
-		lr_think_time(5);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 		
-		lr_start_transaction("Logout");
-		
-		 
-		web_reg_find("Text=To make reservations,please enter your account information to the left.",
-			"LAST");
-		
-			web_url("welcome.pl",
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-				"Snapshot=t9.inf", 
-				"Mode=HTML", 
-				"LAST");
-		lr_end_transaction("Logout", 2);
-		
-	lr_end_transaction("02_Search_itinerary_delete", 2);
+	lr_end_transaction("03_Search_itinerary_delete", 2);
 
 
 	return 0;

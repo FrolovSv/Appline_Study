@@ -1,4 +1,4 @@
-GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
 Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
 User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
@@ -6,5 +6,5 @@ Accept-Language: ru-RU
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1595529008; MTUserInfo=firstName&Saveliy&address2&Moscow%20MO%20Moscow&username&ivlev&hash&86&lastName&Ivlev%0A&address1&pereulok%20Volovya%20&creditCard&&expDate&%0A
+Cookie: MSO=SID&1595592784; MTUserInfo=firstName&Nikolay&address2&Moscow%20MO%20Moscow&username&darov&hash&22&lastName&Darov%0A&address1&naberezhnaya%20Shishkina&creditCard&&expDate&%0A
 

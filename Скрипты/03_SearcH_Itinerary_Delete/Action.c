@@ -34,11 +34,12 @@ Action()
 		
 		//ожидание от пользователя ввода login pass	
 		lr_think_time(5);
-			
-		//Проверка соответсвия на корректность загрузки страницы
-		web_reg_find("Text=User password was correct", LAST);
+					
 	
-		lr_start_transaction("login_user");		
+		lr_start_transaction("login_user");			
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=User password was correct", LAST);
+			
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -80,7 +81,7 @@ Action()
 		lr_end_transaction("goto_Flight",LR_AUTO);
 		
 		//SLA 26 секунд на ввод всех данных в форму на странице
-		lr_think_time(25);
+		lr_think_time(5);
 	
 //		lr_start_transaction("Entry_Data_Flight");
 //		
@@ -118,9 +119,46 @@ Action()
 //				LAST);
 //				
 //		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
-		
-		//SLA 15 секунд ожидание действий пользователя
-		lr_think_time(15);
+//		
+//		//SLA 15 секунд ожидание действий пользователя
+//		lr_think_time(15);
+//		
+//		
+//		lr_start_transaction("choise_ticket");	
+//			//Проверка соответсвия на корректность загрузки страницы
+//			web_reg_find("Search=Body",
+//				"Text=Flight Reservation",
+//				LAST);	
+//			web_reg_find("Search=Body",
+//				"Text={User_Name}",
+//				LAST);
+//			web_reg_find("Search=Body",
+//				"Text={User_FirstName}",
+//				LAST);			
+//						
+//			web_submit_data("reservations.pl_2",
+//				"Action=http://localhost:1080/cgi-bin/reservations.pl",
+//				"Method=POST",
+//				"TargetFrame=",
+//				"RecContentType=text/html",
+//				"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+//				"Snapshot=t5.inf",
+//				"Mode=HTML",
+//				ITEMDATA,
+//				//"Name=outboundFlight", "Value={out}", ENDITEM, 
+//				"Name=outboundFlight", "Value={outboundFlight}", ENDITEM, 
+//				"Name=returnFlight", "Value={returnFlight}", ENDITEM,
+//				"Name=numPassengers", "Value={numPassengers}", ENDITEM,
+//				"Name=advanceDiscount", "Value=0", ENDITEM,
+//				"Name=seatType", "Value={seatType}", ENDITEM,
+//				"Name=seatPref", "Value={seatPref}", ENDITEM,
+//				"Name=reserveFlights.x", "Value=60", ENDITEM,
+//				"Name=reserveFlights.y", "Value=8", ENDITEM,
+//				LAST);	
+//		lr_end_transaction("choise_ticket",LR_AUTO);
+//		
+//		//SLA 15 секунд ожидание действий пользователя
+//		lr_think_time(15);
 	
 		lr_start_transaction("goto_Itinerary");	
 
@@ -151,7 +189,7 @@ Action()
 		lr_end_transaction("goto_Itinerary", LR_AUTO);	
 					
 		//SLA 15 секунд ожидание действий пользователя
-		lr_think_time(10);
+		lr_think_time(5);
 
 		
 		if (atoi(lr_eval_string("{flightId_count}")) == 0){
@@ -184,6 +222,9 @@ Action()
 			lr_end_transaction("Delete_first", LR_AUTO);
 			
 		}
+		
+		//SLA 15 секунд ожидание действий пользователя
+		lr_think_time(5);
 		
 		lr_start_transaction("goto_home");
 			//Проверка соответсвия на корректность загрузки страницы
@@ -220,6 +261,9 @@ Action()
 //				"Mode=HTML", 
 //				LAST);
 //		lr_end_transaction("Logout", LR_AUTO);
+		
+		//SLA 15 секунд ожидание действий пользователя
+		lr_think_time(9);
 		
 	lr_end_transaction("03_Search_itinerary_delete", LR_AUTO);
 

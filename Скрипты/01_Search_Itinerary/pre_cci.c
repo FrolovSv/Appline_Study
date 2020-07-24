@@ -2726,6 +2726,43 @@ Action()
 		 
 		lr_think_time(15);
 		
+		 
+		lr_start_transaction("choise_ticket");	
+			 
+			web_reg_find("Search=Body",
+				"Text=Flight Reservation",
+				"LAST");	
+			web_reg_find("Search=Body",
+				"Text={User_Name}",
+				"LAST");
+			web_reg_find("Search=Body",
+				"Text={User_FirstName}",
+				"LAST");			
+						
+			web_submit_data("reservations.pl_2",
+				"Action=http://localhost:1080/cgi-bin/reservations.pl",
+				"Method=POST",
+				"TargetFrame=",
+				"RecContentType=text/html",
+				"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+				"Snapshot=t5.inf",
+				"Mode=HTML",
+				"ITEMDATA",
+				 
+				"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
+				"Name=returnFlight", "Value={returnFlight}", "ENDITEM",
+				"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
+				"Name=advanceDiscount", "Value=0", "ENDITEM",
+				"Name=seatType", "Value={seatType}", "ENDITEM",
+				"Name=seatPref", "Value={seatPref}", "ENDITEM",
+				"Name=reserveFlights.x", "Value=60", "ENDITEM",
+				"Name=reserveFlights.y", "Value=8", "ENDITEM",
+				"LAST");	
+		lr_end_transaction("choise_ticket",2);
+		
+		 
+		lr_think_time(15);
+		
 		lr_start_transaction("goto_Itinerary");	
 
 			 
@@ -2739,7 +2776,7 @@ Action()
 				"LB=name=\"flightID\" value=\"",
 				"RB=\"  />",
 				"Ordinal=ALL",
-				"SEARCH_FILTERS",
+					"SEARCH_FILTERS",
 				"LAST");		
 			
 			web_url("Itinerary Button", 
@@ -2752,7 +2789,7 @@ Action()
 				"Mode=HTML", 
 				"LAST");			
 						
-		lr_end_transaction("goto_Itinerary", 2);	
+		lr_end_transaction("goto_Itinerary", 2);
 		
 		 
 		lr_think_time(5);

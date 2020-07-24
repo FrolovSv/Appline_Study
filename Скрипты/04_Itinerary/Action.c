@@ -78,7 +78,9 @@ Action()
 		lr_end_transaction("goto_Itinerary",LR_AUTO);
 		
 		//SLA секунд ожидание действий пользователя
-		lr_think_time(10);
+		lr_think_time(5);
+		//SLA секунд ожидание действий пользователя
+		lr_think_time(70);
 		
 		lr_start_transaction("Logout");
 		

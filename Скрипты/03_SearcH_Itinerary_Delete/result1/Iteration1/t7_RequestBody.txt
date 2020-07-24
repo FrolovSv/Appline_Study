@@ -1,8 +1,0 @@
-"1=on&flightID=2981844484-1454011-KT&flightID=2981844484-2223242-KT&flightID=14102992-2977046-K"
-"T&flightID=42247803-3815493-KT&flightID=42247803-4584723-KT&flightID=42247803-5353954-KT&fligh"
-"tID=107812987-5838564-KT&flightID=107812987-6607795-KT&flightID=107812987-7377026-KT&flightID="
-"2525955598-8307868-KT&flightID=118523708-877712-KT&flightID=45188534-992372-KT&flightID=265568"
-"171-10330867-KT&flightID=118524833-11315463-KT&flightID=323347432-12177026-KT&flightID=8668077"
-"6-12946303-KT&.cgifields=11&.cgifields=7&.cgifields=2&.cgifields=1&.cgifields=16&.cgifields=13"
-"&.cgifields=6&.cgifields=3&.cgifields=9&.cgifields=12&.cgifields=14&.cgifields=15&.cgifields=8"
-"&.cgifields=4&.cgifields=10&.cgifields=5&removeFlights.x=73&removeFlights.y=15"

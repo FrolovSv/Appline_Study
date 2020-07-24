@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\SusPecT\Documents\VuGen\Scripts\BuyTicket_all
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suspect\documents\vugen\scripts\buyticket_all\\logfile.log
-d:\suspect\documents\vugen\scripts\buyticket_all\\combined_BuyTicket_all.c
-d:\suspect\documents\vugen\scripts\buyticket_all\\pre_cci.c

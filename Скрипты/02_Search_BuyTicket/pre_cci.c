@@ -2608,7 +2608,7 @@ Action()
  
  
  
-	lr_start_transaction("03_Search_BuyTicket");
+	lr_start_transaction("02_Search_BuyTicket");
 		
 		lr_start_transaction("Load_start_Page");
 	
@@ -2706,26 +2706,6 @@ Action()
 				"SEARCH_FILTERS",
 				"IgnoreRedirections=No",
 				"LAST");
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
 			
 			 
 			web_reg_save_param_attrib(
@@ -2879,7 +2859,7 @@ Action()
 		lr_end_transaction("Logout", 2);
 		
 	
-	lr_end_transaction("03_Search_BuyTicket", 2);
+	lr_end_transaction("02_Search_BuyTicket", 2);
 
 
 	return 0;
