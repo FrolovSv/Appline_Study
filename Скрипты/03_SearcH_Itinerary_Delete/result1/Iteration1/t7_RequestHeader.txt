@@ -6,5 +6,5 @@ Accept-Language: ru-RU
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1595593439; MTUserInfo=firstName&Zhan&address2&Moscow%20MO%20Moscow&username&berestov&hash&22&lastName&Berestov%0A&address1&ulitsa%20Polesskiy%20proyezd%20Polikarpova&creditCard&&expDate&%0A
+Cookie: MSO=SID&1595785164; MTUserInfo=firstName&Yegor&address2&Moscow%20MO%20Moscow&username&bezrukov&hash&22&lastName&Bezrukov%0A&address1&proyezd%20Volokolamskiy%203-y&creditCard&&expDate&%0A
 

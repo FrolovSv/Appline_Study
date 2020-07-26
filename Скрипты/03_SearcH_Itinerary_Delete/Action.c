@@ -200,24 +200,37 @@ Action()
 		
 				//lr_output_message("Flight to delete");
 			    
-				web_reg_find("Search=Body",
-			        "SaveCount=Count_Flights",
-			        "Text=A Coach class ticket for ",
-			        LAST);
+//				web_reg_find("Search=Body",
+//			        "SaveCount=Count_Flights",
+//			        "Text=A Coach class ticket for ",
+//			        LAST);
 				
+				web_reg_find("Fail=Found",
+	             	"Text={flightId_1}",
+					LAST);				
+				
+//				web_reg_save_param_ex(
+//				"ParamName=flightId_AfterDelete",
+//				"LB=name=\"flightID\" value=\"",
+//				"RB=\"  />",
+//				"Ordinal=ALL",
+//				SEARCH_FILTERS,
+//				LAST);
+								
 				web_submit_form("itinerary.pl",
 			        "Snapshot=t10.inf", 
 			        ITEMDATA, 
 			        "Name=1", "Value=on", ENDITEM,         
 			        "Name=removeFlights.x", "Value=73", ENDITEM, 
 			        "Name=removeFlights.y", "Value=15", ENDITEM, 
-			        LAST);
+			        LAST);				
 				
-				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
-					lr_output_message("Delete first flight  was successful");
-				}else{
-					lr_error_message("flight ticket did not retire");					
-				}
+				
+//				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
+//					lr_output_message("Delete first flight  was successful");
+//				}else{
+//					lr_error_message("flight ticket did not retire");					
+//				}
 			
 			lr_end_transaction("Delete_first", LR_AUTO);
 			

@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 # SharpDevelop 4.1.3.0-trunk
-Project("59E62985-F1EA-4BE7-BC64-778DBD3B845D") = "02_Search_BuyTicket", "..\..\Appline_Study\Скрипты\02_Search_BuyTicket\02_Search_BuyTicket.usr", "59E62985-F1EA-4BE7-BC64-778DBD3B845D"
+Project("59E62985-F1EA-4BE7-BC64-778DBD3B845D") = "02_Search_BuyTicket", "02_Search_BuyTicket\02_Search_BuyTicket.usr", "59E62985-F1EA-4BE7-BC64-778DBD3B845D"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDJfU2VhcmNoX0J1eVRpY2tldFwwMl9TZWFyY2hfQnV5VGlja2V0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wMl9TZWFyY2hfQnV5VGlja2V0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDY6MTguNzI2OTU0NyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
@@ -10,15 +10,15 @@ Project("59E62985-F1EA-4BE7-BC64-778DBD3B845D") = "02_Search_BuyTicket", "..\..\
 		Value = False
 	EndProjectSection
 EndProject
-Project("1F24C82B-A736-4F83-9BE5-8359D958F8BC") = "03_SearcH_Itinerary_Delete", "..\..\Appline_Study\Скрипты\03_SearcH_Itinerary_Delete\03_SearcH_Itinerary_Delete.usr", "1F24C82B-A736-4F83-9BE5-8359D958F8BC"
+Project("1F24C82B-A736-4F83-9BE5-8359D958F8BC") = "03_SearcH_Itinerary_Delete", "03_SearcH_Itinerary_Delete\03_SearcH_Itinerary_Delete.usr", "1F24C82B-A736-4F83-9BE5-8359D958F8BC"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDNfU2VhcmNIX0l0aW5lcmFyeV9EZWxldGVcMDNfU2VhcmNIX0l0aW5lcmFyeV9EZWxldGUudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPjAzX1NlYXJjSF9JdGluZXJhcnlfRGVsZXRlLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDY6MzcuMDIyMDAxMSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = False
+		Value = True
 	EndProjectSection
 EndProject
-Project("36DAFB7C-9EF8-465C-8CA4-D491615C0FF4") = "01_Search_Itinerary", "..\..\Appline_Study\Скрипты\01_Search_Itinerary\01_Search_Itinerary.usr", "36DAFB7C-9EF8-465C-8CA4-D491615C0FF4"
+Project("36DAFB7C-9EF8-465C-8CA4-D491615C0FF4") = "01_Search_Itinerary", "01_Search_Itinerary\01_Search_Itinerary.usr", "36DAFB7C-9EF8-465C-8CA4-D491615C0FF4"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDFfU2VhcmNoX0l0aW5lcmFyeVwwMV9TZWFyY2hfSXRpbmVyYXJ5LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT4wMV9TZWFyY2hfSXRpbmVyYXJ5LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDY6NDguNTA0NjU3OSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
@@ -26,7 +26,7 @@ Project("36DAFB7C-9EF8-465C-8CA4-D491615C0FF4") = "01_Search_Itinerary", "..\..\
 		Value = False
 	EndProjectSection
 EndProject
-Project("F230D4D4-4AA6-4871-8670-5B656307B06D") = "04_Itinerary", "..\..\Appline_Study\Скрипты\04_Itinerary\04_Itinerary.usr", "F230D4D4-4AA6-4871-8670-5B656307B06D"
+Project("F230D4D4-4AA6-4871-8670-5B656307B06D") = "04_Itinerary", "04_Itinerary\04_Itinerary.usr", "F230D4D4-4AA6-4871-8670-5B656307B06D"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDRfSXRpbmVyYXJ5XDA0X0l0aW5lcmFyeS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MDRfSXRpbmVyYXJ5LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDc6MDQuMTQwNTUyMiswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
@@ -34,7 +34,7 @@ Project("F230D4D4-4AA6-4871-8670-5B656307B06D") = "04_Itinerary", "..\..\Appline
 		Value = False
 	EndProjectSection
 EndProject
-Project("2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65") = "05_Search", "..\..\Appline_Study\Скрипты\05_Search\05_Search.usr", "2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65"
+Project("2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65") = "05_Search", "05_Search\05_Search.usr", "2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDVfU2VhcmNoXDA1X1NlYXJjaC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MDVfU2VhcmNoLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDc6MTYuNTk2MjY0NiswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
 	EndProjectSection
@@ -42,23 +42,7 @@ Project("2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65") = "05_Search", "..\..\Appline_St
 		Value = False
 	EndProjectSection
 EndProject
-Project("FA05C3B2-0ED0-4E70-8E47-CDC51891990E") = "BuyTicket_all", "..\..\Appline_Study\прочее\BuyTicket_all\BuyTicket_all.usr", "FA05C3B2-0ED0-4E70-8E47-CDC51891990E"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0L/RgNC+0YfQtdC1XEJ1eVRpY2tldF9hbGxcQnV5VGlja2V0X2FsbC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QnV5VGlja2V0X2FsbC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIwLTA3LTI0VDE3OjQ4OjA2LjI1NjEwNSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = False
-	EndProjectSection
-EndProject
-Project("47E5D47D-30F2-47E1-8B77-0EF25B8630C0") = "User_Registration", "..\..\Appline_Study\прочее\User_Registration\User_Registration.usr", "47E5D47D-30F2-47E1-8B77-0EF25B8630C0"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0L/RgNC+0YfQtdC1XFVzZXJfUmVnaXN0cmF0aW9uXFVzZXJfUmVnaXN0cmF0aW9uLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5Vc2VyX1JlZ2lzdHJhdGlvbi51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIwLTA3LTI0VDE3OjQ3OjQ0LjI4MDg0ODErMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = False
-	EndProjectSection
-EndProject
-Project("C769879A-F9B7-45DD-9BA0-258DF9E1874C") = "06_login_logout", "..\..\Appline_Study\Скрипты\06_login_logout\06_login_logout.usr", "C769879A-F9B7-45DD-9BA0-258DF9E1874C"
+Project("C769879A-F9B7-45DD-9BA0-258DF9E1874C") = "06_login_logout", "06_login_logout\06_login_logout.usr", "C769879A-F9B7-45DD-9BA0-258DF9E1874C"
 	ProjectSection(CustomLoading) = Data
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFN1c1BlY1RcRG9jdW1lbnRzXEFwcGxpbmVfU3R1ZHlc0KHQutGA0LjQv9GC0YtcMDZfbG9naW5fbG9nb3V0XDA2X2xvZ2luX2xvZ291dC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MDZfbG9naW5fbG9nb3V0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDctMjRUMTc6NDc6NTcuODYzNjI1KzAzOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
 	EndProjectSection
@@ -92,14 +76,6 @@ Global
 		2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65.Release|Any CPU.Build.0 = Release|Any CPU
 		2DD64F4A-10A0-4DAC-9E0D-17EB9D613B65.Release|Any CPU.ActiveCfg = Release|Any CPU
-		FA05C3B2-0ED0-4E70-8E47-CDC51891990E.Debug|Any CPU.Build.0 = Debug|Any CPU
-		FA05C3B2-0ED0-4E70-8E47-CDC51891990E.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		FA05C3B2-0ED0-4E70-8E47-CDC51891990E.Release|Any CPU.Build.0 = Release|Any CPU
-		FA05C3B2-0ED0-4E70-8E47-CDC51891990E.Release|Any CPU.ActiveCfg = Release|Any CPU
-		47E5D47D-30F2-47E1-8B77-0EF25B8630C0.Debug|Any CPU.Build.0 = Debug|Any CPU
-		47E5D47D-30F2-47E1-8B77-0EF25B8630C0.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		47E5D47D-30F2-47E1-8B77-0EF25B8630C0.Release|Any CPU.Build.0 = Release|Any CPU
-		47E5D47D-30F2-47E1-8B77-0EF25B8630C0.Release|Any CPU.ActiveCfg = Release|Any CPU
 		C769879A-F9B7-45DD-9BA0-258DF9E1874C.Debug|Any CPU.Build.0 = Debug|Any CPU
 		C769879A-F9B7-45DD-9BA0-258DF9E1874C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		C769879A-F9B7-45DD-9BA0-258DF9E1874C.Release|Any CPU.Build.0 = Release|Any CPU

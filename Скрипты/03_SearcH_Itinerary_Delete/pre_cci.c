@@ -1,4 +1,4 @@
-# 1 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c"
+# 1 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 1 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 2 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
 # 1 "globals.h" 1
 
@@ -2591,7 +2591,7 @@ void
 
 
 
-# 3 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 3 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
@@ -2601,7 +2601,7 @@ vuser_init()
 	
 	return 0;
 }
-# 4 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 4 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2640,11 +2640,12 @@ Action()
 		
 		 
 		lr_think_time(5);
-			
-		 
-		web_reg_find("Text=User password was correct", "LAST");
+					
 	
-		lr_start_transaction("login_user");		
+		lr_start_transaction("login_user");			
+			 
+			web_reg_find("Text=User password was correct", "LAST");
+			
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -2686,7 +2687,7 @@ Action()
 		lr_end_transaction("goto_Flight",2);
 		
 		 
-		lr_think_time(25);
+		lr_think_time(5);
 	
  
  
@@ -2794,7 +2795,7 @@ Action()
 		lr_end_transaction("goto_Itinerary", 2);	
 					
 		 
-		lr_think_time(10);
+		lr_think_time(5);
 
 		
 		if (atoi(lr_eval_string("{flightId_count}")) == 0){
@@ -2810,6 +2811,18 @@ Action()
 			        "Text=A Coach class ticket for ",
 			        "LAST");
 				
+				web_reg_find("Fail=Found",
+				             "Text={flightId_1}",
+					"LAST");				
+				
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+								
 				web_submit_form("itinerary.pl",
 			        "Snapshot=t10.inf", 
 			        "ITEMDATA", 
@@ -2817,6 +2830,8 @@ Action()
 			        "Name=removeFlights.x", "Value=73", "ENDITEM", 
 			        "Name=removeFlights.y", "Value=15", "ENDITEM", 
 			        "LAST");
+				
+				
 				
 				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
 					lr_output_message("Delete first flight  was successful");
@@ -2827,6 +2842,9 @@ Action()
 			lr_end_transaction("Delete_first", 2);
 			
 		}
+		
+		 
+		lr_think_time(5);
 		
 		lr_start_transaction("goto_home");
 			 
@@ -2864,12 +2882,15 @@ Action()
  
  
 		
+		 
+		lr_think_time(9);
+		
 	lr_end_transaction("03_Search_itinerary_delete", 2);
 
 
 	return 0;
 }
-# 5 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 5 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2878,5 +2899,5 @@ vuser_end()
 
 	return 0;
 }
-# 6 "d:\\suspect\\documents\\vugen\\scripts\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
+# 6 "d:\\suspect\\documents\\appline_study\\\361\352\360\350\357\362\373\\03_search_itinerary_delete\\\\combined_03_SearcH_Itinerary_Delete.c" 2
 
