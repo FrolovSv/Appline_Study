@@ -205,8 +205,11 @@ Action()
 //			        "Text=A Coach class ticket for ",
 //			        LAST);
 				
+				lr_save_string(lr_eval_string("{flightId_1}"),
+	    			"cancelflight");
+				
 				web_reg_find("Fail=Found",
-	             	"Text={flightId_1}",
+	             	"Text={cancelflight}",
 					LAST);				
 				
 //				web_reg_save_param_ex(
