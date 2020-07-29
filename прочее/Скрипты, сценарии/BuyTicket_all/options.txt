@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SusPecT\Documents\Appline_Study\прочее\Скрипты, сценарии, анализ\BuyTicket_all
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\suspect\documents\appline_study\прочее\скрипты, сценарии, анализ\buyticket_all\\logfile.log
+d:\suspect\documents\appline_study\прочее\скрипты, сценарии, анализ\buyticket_all\\combined_BuyTicket_all.c
+d:\suspect\documents\appline_study\прочее\скрипты, сценарии, анализ\buyticket_all\\pre_cci.c

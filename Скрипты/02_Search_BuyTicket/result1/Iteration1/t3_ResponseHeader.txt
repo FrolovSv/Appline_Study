@@ -1,9 +1,7 @@
 HTTP/1.1 200 OK
-Date: Fri, 24 Jul 2020 12:16:52 GMT
+Date: Tue, 28 Jul 2020 22:23:53 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Maksimilian&address2&Moscow%20MO%20Moscow&username&galaktionov&hash&22&lastName&Galaktionov%0A&address1&ulitsa%20Potylikha&creditCard&&expDate&%0A; path=/
-Keep-Alive: timeout=5, max=97
+Keep-Alive: timeout=5, max=95
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1

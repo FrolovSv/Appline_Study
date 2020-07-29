@@ -7,7 +7,6 @@ Registry settings:
 		default	yes
 	AUT
 		(Default)	
-		default	C:\Program Files (x86)\Internet Explorer\iexplore.exe http://localhost:1080/WebTours/
 	DebugFilter
 		(Default)	
 		default	off
@@ -133,7 +132,6 @@ Registry settings:
 				(Default)	
 			SetInterfaceSafetyOptions
 				(Default)	
-	ExcludedObjrefs
 	ExcludedProcesses
 		(Default)	
 		mdm.exe
@@ -156,21 +154,27 @@ Registry settings:
 		(Default)	-1
 	RecorderDir
 		(Default)	
-		default	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\
+		default	C:\Program Files (x86)\HPE\LoadRunner\bin\
 	RecordsetFormat
 		 help	place in the default value one of the following formats:
 		adPersistADTG	(default) Microsoft Advanced Data TableGram (ADTG) format
 		adPersistXML	Extensible Markup Language (XML) format
 		default	adPersistADTG
+	RedirectorCmds
+		6356
+			(Default)	6532*dllhost.exe {26A28DD1-D23A-43A0-A495-F1C3F75C49E2} -Embedding
+			newCmdLine	6532*dllhost.exe {26A28DD1-D23A-43A0-A495-F1C3F75C49E2} -Embedding
+			LaunchAut (Surrogate)	*dllhost.exe {26A28DD1-D23A-43A0-A495-F1C3F75C49E2} -Embedding
 	removeObjrefFilter
 		default	false
 	TestDir
 		(Default)	
-		default	D:\SusPecT\Documents\VuGen\Scripts\03_Search_BuyTicket\data\
+		default	D:\SusPecT\Documents\Appline_Study\Скрипты\02_Search_BuyTicket\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly
 		default	false
+	Trapped
 	VugenSettings
 		(Default)	
 		CurrentSettings
@@ -328,5 +332,4 @@ Registry settings:
 		default	off
 	WorkingDir
 		(Default)	
-		default	C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\
 

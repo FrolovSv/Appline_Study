@@ -1,21 +1,17 @@
 Action()
 {
-	int flightId_Count = 0;
+	//int flightId_Count = 0;
 	lr_start_transaction("03_Search_itinerary_delete");
 	
-	lr_start_transaction("Load_start_Page");
+		lr_start_transaction("Load_start_Page");
 	
-			/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
-			web_reg_save_param_attrib(
+			web_reg_save_param_ex(
 				"ParamName=userSession",
-				"TagName=input",
-				"Extract=value",
-				"Name=userSession",
-				"Type=hidden",
-				SEARCH_FILTERS,
-				"IgnoreRedirections=No",
-				"RequestUrl=*/nav.pl*",
-				LAST);
+				"LB=name=\"userSession\" value=\"",
+				"RB=\"/>",
+				"Ordinal=1",
+					SEARCH_FILTERS,
+				LAST);	
 		
 			//Проверка соответсвия на корректность загрузки страницы
 			web_reg_find("Text=Welcome to the Web Tours site", LAST);
@@ -55,8 +51,7 @@ Action()
 				"Name=JSFormSubmit", "Value=off", ENDITEM,
 				"Name=login.x", "Value=60", ENDITEM,
 				"Name=login.y", "Value=9", ENDITEM,
-				LAST);		
-			web_set_sockets_option("SSL_VERSION", "AUTO");	
+				LAST);			
 		lr_end_transaction("login_user",LR_AUTO);
 	
 		//SLA 5 секунд ожидание действия пользователя
@@ -83,83 +78,6 @@ Action()
 		//SLA 26 секунд на ввод всех данных в форму на странице
 		lr_think_time(5);
 	
-//		lr_start_transaction("Entry_Data_Flight");
-//		
-//			//Проверка соответсвия на корректность загрузки страницы
-//			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
-//				LAST);
-//			if (lr_eval_string("{roundtrip}")=="on"){
-//				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
-//					LAST);
-//		    }
-//			
-//			web_submit_data("reservations.pl", 
-//				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-//				"Method=POST", 
-//				"TargetFrame=", 
-//				"RecContentType=text/html", 
-//				"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
-//				"Snapshot=t13.inf", 
-//				"Mode=HTML", 
-//				ITEMDATA, 
-//				"Name=advanceDiscount", "Value=0", ENDITEM, 
-//				"Name=depart", "Value={depart}", ENDITEM, 
-//				"Name=departDate", "Value={departDate}", ENDITEM, 
-//				"Name=arrive", "Value={arrive}", ENDITEM, 
-//				"Name=returnDate", "Value={returnDate}", ENDITEM, 
-//				"Name=numPassengers", "Value={numPassengers}", ENDITEM, 
-//				"Name=roundtrip", "Value={roundtrip}", ENDITEM, 
-//				"Name=seatPref", "Value={seatPref}", ENDITEM, 
-//				"Name=seatType", "Value={seatType}", ENDITEM, 
-//				"Name=.cgifields", "Value=roundtrip", ENDITEM, 
-//				"Name=.cgifields", "Value=seatType", ENDITEM, 
-//				"Name=.cgifields", "Value=seatPref", ENDITEM, 
-//				"Name=findFlights.x", "Value=52", ENDITEM, 
-//				"Name=findFlights.y", "Value=10", ENDITEM, 
-//				LAST);
-//				
-//		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
-//		
-//		//SLA 15 секунд ожидание действий пользователя
-//		lr_think_time(15);
-//		
-//		
-//		lr_start_transaction("choise_ticket");	
-//			//Проверка соответсвия на корректность загрузки страницы
-//			web_reg_find("Search=Body",
-//				"Text=Flight Reservation",
-//				LAST);	
-//			web_reg_find("Search=Body",
-//				"Text={User_Name}",
-//				LAST);
-//			web_reg_find("Search=Body",
-//				"Text={User_FirstName}",
-//				LAST);			
-//						
-//			web_submit_data("reservations.pl_2",
-//				"Action=http://localhost:1080/cgi-bin/reservations.pl",
-//				"Method=POST",
-//				"TargetFrame=",
-//				"RecContentType=text/html",
-//				"Referer=http://localhost:1080/cgi-bin/reservations.pl",
-//				"Snapshot=t5.inf",
-//				"Mode=HTML",
-//				ITEMDATA,
-//				//"Name=outboundFlight", "Value={out}", ENDITEM, 
-//				"Name=outboundFlight", "Value={outboundFlight}", ENDITEM, 
-//				"Name=returnFlight", "Value={returnFlight}", ENDITEM,
-//				"Name=numPassengers", "Value={numPassengers}", ENDITEM,
-//				"Name=advanceDiscount", "Value=0", ENDITEM,
-//				"Name=seatType", "Value={seatType}", ENDITEM,
-//				"Name=seatPref", "Value={seatPref}", ENDITEM,
-//				"Name=reserveFlights.x", "Value=60", ENDITEM,
-//				"Name=reserveFlights.y", "Value=8", ENDITEM,
-//				LAST);	
-//		lr_end_transaction("choise_ticket",LR_AUTO);
-//		
-//		//SLA 15 секунд ожидание действий пользователя
-//		lr_think_time(15);
-	
 		lr_start_transaction("goto_Itinerary");	
 
 			//Проверка соответсвия на корректность загрузки страницы
@@ -171,7 +89,7 @@ Action()
 			web_reg_save_param_ex(
 				"ParamName=flightId",
 				"LB=name=\"flightID\" value=\"",
-				"RB=\"  />",
+				"RB=-",
 				"Ordinal=ALL",
 				SEARCH_FILTERS,
 				LAST);		
@@ -190,54 +108,36 @@ Action()
 					
 		//SLA 15 секунд ожидание действий пользователя
 		lr_think_time(5);
-
 		
-		if (atoi(lr_eval_string("{flightId_count}")) == 0){
-			lr_error_message("No flight to delete");		
-		}else {
-			
-			lr_start_transaction("Delete_first");
+		lr_start_transaction("Delete_first");
 		
-				//lr_output_message("Flight to delete");
-			    
-//				web_reg_find("Search=Body",
-//			        "SaveCount=Count_Flights",
-//			        "Text=A Coach class ticket for ",
-//			        LAST);
-				
+			if (atoi(lr_eval_string("{flightId_count}")) == 0){
+				lr_error_message("No flight to delete");		
+			}else {			
+		
 				lr_save_string(lr_eval_string("{flightId_1}"),
 	    			"cancelflight");
 				
-				web_reg_find("Fail=Found",
-	             	"Text={cancelflight}",
-					LAST);				
-				
-//				web_reg_save_param_ex(
-//				"ParamName=flightId_AfterDelete",
-//				"LB=name=\"flightID\" value=\"",
-//				"RB=\"  />",
-//				"Ordinal=ALL",
-//				SEARCH_FILTERS,
-//				LAST);
-								
+				web_reg_find("Text={cancelflight}",
+			             "SaveCount=cancelflight_Count",
+					LAST);														
+					
+				if(atoi(lr_eval_string("{cancelflight_Count}")) > 0){
+														
+					lr_error_message(lr_eval_string("User - {User_Login}; "
+				                                "cancelflight_Count - {cancelflight_Count}; "
+				                                "flightId_count - {flightId_count};"));
+				}
+			
 				web_submit_form("itinerary.pl",
 			        "Snapshot=t10.inf", 
 			        ITEMDATA, 
 			        "Name=1", "Value=on", ENDITEM,         
 			        "Name=removeFlights.x", "Value=73", ENDITEM, 
 			        "Name=removeFlights.y", "Value=15", ENDITEM, 
-			        LAST);				
-				
-				
-//				if (atoi(lr_eval_string("{Count_Flights}")) < atoi(lr_eval_string("{flightId_count}"))){
-//					lr_output_message("Delete first flight  was successful");
-//				}else{
-//					lr_error_message("flight ticket did not retire");					
-//				}
-			
-			lr_end_transaction("Delete_first", LR_AUTO);
-			
-		}
+			        LAST);			
+			}
+		lr_end_transaction("Delete_first", LR_AUTO);	
 		
 		//SLA 15 секунд ожидание действий пользователя
 		lr_think_time(5);
@@ -245,7 +145,8 @@ Action()
 		lr_start_transaction("goto_home");
 			//Проверка соответсвия на корректность загрузки страницы
 			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
-				LAST);			
+				LAST);	
+			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 				"TargetFrame=", 
@@ -257,29 +158,9 @@ Action()
 				LAST);
 		
 		lr_end_transaction("goto_home",LR_AUTO);
-		
-//		//SLA 15 секунд ожидание действий пользователя
-//		lr_think_time(5);
-//		
-//		lr_start_transaction("Logout");
-//		
-//		//Проверка соответсвия на корректность загрузки страницы
-//		web_reg_find("Text=To make reservations,please enter your account information to the left.",
-//			LAST);
-//		
-//			web_url("welcome.pl",
-//				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-//				"TargetFrame=", 
-//				"Resource=0", 
-//				"RecContentType=text/html", 
-//				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-//				"Snapshot=t9.inf", 
-//				"Mode=HTML", 
-//				LAST);
-//		lr_end_transaction("Logout", LR_AUTO);
-		
+				
 		//SLA 15 секунд ожидание действий пользователя
-		lr_think_time(9);
+		lr_think_time(7);
 		
 	lr_end_transaction("03_Search_itinerary_delete", LR_AUTO);
 

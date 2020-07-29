@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5">
-  <HTTPTask id="157" hostname="localhost:1080" path="/cgi-bin/reservations.pl" url="http://localhost:1080/cgi-bin/reservations.pl" ip="127.0.0.1" port="1080" connectionId="11" origin="Primary" frame="1" startDateTime="2020-07-15T13:02:49.386+03:00" startTime="6720772" endTime="6720959">
+  <HTTPTask id="157" hostname="localhost:1080" path="/cgi-bin/reservations.pl" url="http://localhost:1080/cgi-bin/reservations.pl" ip="127.0.0.1" port="1080" connectionId="11" origin="Primary" frame="1" startDateTime="2020-07-28T12:33:42.207+03:00" startTime="6720772" endTime="6720959">
     <HTTPRequest method="POST">
       <HTTPHeaders>
         <HTTPHeaderEntity name="Accept" index="0">

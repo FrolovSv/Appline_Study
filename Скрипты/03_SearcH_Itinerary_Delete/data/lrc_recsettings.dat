@@ -5,7 +5,7 @@
 
 {{ ACTIVE PROTOCOLS LIST:
     ( 1) WPLUS  (name=WPLUS)
-          Type Library # 1 = MicWplus.tlb (path=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\tlbs\MicWplus.tlb)
+          Type Library # 1 = MicWplus.tlb (path=C:\Program Files (x86)\HPE\LoadRunner\bin\tlbs\MicWplus.tlb)
           
           Map Function # 1 = WSPStartup  (in msafd.dll)  TO
                            : wplusWSPStartupHook  (in api_sock_proxy.dll)    
@@ -26,7 +26,7 @@
           Map Function # 9 = *WSPStartup  (in imon.dll)  TO
                            : wplusWSPStartup_McAfeeHook  (in api_sock_proxy.dll)    
     ( 2) WebBase  (name=WebBase)
-          Type Library # 1 = lrapivbs.tlb (path=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\tlbs\lrapivbs.tlb)
+          Type Library # 1 = lrapivbs.tlb (path=C:\Program Files (x86)\HPE\LoadRunner\bin\tlbs\lrapivbs.tlb)
           
           Map Function # 1 = InternetOpenA  (in wininet.dll)  TO
                            : wplusInternetOpenAHook  (in api_http_filter.dll)    
@@ -69,7 +69,7 @@
           Map Function #20 = InternetErrorDlg  (in wininet.dll)  TO
                            : wplusInternetErrorDlgHook  (in api_http_filter.dll)    
     ( 3) QTWeb  (name=QTWeb)
-          Type Library # 1 = WebSocketAnalyzer.tlb (path=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\tlbs\WebSocketAnalyzer.tlb)
+          Type Library # 1 = WebSocketAnalyzer.tlb (path=C:\Program Files (x86)\HPE\LoadRunner\bin\tlbs\WebSocketAnalyzer.tlb)
           
 }}
 {{ FILTERING ORDER:

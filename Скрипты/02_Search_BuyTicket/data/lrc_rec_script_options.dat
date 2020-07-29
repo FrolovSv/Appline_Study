@@ -23,11 +23,11 @@ Registry settings:
 		UseProtectedAppRecording	false
 		UseRecordingMalfunctiondiagnostics	true
 		RecordingMalfuctiondiagnostics
+			DetectApplicationCrashEnableDetect	true
 			DetectApplicationCrashDetectable	true
 			DetectZeroEventNeedDetect	true
-			DetectApplicationCrashEnableDetect	true
-			EnableCancelButton	true
 			DetectZeroEventInterval	180
+			EnableCancelButton	true
 	JS Options
 		JSComRecordingSupport	false
 	Protocol Options

@@ -1,26 +1,19 @@
 Action()
 {
-	int pass_count = 0;
-//	
-//	numpass = atoi(lr_eval_string("{numPassengers}");
-//	   
+	//int pass_count = 0;
+
 	lr_start_transaction("02_Search_BuyTicket");
 		
 		lr_start_transaction("Load_start_Page");
 	
-			/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
-			web_reg_save_param_attrib(
+			web_reg_save_param_ex(
 				"ParamName=userSession",
-				"TagName=input",
-				"Extract=value",
-				"Name=userSession",
-				"Type=hidden",
-				SEARCH_FILTERS,
-				"IgnoreRedirections=No",
-				"RequestUrl=*/nav.pl*",
-				LAST);
-		
-			//ѕроверка соответсви€ на корректность загрузки страницы
+				"LB=name=\"userSession\" value=\"",
+				"RB=\"/>",
+				"Ordinal=1",
+					SEARCH_FILTERS,
+				LAST);			
+			
 			web_reg_find("Text=Welcome to the Web Tours site", LAST);
 			
 			web_url("WebTours",
@@ -34,14 +27,11 @@ Action()
 				LAST);
 					
 		lr_end_transaction("Load_start_Page", LR_AUTO);
+					
+		lr_think_time(5);	
 		
-		//ожидание от пользовател€ ввода login pass		
-		//lr_think_time(5);
-			
-		
-	
 		lr_start_transaction("login_user");	
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Text=User password was correct", LAST);
 		
 			web_submit_data("login.pl",
@@ -60,14 +50,13 @@ Action()
 				"Name=login.x", "Value=60", ENDITEM,
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
-			web_set_sockets_option("SSL_VERSION", "AUTO");	
+			
 		lr_end_transaction("login_user",LR_AUTO);
-		
-		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(5);
+				
+		//lr_think_time(5);
 				
 		lr_start_transaction("goto_Flight");		
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Text=Find Flight",
 			LAST);
 			
@@ -81,12 +70,11 @@ Action()
 				"Mode=HTML", 
 				LAST);		
 		lr_end_transaction("goto_Flight",LR_AUTO);
-	
-		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(5);
+			
+		//lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Flight");	
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
 				LAST);
 			if (lr_eval_string("{roundtrip}")=="on"){
@@ -95,26 +83,40 @@ Action()
 		    }
 			
 			/*Correlation comment - Do not change!  Original value='202;600;07/16/2020' Name ='outboundFlight' Type ='ResponseBased'*/
-			web_reg_save_param_attrib(
-				"ParamName=outboundFlight",
-				"TagName=input",
-				"Extract=value",
-				"Name=outboundFlight",
-				"Type=radio",
-				SEARCH_FILTERS,
-				"IgnoreRedirections=No",
-				LAST);
+//			web_reg_save_param_attrib(
+//				"ParamName=outboundFlight",
+//				"TagName=input",
+//				"Extract=value",
+//				"Name=outboundFlight",
+//				"Type=radio",
+//				SEARCH_FILTERS,
+//				"IgnoreRedirections=No",
+//				LAST);
 			
-			/*Correlation comment - Do not change!  Original value='022;600;09/17/2020' Name ='returnFlight' Type ='ResponseBased'*/
-			web_reg_save_param_attrib(
-				"ParamName=returnFlight",
-				"TagName=input",
-				"Extract=value",
-				"Name=returnFlight",
-				"Type=radio",
+			web_reg_save_param_ex(
+				"ParamName=outboundFlight",
+				"LB=name=\"outboundFlight\" value=\"",
+				"RB=\"",
 				SEARCH_FILTERS,
-				"IgnoreRedirections=No",
-				LAST);
+				LAST);			
+			
+//			/*Correlation comment - Do not change!  Original value='022;600;09/17/2020' Name ='returnFlight' Type ='ResponseBased'*/
+//			web_reg_save_param_attrib(
+//				"ParamName=returnFlight",
+//				"TagName=input",
+//				"Extract=value",
+//				"Name=returnFlight",
+//				"Type=radio",
+//				SEARCH_FILTERS,
+//				"IgnoreRedirections=No",
+//				LAST);
+			
+			web_reg_save_param_ex(
+				"ParamName=returnFlight",
+				"LB=name=\"returnFlight\" value=\"",
+				"RB=\"",
+				SEARCH_FILTERS,
+				LAST);	
 			
 			web_submit_data("reservations.pl",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -130,7 +132,7 @@ Action()
 				"Name=departDate", "Value={departDate}", ENDITEM, 
 				"Name=arrive", "Value={arrive}", ENDITEM, 
 				"Name=returnDate", "Value={returnDate}", ENDITEM, 
-				"Name=numPassengers", "Value={numPassengers}", ENDITEM, // количество пассажиров оставлю 2 
+				"Name=numPassengers", "Value={numPassengers}", ENDITEM, 
 				"Name=roundtrip", "Value={roundtrip}", ENDITEM, 
 				"Name=seatPref", "Value={seatPref}", ENDITEM, 
 				"Name=seatType", "Value={seatType}", ENDITEM, 
@@ -141,12 +143,11 @@ Action()
 				"Name=findFlights.y", "Value=9", ENDITEM, 
 				LAST);	
 		lr_end_transaction("Entry_Data_Flight",LR_AUTO);
-		
-		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(5);
+				
+		//lr_think_time(5);
 	
 		lr_start_transaction("choise_ticket");	
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Search=Body",
 				"Text=Flight Reservation",
 				LAST);	
@@ -178,11 +179,11 @@ Action()
 				LAST);	
 		lr_end_transaction("choise_ticket",LR_AUTO);
 		
-		//SLA 5 секунд ожидание действи€ пользовател€
-		lr_think_time(5);
+		
+		//lr_think_time(5);
 	
 		lr_start_transaction("Entry_Data_Ticket");
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Search=Body",
 				"Text=Thank you for booking through Web Tours.",
 				LAST);
@@ -221,11 +222,14 @@ Action()
 				LAST);	
 		lr_end_transaction("Entry_Data_Ticket",LR_AUTO);
 		
-		//SLA 5 секунд ожидание действи€ пользовател€
-		//lr_think_time(5);
+		
+		lr_think_time(5);
+		
+		// выстав€ю расчетный ThinkTime
+		lr_think_time(8);
 	
 		lr_start_transaction("goto_home");	
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
 				LAST);
 			
@@ -243,7 +247,7 @@ Action()
 				
 		lr_start_transaction("Logout");
 		
-			//ѕроверка соответсви€ на корректность загрузки страницы
+			
 			web_reg_find("Text=To make reservations,please enter your account information to the left.",
 				LAST);
 			

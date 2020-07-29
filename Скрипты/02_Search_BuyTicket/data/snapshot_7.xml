@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7">
-  <HTTPTask id="172" hostname="localhost:1080" path="/cgi-bin/welcome.pl?page=menus" url="http://localhost:1080/cgi-bin/welcome.pl?page=menus" ip="127.0.0.1" port="1080" connectionId="14" origin="Primary" frame="1" startDateTime="2020-07-15T13:02:49.458+03:00" startTime="6950016" endTime="6950156">
+  <HTTPTask id="172" hostname="localhost:1080" path="/cgi-bin/welcome.pl?page=menus" url="http://localhost:1080/cgi-bin/welcome.pl?page=menus" ip="127.0.0.1" port="1080" connectionId="14" origin="Primary" frame="1" startDateTime="2020-07-28T12:33:42.334+03:00" startTime="6950016" endTime="6950156">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -186,7 +186,7 @@
         <PacketInfo time="6950156" offset="819" length="5" />
       </TcpPackets>
     </HTTPResponse>
-    <HTTPTask id="177" hostname="localhost:1080" path="/cgi-bin/nav.pl?page=menu&amp;in=home" url="http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=home" ip="127.0.0.1" port="1080" connectionId="14" origin="HTML" frame="1.1" startDateTime="2020-07-15T13:02:49.478+03:00" startTime="6950187" endTime="6950343">
+    <HTTPTask id="177" hostname="localhost:1080" path="/cgi-bin/nav.pl?page=menu&amp;in=home" url="http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=home" ip="127.0.0.1" port="1080" connectionId="14" origin="HTML" frame="1.1" startDateTime="2020-07-28T12:33:42.370+03:00" startTime="6950187" endTime="6950343">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -389,7 +389,7 @@
         </TcpPackets>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="180" hostname="localhost:1080" path="/cgi-bin/login.pl?intro=true" url="http://localhost:1080/cgi-bin/login.pl?intro=true" ip="127.0.0.1" port="1080" connectionId="15" origin="HTML" frame="1.2" startDateTime="2020-07-15T13:02:49.491+03:00" startTime="6950359" endTime="6950530">
+    <HTTPTask id="180" hostname="localhost:1080" path="/cgi-bin/login.pl?intro=true" url="http://localhost:1080/cgi-bin/login.pl?intro=true" ip="127.0.0.1" port="1080" connectionId="15" origin="HTML" frame="1.2" startDateTime="2020-07-28T12:33:42.384+03:00" startTime="6950359" endTime="6950530">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">

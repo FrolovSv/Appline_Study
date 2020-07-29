@@ -1,5 +1,0 @@
-"firstName=Galaktionov&lastName=Maksimilian&address1=ulitsa+Potylikha&address2=Moscow+MO+Moscow"
-"&pass1=Melentiy+Arkadyev&creditCard=1234568012357820&expDate=06%2F23&oldCCOption=on&numPasseng"
-"ers=1&seatType=Coach&seatPref=None&outboundFlight=270%3B565%3B07%2F24%2F2020&advanceDiscount=0"
-"&returnFlight=720%3B565%3B07%2F27%2F2020&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=41&bu"
-"yFlights.y=8"

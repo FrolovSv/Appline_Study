@@ -1,9 +1,7 @@
 HTTP/1.1 200 OK
-Date: Thu, 23 Jul 2020 18:34:06 GMT
+Date: Tue, 28 Jul 2020 22:21:46 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Platon&address2&Moscow%20MO%20Moscow&username&dubrovskaya&hash&65&lastName&Dubrovskaya%0A&address1&ulitsa%20%28Kryukovo%29%20Shkolnaya%20&creditCard&&expDate&%0A; path=/
-Keep-Alive: timeout=5, max=97
+Keep-Alive: timeout=5, max=95
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1

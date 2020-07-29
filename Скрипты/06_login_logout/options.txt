@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\SusPecT\Documents\VuGen\Scripts\06_login_logout
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suspect\documents\vugen\scripts\06_login_logout\\logfile.log
-d:\suspect\documents\vugen\scripts\06_login_logout\\combined_06_login_logout.c
-d:\suspect\documents\vugen\scripts\06_login_logout\\pre_cci.c
+-ID:\SusPecT\Documents\Appline_Study\Скрипты\06_login_logout
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\suspect\documents\appline_study\скрипты\06_login_logout\\logfile.log
+d:\suspect\documents\appline_study\скрипты\06_login_logout\\combined_06_login_logout.c
+d:\suspect\documents\appline_study\скрипты\06_login_logout\\pre_cci.c

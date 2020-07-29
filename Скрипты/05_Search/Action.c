@@ -4,17 +4,13 @@ Action()
 		
 		lr_start_transaction("Load_start_Page");
 	
-		/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
-		web_reg_save_param_attrib(
+		web_reg_save_param_ex(
 			"ParamName=userSession",
-			"TagName=input",
-			"Extract=value",
-			"Name=userSession",
-			"Type=hidden",
-			SEARCH_FILTERS,
-			"IgnoreRedirections=No",
-			"RequestUrl=*/nav.pl*",
-			LAST);
+			"LB=name=\"userSession\" value=\"",
+			"RB=\"/>",
+			"Ordinal=1",
+				SEARCH_FILTERS,
+			LAST);	
 
 		//Проверка соответсвия на корректности загрузки страницы
 		web_reg_find("Text=Welcome to the Web Tours site", LAST);
@@ -53,7 +49,7 @@ Action()
 				"Name=login.x", "Value=60", ENDITEM,
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
-			web_set_sockets_option("SSL_VERSION", "AUTO");	
+			
 		lr_end_transaction("login_user",LR_AUTO);
 	
 		//SLA секунд ожидание действия пользователя
@@ -62,7 +58,8 @@ Action()
 		lr_start_transaction("goto_Flight");		
 			//Проверка соответсвия на корректности загрузки страницы
 			web_reg_find("Text=Find Flight",
-			LAST);			
+			LAST);		
+			
 			web_url("welcome.pl", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 				"TargetFrame=", 
@@ -81,6 +78,7 @@ Action()
 			//Проверка соответсвия на корректность загрузки страницы
 			web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B>",
 				LAST);
+			
 			if (lr_eval_string("{roundtrip}")=="on"){
 				web_reg_find("Text=Flight departing from <B>{arrive}</B> to <B>{depart}</B>",
 					LAST);
@@ -115,9 +113,7 @@ Action()
 		//SLA секунд ожидание действий пользователя
 		lr_think_time(5);
 		
-		//SLA секунд ожидание действий пользователя
-		lr_think_time(13);
-		
+		lr_think_time(10);
 		
 	lr_end_transaction("05_Search", LR_AUTO);
 

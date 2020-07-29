@@ -1,5 +1,5 @@
 <!-- 
- User has returned to the search page.  Since user has already logged on,
+ User wants the intineraries.  Since user has already logged on,
  we can give them the menu in the navbar.
  --->
 
@@ -8,10 +8,10 @@
    <!-- Frame Set -->
    <frameset cols="160,*" border="1" frameborder="1">
       <!-- Navigation Frame -->
-      <frame src="nav.pl?page=menu&in=flights" name="navbar" 
-            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
-      <!-- Reservation Frame -->
-      <frame src="reservations.pl?page=welcome" name="info" 
-            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
    </frameset>
 </html>

@@ -4,17 +4,13 @@ Action()
 		
 		lr_start_transaction("Load_start_Page");
 	
-		/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
-		web_reg_save_param_attrib(
+		web_reg_save_param_ex(
 			"ParamName=userSession",
-			"TagName=input",
-			"Extract=value",
-			"Name=userSession",
-			"Type=hidden",
-			SEARCH_FILTERS,
-			"IgnoreRedirections=No",
-			"RequestUrl=*/nav.pl*",
-			LAST);
+			"LB=name=\"userSession\" value=\"",
+			"RB=\"/>",
+			"Ordinal=1",
+				SEARCH_FILTERS,
+			LAST);	
 
 		//Проверка соответсвия на корректности загрузки страницы
 		web_reg_find("Text=Welcome to the Web Tours site", LAST);
@@ -53,7 +49,6 @@ Action()
 				"Name=login.x", "Value=60", ENDITEM,
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
-			web_set_sockets_option("SSL_VERSION", "AUTO");	
 		lr_end_transaction("login_user",LR_AUTO);
 	
 		//SLA секунд ожидание действий пользователя
@@ -79,8 +74,7 @@ Action()
 		
 		//SLA секунд ожидание действий пользователя
 		lr_think_time(5);
-		//SLA секунд ожидание действий пользователя
-		lr_think_time(70);
+		lr_think_time(67);
 		
 		lr_start_transaction("Logout");
 		
@@ -97,8 +91,7 @@ Action()
 				"Mode=HTML", 
 				LAST);
 		lr_end_transaction("Logout", LR_AUTO);
-		
-		
+				
 	lr_end_transaction("04_itinerary", LR_AUTO);
 
 	return 0;

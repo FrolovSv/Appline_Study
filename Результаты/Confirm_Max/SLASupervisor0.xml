@@ -1,0 +1,537 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:TSLASupervisor id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/SLASupervisor/Analysis.SLA">
+<m_SLARulesInfos href="#ref-5"/>
+<m_TrackingPeriodType>Default</m_TrackingPeriodType>
+<m_TrackingPeriodValue>0</m_TrackingPeriodValue>
+<m_TrackingPeriodTimeScale>NoTime</m_TrackingPeriodTimeScale>
+<m_TrackingPeriodValueInSec>5</m_TrackingPeriodValueInSec>
+<m_DataProvider href="#ref-6"/>
+</a1:TSLASupervisor>
+<a2:ArrayList id="ref-5" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-7"/>
+<_size>16</_size>
+<_version>16</_version>
+</a2:ArrayList>
+<a5:TSLADataProvider id="ref-6" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/SLADataProvider/Analysis.SLA">
+</a5:TSLADataProvider>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+</SOAP-ENC:Array>
+<a7:SLARuleInfo id="ref-8" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-24"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_01_Search_Itinerary</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-25"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-9" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-26"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_02_Search_BuyTicket</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-27"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-10" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-28"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_03_Search_itinerary_delete</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-29"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-11" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-30"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_04_itinerary</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-31"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-12" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-32"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_05_Search</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-33"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-13" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-34"/>
+<m_RuleData xsi:null="1"/>
+<m_RuleResult xsi:null="1"/>
+<m_strId>transaction_response_time_percentile_06_login_Logout</m_strId>
+<m_IsValid>false</m_IsValid>
+<m_PrimaryException href="#ref-35"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-14" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-36"/>
+<m_RuleData href="#ref-37"/>
+<m_RuleResult href="#ref-38"/>
+<m_strId>transaction_response_time_percentile_choise_ticket</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-15" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-39"/>
+<m_RuleData href="#ref-40"/>
+<m_RuleResult href="#ref-41"/>
+<m_strId>transaction_response_time_percentile_Delete_first</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-16" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-42"/>
+<m_RuleData href="#ref-43"/>
+<m_RuleResult href="#ref-44"/>
+<m_strId>transaction_response_time_percentile_Entry_Data_Flight</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-17" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-45"/>
+<m_RuleData href="#ref-46"/>
+<m_RuleResult href="#ref-47"/>
+<m_strId>transaction_response_time_percentile_Entry_Data_Ticket</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-18" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-48"/>
+<m_RuleData href="#ref-49"/>
+<m_RuleResult href="#ref-50"/>
+<m_strId>transaction_response_time_percentile_goto_Flight</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-19" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-51"/>
+<m_RuleData href="#ref-52"/>
+<m_RuleResult href="#ref-53"/>
+<m_strId>transaction_response_time_percentile_goto_home</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-20" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-54"/>
+<m_RuleData href="#ref-55"/>
+<m_RuleResult href="#ref-56"/>
+<m_strId>transaction_response_time_percentile_goto_Itinerary</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-21" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-57"/>
+<m_RuleData href="#ref-58"/>
+<m_RuleResult href="#ref-59"/>
+<m_strId>transaction_response_time_percentile_Load_start_Page</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-22" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-60"/>
+<m_RuleData href="#ref-61"/>
+<m_RuleResult href="#ref-62"/>
+<m_strId>transaction_response_time_percentile_login_user</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-23" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-63"/>
+<m_RuleData href="#ref-64"/>
+<m_RuleResult href="#ref-65"/>
+<m_strId>transaction_response_time_percentile_Logout</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLAPercentileRuleDef id="ref-24" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>01_Search_Itinerary</FSubMsrName>
+<FGoalValue>33</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_01_Search_Itinerary</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_01_Search_Itinerary</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-25" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-26" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>02_Search_BuyTicket</FSubMsrName>
+<FGoalValue>20</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_02_Search_BuyTicket</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_02_Search_BuyTicket</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-27" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-28" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>03_Search_itinerary_delete</FSubMsrName>
+<FGoalValue>34</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_03_Search_itinerary_delete</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_03_Search_itinerary_delete</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-29" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-30" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>04_itinerary</FSubMsrName>
+<FGoalValue>84</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_04_itinerary</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_04_itinerary</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-31" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-32" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>05_Search</FSubMsrName>
+<FGoalValue>32</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_05_Search</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_05_Search</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-33" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-34" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>06_login_Logout</FSubMsrName>
+<FGoalValue>20</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_06_login_Logout</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_06_login_Logout</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a6:Exception id="ref-35" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-36" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>choise_ticket</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_choise_ticket</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_choise_ticket</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-37" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.333</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-38" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.333</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-39" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>Delete_first</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_Delete_first</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_Delete_first</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-40" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.418</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-41" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.418</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-42" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>Entry_Data_Flight</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_Entry_Data_Flight</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_Entry_Data_Flight</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-43" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.31</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-44" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.31</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-45" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>Entry_Data_Ticket</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_Entry_Data_Ticket</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_Entry_Data_Ticket</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-46" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.301</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-47" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.301</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-48" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>goto_Flight</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_goto_Flight</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_goto_Flight</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-49" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.748</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-50" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.748</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-51" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>goto_home</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_goto_home</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_goto_home</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-52" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>1.656</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-53" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.656</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-54" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>goto_Itinerary</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_goto_Itinerary</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_goto_Itinerary</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-55" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.812</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-56" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.812</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-57" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>Load_start_Page</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_Load_start_Page</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_Load_start_Page</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-58" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>2.243</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-59" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>2.243</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-60" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>login_user</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_login_user</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_login_user</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-61" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>1.872</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-62" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.872</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a7:SLAPercentileRuleDef id="ref-63" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>Logout</FSubMsrName>
+<FGoalValue>5</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_Logout</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_Logout</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-64" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.532</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-65" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.532</m_RealValue>
+<m_GoalValue>5</m_GoalValue>
+</a7:SLASimpleRuleResult>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -4,17 +4,13 @@ Action()
 		
 		lr_start_transaction("Load_start_Page");
 	
-			/*Correlation comment - Do not change!  Original value='129182.290643985zzttiVtpAHfDQizipiittf' Name ='userSession' Type ='ResponseBased'*/
-			web_reg_save_param_attrib(
+			web_reg_save_param_ex(
 				"ParamName=userSession",
-				"TagName=input",
-				"Extract=value",
-				"Name=userSession",
-				"Type=hidden",
-				SEARCH_FILTERS,
-				"IgnoreRedirections=No",
-				"RequestUrl=*/nav.pl*",
-				LAST);
+				"LB=name=\"userSession\" value=\"",
+				"RB=\"/>",
+				"Ordinal=1",
+					SEARCH_FILTERS,
+				LAST);	
 		
 			//Проверка соответсвия на корректность загрузки страницы
 			web_reg_find("Text=Welcome to the Web Tours site", LAST);
@@ -33,11 +29,12 @@ Action()
 		
 		//ожидание от пользователя ввода login pass		
 		lr_think_time(5);
-			
-		//Проверка соответсвия на корректность загрузки страницы
-		web_reg_find("Text=User password was correct", LAST);
-	
+
 		lr_start_transaction("login_user");		
+		
+			//Проверка соответсвия на корректность загрузки страницы
+			web_reg_find("Text=User password was correct", LAST);
+		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
 				"Method=POST",
@@ -54,10 +51,8 @@ Action()
 				"Name=login.x", "Value=60", ENDITEM,
 				"Name=login.y", "Value=9", ENDITEM,
 				LAST);		
-			web_set_sockets_option("SSL_VERSION", "AUTO");	
 		lr_end_transaction("login_user",LR_AUTO);
-		
-		
+				
 		//ожидание от пользователя ввода login pass		
 		lr_think_time(5);
 		
@@ -79,7 +74,7 @@ Action()
 		lr_end_transaction("Logout", LR_AUTO);
 		
 		//ожидание от пользователя ввода login pass		
-		lr_think_time(12);
+		lr_think_time(8);
 	
 	lr_end_transaction("06_login_Logout", LR_AUTO);
 		

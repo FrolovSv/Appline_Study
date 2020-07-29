@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Denver&departDate=07%2F24%2F2020&arrive=Portland&returnDate=07%2F27%2"
-"F2020&numPassengers=1&roundtrip=off&seatPref=Aisle&seatType=Coach&.cgifields=roundtrip&.cgifie"
-"lds=seatType&.cgifields=seatPref&findFlights.x=52&findFlights.y=10"
+"outboundFlight=%7BoutboundFlight%7D&returnFlight=%7BreturnFlight%7D&numPassengers=1&advanceDis"
+"count=0&seatType=Coach&seatPref=None&reserveFlights.x=60&reserveFlights.y=8"
