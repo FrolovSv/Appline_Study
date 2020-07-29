@@ -34,7 +34,7 @@ MonAgg=0
 ErrAgg=0
 FilterEdge=0
 FSartTime=0
-FEndTime=84600
+FEndTime=0
 
 [Result0]
 LRRID=
@@ -59,7 +59,7 @@ Schedule Name=Find Max
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
 Scenario Duration=Start 18 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 01:05:00 (HH:MM:SS); Stop all Vusers: 4 every 00:00:05 (HH:MM:SS)
-NumGraphs=5
+NumGraphs=10
 
 [DimensionFunctions]
 DimeFuncCount=0
