@@ -2696,7 +2696,11 @@ Action()
 				"RB=-",
 				"Ordinal=ALL",
 				"SEARCH_FILTERS",
-				"LAST");		
+				"LAST");	
+			
+			web_reg_find("Text={flightId_1}",
+	             "SaveCount=Count_before_Flight_1",
+					"LAST");	
 			
 			web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -2724,15 +2728,29 @@ Action()
 				
 				web_reg_find("Text={cancelflight}",
 			             "SaveCount=cancelflight_Count",
-					"LAST");														
+					"LAST");		
+							
 					
-				if(atoi(lr_eval_string("{cancelflight_Count}")) > 0){
-														
-					lr_error_message(lr_eval_string("User - {User_Login}; "
-				                                "cancelflight_Count - {cancelflight_Count}; "
-				                                "flightId_count - {flightId_count};"));
-				}
+ 
+ 
+ 
+ 
+ 
+ 
 			
+				web_reg_find("Text={flightId_1}",
+	             	"SaveCount=Count_after_Flight_1",
+					"LAST");	
+			
+				if (atoi(lr_eval_string("{Count_after_Flight_1}")) > 0)
+					if (atoi(lr_eval_string("{Count_after_Flight_1}")) > atoi(lr_eval_string("{Count_before_Flight_1}"))){
+
+					lr_error_message(lr_eval_string("User - {User_Login}; " 
+					                                "flightId_1 - {flightId_1}; "
+					                                "Count_before_Flight_1 - {Count_before_Flight_1}; "
+					                                "Count_after_Flight_1 - {Count_after_Flight_1}"));		
+				}
+				
 				web_submit_form("itinerary.pl",
 			        "Snapshot=t10.inf", 
 			        "ITEMDATA", 

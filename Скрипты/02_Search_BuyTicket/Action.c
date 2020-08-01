@@ -226,7 +226,7 @@ Action()
 		lr_think_time(5);
 		
 		// выстав€ю расчетный ThinkTime
-		lr_think_time(8);
+		lr_think_time(3);
 	
 		lr_start_transaction("goto_home");	
 			

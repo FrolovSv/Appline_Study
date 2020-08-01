@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=08%2F02%2F2020&arrive=Seattle&returnDate=08%2F"
-"16%2F2020&numPassengers=1&roundtrip=off&seatPref=Aisle&seatType=Business&.cgifields=roundtrip&"
-".cgifields=seatType&.cgifields=seatPref&findFlights.x=52&findFlights.y=10"

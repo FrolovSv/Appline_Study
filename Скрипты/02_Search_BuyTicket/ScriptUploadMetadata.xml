@@ -60,10 +60,12 @@
     <FileEntry Name="mdrvmWO.231.log" Filter="1" />
     <FileEntry Name="mdrvp7i.293.log" Filter="1" />
     <FileEntry Name="mdrvqlY.811.log" Filter="1" />
+    <FileEntry Name="mdrvslq.555.log" Filter="1" />
     <FileEntry Name="mdrvXRO.131.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="returnDate.dat" Filter="1" />

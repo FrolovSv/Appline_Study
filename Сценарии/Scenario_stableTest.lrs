@@ -21,7 +21,7 @@ Description=
 Hosts=1
 Scripts=6
 Groups=6
-Vusers=18
+Vusers=10
 Tranzactions=19
 Rendezvous=0
 Result_file=C:\Users\SusPecT\AppData\Local\Temp\res\res.lrr
@@ -32,7 +32,7 @@ AutoSetResults=0
 AutoOverwriteResults=0
 BaseResultsName=
 MaxVuserSeedNumberUsed=0
-PlannedNumOfVusers=30
+PlannedNumOfVusers=25
 PrivatePlannedNumOfVusers=30
 ManualControlDistributionType=1
 ManualControlAutoAddVusers=1
@@ -201,7 +201,7 @@ ScriptType=10
 Path=D:\SusPecT\Documents\Appline_Study\Скрипты\01_Search_Itinerary\01_Search_Itinerary.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2020/07/14 19:35:54"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="ru-RU"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic="uspR9x.254"\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2020/07/14 19:35:54"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="ru-RU"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic=usp6Yn.594\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="48"\r\nRunLogicPaceConstTime="33"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -215,34 +215,9 @@ Trans=choise_ticket
 Trans=goto_Itinerary
 Trans=Load_start_Page
 Trans=goto_Flight
-Trans=Entry_Data_Flight
 Trans=Logout
+Trans=Entry_Data_Flight
 Trans=01_Search_Itinerary
-}
-
-{03_search_itinerary_delete
-UiName=03_SearcH_Itinerary_Delete
-Type=1
-SubType=Multi+QTWeb
-ScriptType=10
-Path=D:\SusPecT\Documents\Appline_Study\Скрипты\03_SearcH_Itinerary_Delete\03_SearcH_Itinerary_Delete.usr
-EmulatedLocation=None
-NVAnalytics=0
-Config=[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="0"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="ru-RU"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="0"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU"\r\nZlibHeadersInCompressedRequestBody="1"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="0"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="0"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="0"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="728"\r\nRecorderWinCodePage="1251"\r\nProxyUseProxy="0"\r\nProxyNoLocal="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="0"\r\nDisableAED="0"\r\nSaveSnapshotResources="1"\r\nProxyHTTPSPort="443"\r\nKeepAlive="Yes"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="1"\r\nOverrideNTLMCreds="0"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="0"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="768"\r\nProxyUseProxyServer="0"\r\nClearCacheForSimulateNewUser="1"\r\nIPVersionPolicy="2"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2020/07/15 08:35:13"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="0"\r\nUseNativeNTLM="0"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="0"\r\nAedUtf8Values="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1366"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nEnableHTTP2="1"\r\nWinInetReplay="0"\r\nPrintNTLMLog="0"\r\nIntegratedAuthentication="0"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1366"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic="usp03y.256"\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="1"\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=""\r\nFilterType="1"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n[Java]\r\nUseExternalJVM="0"\r\nExternalJREPath=""\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="70"\r\nRunLogicPaceConstTime="34"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
-Param=
-TDPath=
-TDServer=
-TDDatabase=
-Platform=All
-AstraSubType=0
-Trans=login_user
-Trans=goto_home
-Trans=goto_Itinerary
-Trans=Load_start_Page
-Trans=goto_Flight
-Trans=03_Search_itinerary_delete
-Trans=Delete_first
 }
 
 {06_login_logout
@@ -253,7 +228,7 @@ ScriptType=10
 Path=D:\SusPecT\Documents\Appline_Study\Скрипты\06_login_logout\06_login_logout.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspx4G.258"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
+Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspj8I.598\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60"\r\nRunLogicPaceConstTime="20"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -267,6 +242,31 @@ Trans=Load_start_Page
 Trans=Logout
 }
 
+{03_search_itinerary_delete
+UiName=03_SearcH_Itinerary_Delete
+Type=1
+SubType=Multi+QTWeb
+ScriptType=10
+Path=D:\SusPecT\Documents\Appline_Study\Скрипты\03_SearcH_Itinerary_Delete\03_SearcH_Itinerary_Delete.usr
+EmulatedLocation=None
+NVAnalytics=0
+Config=[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="0"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="ru-RU"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="0"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU"\r\nZlibHeadersInCompressedRequestBody="1"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="0"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="0"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="0"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="728"\r\nRecorderWinCodePage="1251"\r\nProxyUseProxy="0"\r\nProxyNoLocal="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="0"\r\nDisableAED="0"\r\nSaveSnapshotResources="1"\r\nProxyHTTPSPort="443"\r\nKeepAlive="Yes"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="1"\r\nOverrideNTLMCreds="0"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="0"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="768"\r\nProxyUseProxyServer="0"\r\nClearCacheForSimulateNewUser="1"\r\nIPVersionPolicy="2"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2020/07/15 08:35:13"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="0"\r\nUseNativeNTLM="0"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="0"\r\nAedUtf8Values="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1366"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nEnableHTTP2="1"\r\nWinInetReplay="0"\r\nPrintNTLMLog="0"\r\nIntegratedAuthentication="0"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1366"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic=uspfXo.596\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="1"\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=""\r\nFilterType="1"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n[Java]\r\nUseExternalJVM="0"\r\nExternalJREPath=""\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="70"\r\nRunLogicPaceConstTime="34"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Param=
+TDPath=
+TDServer=
+TDDatabase=
+Platform=All
+AstraSubType=0
+Trans=login_user
+Trans=goto_home
+Trans=goto_Itinerary
+Trans=Load_start_Page
+Trans=03_Search_itinerary_delete
+Trans=goto_Flight
+Trans=Delete_first
+}
+
 {04_itinerary
 UiName=04_Itinerary
 Type=1
@@ -275,7 +275,7 @@ ScriptType=10
 Path=D:\SusPecT\Documents\Appline_Study\Скрипты\04_Itinerary\04_Itinerary.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspWd0.260"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
+Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=usplHs.600\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="23"\r\nRunLogicPaceConstTime="84"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -298,7 +298,7 @@ ScriptType=10
 Path=D:\SusPecT\Documents\Appline_Study\Скрипты\05_Search\05_Search.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspNHJ.262"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
+Config=[WEB]\r\nMaxConnections="0"\r\nLogFileWriteTraceToFile="0"\r\nSearchForImages="1"\r\nLogFileWrite="0"\r\nWebRecorderVersion="8"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspfIC.602\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60"\r\nRunLogicPaceConstTime="32"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -321,7 +321,7 @@ ScriptType=10
 Path=D:\SusPecT\Documents\Appline_Study\Скрипты\02_Search_BuyTicket\02_Search_BuyTicket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2020/07/15 09:56:21"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="ru-RU"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="1"\r\nMsgClassFull="1"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspysL.264"\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2020/07/15 09:56:21"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://www.msn.com/?pc=U453&ocid=U453DHP&osmkt=ru-ru"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="ru-RU"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass="bssplugin.bssys.com"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="100"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="1"\r\nMsgClassFull="1"\r\nAutoLog="1"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspgdF.604\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="5"\r\nLimitFlag="1"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="133"\r\nRunLogicPaceConstTime="20"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -335,8 +335,8 @@ Trans=choise_ticket
 Trans=Entry_Data_Ticket
 Trans=Load_start_Page
 Trans=goto_Flight
-Trans=Entry_Data_Flight
 Trans=Logout
+Trans=Entry_Data_Flight
 Trans=02_Search_BuyTicket
 }
 }
@@ -345,13 +345,7 @@ Trans=02_Search_BuyTicket
 
 {01_Search_Itinerary
 
-{56
-5=01_search_itinerary
-9=localhost
-SEED_NUM=0
-}
-
-{18
+{1
 5=01_search_itinerary
 9=localhost
 SEED_NUM=0
@@ -375,13 +369,7 @@ NVAnalytics=0
 
 {03_SearcH_Itinerary_Delete
 
-{80
-5=03_search_itinerary_delete
-9=localhost
-SEED_NUM=0
-}
-
-{29
+{9
 5=03_search_itinerary_delete
 9=localhost
 SEED_NUM=0
@@ -405,13 +393,7 @@ NVAnalytics=0
 
 {06_login_logout
 
-{40
-5=06_login_logout
-9=localhost
-SEED_NUM=0
-}
-
-{18
+{3
 5=06_login_logout
 9=localhost
 SEED_NUM=0
@@ -429,13 +411,7 @@ NVAnalytics=0
 
 {04_Itinerary
 
-{40
-5=04_itinerary
-9=localhost
-SEED_NUM=0
-}
-
-{18
+{2
 5=04_itinerary
 9=localhost
 SEED_NUM=0
@@ -453,13 +429,7 @@ NVAnalytics=0
 
 {05_Search
 
-{40
-5=05_search
-9=localhost
-SEED_NUM=0
-}
-
-{18
+{1
 5=05_search
 9=localhost
 SEED_NUM=0
@@ -477,31 +447,13 @@ NVAnalytics=0
 
 {02_Search_BuyTicket
 
-{84
+{14
 5=02_search_buyticket
 9=localhost
 SEED_NUM=0
 }
 
-{70
-5=02_search_buyticket
-9=localhost
-SEED_NUM=0
-}
-
-{57
-5=02_search_buyticket
-9=localhost
-SEED_NUM=0
-}
-
-{29
-5=02_search_buyticket
-9=localhost
-SEED_NUM=0
-}
-
-{18
+{6
 5=02_search_buyticket
 9=localhost
 SEED_NUM=0
@@ -530,15 +482,15 @@ NVAnalytics=0
 {OnlineMonitor
 [GeneralData]
 DisplayerViewType=Run
-MultiPanels=NumGraphs=6,ActiveForm=-1,BaseIndex=0,CountMulties=9,Ratio0=1,"Ratio1=0,495081967213115","Ratio2=0,328638497652582","Ratio3=0,328638497652582","Ratio4=0,328638497652582","Ratio5=0,495081967213115","Ratio6=0,328638497652582","Ratio7=0,328638497652582","Ratio8=0,328638497652582"
+MultiPanels=NumGraphs=8,ActiveForm=-1,BaseIndex=0,CountMulties=15,Ratio0=1,Ratio1=0.498233215547703,Ratio2=0.494186046511628,Ratio3=0.491891891891892,Ratio4=0.491891891891892,Ratio5=0.497093023255814,Ratio6=0.491891891891892,Ratio7=0.491891891891892,Ratio8=0.499116607773852,Ratio9=0.494186046511628,Ratio10=0.497881355932203,Ratio11=0.498940677966102,Ratio12=0.497093023255814,Ratio13=0.497881355932203,Ratio14=0.498940677966102
 TreeViewVisible=1
 TreeViewWidth=218
-LegenedHeight=63
+LegenedHeight=88
 GraphTop=0
 GraphLeft=223
 TreeViewTop=0
 TreeViewHeight=218
-LegenedTop=342
+LegenedTop=317
 LegenedWidth=1357
 HostNameIdMap=
 LegenedLeft=0
@@ -879,7 +831,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=4
+Is_On_Panel=9
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -983,8 +935,8 @@ Granularities=-1
 MeasurementCount=2
 Measurement_0=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_0=03_search_itinerary_delete:Action:125
-Measurement_1=|||14|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_1=localhost
+Measurement_1=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_1=03_search_itinerary_delete:Action:145
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [11]
 MeasurementsDelimiter=|||
@@ -1023,9 +975,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
+MeasurementCount=2
 Measurement_0=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_0=03_search_itinerary_delete:Action:125
+Measurement_1=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_1=03_search_itinerary_delete:Action:145
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [12]
 MeasurementsDelimiter=|||
@@ -1202,11 +1156,11 @@ BreakdownApplicable=0
 AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
-LegendSortDirection=1
+LegendSortDirection=-1
 LegendSortByColumn=Transaction
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=1
+Is_On_Panel=6
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -1281,9 +1235,9 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=-1
+Is_On_Panel=16
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -1322,7 +1276,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=7
+Is_On_Panel=13
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -1344,13 +1298,13 @@ Measurement_1=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_1=Entry_Data_Ticket
 Measurement_2=|||22|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_2=goto_Flight
-Measurement_3=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+Measurement_3=|||5|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_3=vuser_init_Transaction
-Measurement_4=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+Measurement_4=|||0|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_4=04_itinerary
 Measurement_5=|||3|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_5=05_Search
-Measurement_6=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+Measurement_6=|||11|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_6=Action_Transaction
 Measurement_7=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_7=Delete_first
@@ -1372,7 +1326,7 @@ Measurement_15=|||8|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_15=goto_home
 Measurement_16=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_16=Logout
-Measurement_17=|||13|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+Measurement_17=|||13|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_17=06_login_Logout
 Measurement_18=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_18=02_Search_BuyTicket
@@ -1453,7 +1407,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=3
+Measurement_0=|||19|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_0=03_Search_itinerary_delete::Failed
+Measurement_1=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_1=Action_Transaction::Failed
+Measurement_2=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_2=Delete_first::Failed
 Description=Displays the number of unsuccessful transactions performed during each second of a load test.
 [21]
 MeasurementsDelimiter=|||
@@ -1693,7 +1653,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=3
+Measurement_0=|||20|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_0=03_Search_itinerary_delete
+Measurement_1=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_1=Delete_first
+Measurement_2=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_2=Action_Transaction
 Description=Trans/Sec (FAIL)
 [26]
 MeasurementsDelimiter=|||
@@ -1733,19 +1699,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=6
-Measurement_0=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_0=02_Search_BuyTicket
-Measurement_1=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_1=06_login_Logout
-Measurement_2=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_2=Action_Transaction
-Measurement_3=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_3=05_Search
-Measurement_4=|||33|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_4=03_Search_itinerary_delete
-Measurement_5=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_5=01_Search_Itinerary
+MeasurementCount=0
 Description=Total Stopped transactions graph
 [27]
 MeasurementsDelimiter=|||
@@ -1770,7 +1724,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=2
+Is_On_Panel=-1
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -1855,7 +1809,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=10
+Is_On_Panel=1
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -2095,9 +2049,9 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=-1
+Is_On_Panel=3
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -2136,7 +2090,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=-1
 SampleRate=2
@@ -2840,7 +2794,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows % Processor Time
+GraphTitle=% Processor Time
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -2852,7 +2806,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=6
+Is_On_Panel=4
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -2870,7 +2824,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=1
-Measurement_0=|||31|||0|||0,1|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_0=|||31|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="% Processor Time (Processor _Total)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [55]
@@ -2883,7 +2837,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows !% User time
+GraphTitle=% User time
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -2893,9 +2847,9 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=-1
+Is_On_Panel=6
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -2926,7 +2880,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows !Processor Queue Length
+GraphTitle=Processor Queue Length
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -2971,7 +2925,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Available MBytes
+GraphTitle=Available MBytes
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -2983,7 +2937,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=3
+Is_On_Panel=-1
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -3001,7 +2955,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=1
-Measurement_0=|||7|||0|||0,01|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_0=|||7|||0|||0.01|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="Available MBytes (Memory)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [58]
@@ -3014,50 +2968,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Committed Butes
-GraphXAxisName=Elapsed Time (Hour:Min:Sec)
-CustomData=
-GraphYAxisName=
-MissingDataBehavior=Connect
-BreakdownApplicable=0
-AnySubPathAtStart=-1
-OpenChildGraph=0
-KeepLegendSort=0
-LegendSortDirection=1
-LegendUserMovedColumn=0
-XAxisLabelsStyle=RelativeTime
-Is_On_Panel=15
-SampleRate=2
-MaxDispMeasurments=15
-ColumnCaption_0=Color
-ColumnCaption_1=Scale
-ColumnCaption_2=Measurement
-ColumnCaption_3=Machine
-ColumnCaption_4=Max
-ColumnCaption_5=Min
-ColumnCaption_6=Avg
-ColumnCaption_7=Std
-ColumnCaption_8=Last
-OverlayGraph=0
-Auto_Y_Scale=1
-DefaultMsrAutoScale=0
-Granularities=-1
-Is_Resource_Graph=1
-MeasurementCount=1
-Measurement_0=|||34|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_0="Committed Bytes (Memory)"
-Description=Displays a summary of the System Resources usage for each Windows based host.
-[59]
-MeasurementsDelimiter=|||
-HelpContext=513
-BarValuesTypeNumber=Average
-ESSectionName=es_rm_svr_res_nt
-GraphType=es_rm_svr_res_nt
-Granularities=1
-is_load_From_save=1
-MaxNumOfBuckets=60
-GroupName=System Resource Graphs
-GraphTitle=Windows Page Failts/sec
+GraphTitle=Committed Butes
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3087,7 +2998,50 @@ DefaultMsrAutoScale=0
 Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=1
-Measurement_0=|||21|||0|||0,001|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_0=|||34|||0|||1E-8|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_0="Committed Bytes (Memory)"
+Description=Displays a summary of the System Resources usage for each Windows based host.
+[59]
+MeasurementsDelimiter=|||
+HelpContext=513
+BarValuesTypeNumber=Average
+ESSectionName=es_rm_svr_res_nt
+GraphType=es_rm_svr_res_nt
+Granularities=1
+is_load_From_save=1
+MaxNumOfBuckets=60
+GroupName=System Resource Graphs
+GraphTitle=Page Failts/sec
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+CustomData=
+GraphYAxisName=
+MissingDataBehavior=Connect
+BreakdownApplicable=0
+AnySubPathAtStart=-1
+OpenChildGraph=0
+KeepLegendSort=0
+LegendSortDirection=1
+LegendUserMovedColumn=0
+XAxisLabelsStyle=RelativeTime
+Is_On_Panel=-1
+SampleRate=2
+MaxDispMeasurments=15
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+OverlayGraph=0
+Auto_Y_Scale=1
+DefaultMsrAutoScale=0
+Granularities=-1
+Is_Resource_Graph=1
+MeasurementCount=1
+Measurement_0=|||21|||0|||0.001|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="Page Faults/sec (Memory)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [60]
@@ -3100,7 +3054,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Page/sec
+GraphTitle=Page/sec
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3143,7 +3097,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows !Avg. Disk secs/Read
+GraphTitle=Avg. Disk secs/Read
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3153,9 +3107,9 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=-1
+Is_On_Panel=8
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -3173,7 +3127,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=1
-Measurement_0=|||17|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_0=|||17|||0|||1000|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="Среднее время чтения с диска (с) (Физический диск _Total)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [62]
@@ -3186,7 +3140,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows !Avg. Disk secs/Write
+GraphTitle=Avg. Disk secs/Write
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3229,7 +3183,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Avg. Disk Queue Length
+GraphTitle=Avg. Disk Queue Length
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3239,7 +3193,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=-1
 SampleRate=2
@@ -3272,7 +3226,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows !Current Disk Queue Length
+GraphTitle=Current Disk Queue Length
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3282,7 +3236,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=-1
 SampleRate=2
@@ -3315,7 +3269,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows % Disk Time
+GraphTitle=% Disk Time
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3325,9 +3279,9 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=-1
+Is_On_Panel=2
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -3345,7 +3299,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=1
-Measurement_0=|||20|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_0=|||20|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="% Disk Time (PhysicalDisk _Total)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [66]
@@ -3358,7 +3312,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Bytes Total/sec
+GraphTitle=Bytes Total/sec
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3370,7 +3324,7 @@ KeepLegendSort=0
 LegendSortDirection=1
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
-Is_On_Panel=13
+Is_On_Panel=15
 SampleRate=2
 MaxDispMeasurments=15
 ColumnCaption_0=Color
@@ -3401,93 +3355,7 @@ Granularities=1
 is_load_From_save=1
 MaxNumOfBuckets=60
 GroupName=System Resource Graphs
-GraphTitle=Windows Commited Bytes
-GraphXAxisName=Elapsed Time (Hour:Min:Sec)
-CustomData=
-GraphYAxisName=
-MissingDataBehavior=Connect
-BreakdownApplicable=0
-AnySubPathAtStart=-1
-OpenChildGraph=0
-KeepLegendSort=0
-LegendSortDirection=1
-LegendUserMovedColumn=0
-XAxisLabelsStyle=RelativeTime
-Is_On_Panel=9
-SampleRate=2
-MaxDispMeasurments=15
-ColumnCaption_0=Color
-ColumnCaption_1=Scale
-ColumnCaption_2=Measurement
-ColumnCaption_3=Machine
-ColumnCaption_4=Max
-ColumnCaption_5=Min
-ColumnCaption_6=Avg
-ColumnCaption_7=Std
-ColumnCaption_8=Last
-OverlayGraph=0
-Auto_Y_Scale=1
-DefaultMsrAutoScale=0
-Granularities=-1
-Is_Resource_Graph=1
-MeasurementCount=1
-Measurement_0=|||34|||0|||1|||localhost|||0|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_0="Committed Bytes (Memory)"
-Description=Displays a summary of the System Resources usage for each Windows based host.
-[68]
-MeasurementsDelimiter=|||
-HelpContext=513
-BarValuesTypeNumber=Average
-ESSectionName=es_rm_svr_res_nt
-GraphType=es_rm_svr_res_nt
-Granularities=1
-is_load_From_save=1
-MaxNumOfBuckets=60
-GroupName=System Resource Graphs
-GraphTitle=Windows % Disc time
-GraphXAxisName=Elapsed Time (Hour:Min:Sec)
-CustomData=
-GraphYAxisName=
-MissingDataBehavior=Connect
-BreakdownApplicable=0
-AnySubPathAtStart=-1
-OpenChildGraph=0
-KeepLegendSort=0
-LegendSortDirection=1
-LegendUserMovedColumn=0
-XAxisLabelsStyle=RelativeTime
-Is_On_Panel=8
-SampleRate=2
-MaxDispMeasurments=15
-ColumnCaption_0=Color
-ColumnCaption_1=Scale
-ColumnCaption_2=Measurement
-ColumnCaption_3=Machine
-ColumnCaption_4=Max
-ColumnCaption_5=Min
-ColumnCaption_6=Avg
-ColumnCaption_7=Std
-ColumnCaption_8=Last
-OverlayGraph=0
-Auto_Y_Scale=1
-DefaultMsrAutoScale=0
-Granularities=-1
-Is_Resource_Graph=1
-MeasurementCount=1
-Measurement_0=|||20|||0|||1|||localhost|||0|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_0="% Disk Time (PhysicalDisk _Total)"
-Description=Displays a summary of the System Resources usage for each Windows based host.
-[69]
-MeasurementsDelimiter=|||
-HelpContext=513
-BarValuesTypeNumber=Average
-ESSectionName=es_rm_svr_res_nt
-GraphType=es_rm_svr_res_nt
-Granularities=1
-is_load_From_save=1
-MaxNumOfBuckets=60
-GroupName=System Resource Graphs
-GraphTitle=Windows % Privelege time
+GraphTitle=% Privelege time
 GraphXAxisName=Elapsed Time (Hour:Min:Sec)
 CustomData=
 GraphYAxisName=
@@ -3520,7 +3388,7 @@ MeasurementCount=1
 Measurement_0=|||2|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_0="% Privileged Time (Processor _Total)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
-[70]
+[68]
 MeasurementsDelimiter=|||
 HelpContext=240126
 BarValuesTypeNumber=Average
@@ -3561,7 +3429,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a Average latency for specified  Network Virtualization Emulation.
-[71]
+[69]
 MeasurementsDelimiter=|||
 HelpContext=240128
 BarValuesTypeNumber=Average
@@ -3602,7 +3470,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a Packet loss for specified  Network Virtualization Emulation.
-[72]
+[70]
 MeasurementsDelimiter=|||
 HelpContext=240130
 BarValuesTypeNumber=Average
@@ -3643,7 +3511,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a Average throughput for specified  Network Virtualization Emulation.
-[73]
+[71]
 MeasurementsDelimiter=|||
 HelpContext=240129
 BarValuesTypeNumber=Average
@@ -3684,7 +3552,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a Average bandwidth utilization for specified  Network Virtualization Emulation.
-[74]
+[72]
 MeasurementsDelimiter=|||
 HelpContext=240131
 BarValuesTypeNumber=Average
@@ -3725,7 +3593,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a Total throughput for specified  Network Virtualization Emulation.
-[75]
+[73]
 MeasurementsDelimiter=|||
 HelpContext=240092
 BarValuesTypeNumber=Average
@@ -3766,7 +3634,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of the System Resources usage for each Windows based host.
-[76]
+[74]
 MeasurementsDelimiter=|||
 HelpContext=240093
 BarValuesTypeNumber=Average
@@ -3807,7 +3675,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of the System Resources usage for each Windows based host.
-[77]
+[75]
 MeasurementsDelimiter=|||
 HelpContext=540
 BarValuesTypeNumber=Average
@@ -3848,7 +3716,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of the System Resources usage for each UNIX based host.
-[78]
+[76]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=540
@@ -3890,7 +3758,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of the Server Resources.
-[79]
+[77]
 MeasurementsDelimiter=|||
 HelpContext=550
 BarValuesTypeNumber=Average
@@ -3931,7 +3799,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SNMP Resources.
-[80]
+[78]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1415
@@ -3973,7 +3841,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Antara FlameThrower Resources.
-[81]
+[79]
 MeasurementsDelimiter=|||
 HelpContext=632
 BarValuesTypeNumber=Average
@@ -4014,7 +3882,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by SiteScope.
-[82]
+[80]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=0
@@ -4056,7 +3924,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Active Watch
-[83]
+[81]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1069
@@ -4098,7 +3966,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on Ariba web application server.
-[84]
+[82]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1091
@@ -4140,7 +4008,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of ATG Dynamo SNMP Resources.
-[85]
+[83]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1071
@@ -4182,7 +4050,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on ColdFusion web application server.
-[86]
+[84]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1096
@@ -4224,7 +4092,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Fujitsu INTERSTAGE SNMP Resources.
-[87]
+[85]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1408
@@ -4266,7 +4134,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of iPlanet (NAS) Resources.
-[88]
+[86]
 MeasurementsDelimiter=|||
 HelpContext=563
 BarValuesTypeNumber=Average
@@ -4307,7 +4175,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on MS Active Server Pages web application server.
-[89]
+[87]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1407
@@ -4349,7 +4217,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on Oracle HTTP Server.
-[90]
+[88]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1073
@@ -4391,7 +4259,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on SilverStream web application server.
-[91]
+[89]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=567
@@ -4433,7 +4301,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebLogic web application server.
-[92]
+[90]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1103
@@ -4475,7 +4343,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebSphere (EPM) web application server.
-[93]
+[91]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=2003
@@ -4517,7 +4385,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebSphere web application server.
-[94]
+[92]
 MeasurementsDelimiter=|||
 HelpContext=547
 BarValuesTypeNumber=Average
@@ -4558,7 +4426,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on Apache web server.
-[95]
+[93]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1068
@@ -4600,7 +4468,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on Netscape web server.
-[96]
+[94]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1414
@@ -4642,7 +4510,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on iPlanet (SNMP) web server.
-[97]
+[95]
 MeasurementsDelimiter=|||
 HelpContext=548
 BarValuesTypeNumber=Average
@@ -4683,7 +4551,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on MsIIS web server.
-[98]
+[96]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1087
@@ -4725,7 +4593,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays the Windows Media server statistics as a function of the elapsed scenario or session step time. The x-axis represents the time that has elapsed since the start of the scenario or session step run. The y-axis represents the resource usage.
-[99]
+[97]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1077
@@ -4767,7 +4635,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays the Real Player Server data.
-[100]
+[98]
 MeasurementsDelimiter=|||
 HelpContext=514
 BarValuesTypeNumber=Average
@@ -4808,7 +4676,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays the network related delays over the path specified in the Network monitor.
-[101]
+[99]
 MeasurementsDelimiter=|||
 HelpContext=551
 BarValuesTypeNumber=Average
@@ -4849,7 +4717,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Oracle Resources.
-[102]
+[100]
 MeasurementsDelimiter=|||
 HelpContext=382
 BarValuesTypeNumber=Average
@@ -4890,7 +4758,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SQL Server Resources.
-[103]
+[101]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1413
@@ -4932,7 +4800,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Sybase Resources.
-[104]
+[102]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1090
@@ -4974,7 +4842,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Check Point FireWall-1 SNMP Resources.
-[105]
+[103]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1098
@@ -5016,7 +4884,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SAP Server Resources.
-[106]
+[104]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1182
@@ -5058,7 +4926,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SAP Portal Resources.
-[107]
+[105]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1136
@@ -5100,7 +4968,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SAP CCMS Monitor resources.
-[108]
+[106]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=684
@@ -5142,7 +5010,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SAP Server Resources (based on WAS version 6.10 and later).
-[109]
+[107]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1405
@@ -5184,7 +5052,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Siebel Server Resources.
-[110]
+[108]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=670
@@ -5226,7 +5094,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Siebel Server Manager Resources.
-[111]
+[109]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=672
@@ -5268,7 +5136,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of PeopleSoft (Tuxedo) Resources.
-[112]
+[110]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=633
@@ -5310,7 +5178,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary for Microsoft COM+
-[113]
+[111]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1108
@@ -5352,7 +5220,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary for Microsoft .NET CLR monitors
-[114]
+[112]
 MeasurementsDelimiter=|||
 HelpContext=572
 BarValuesTypeNumber=Average
@@ -5393,7 +5261,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Citrix Server Resources.
-[115]
+[113]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=549
@@ -5435,7 +5303,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of Tuxedo Resources.
-[116]
+[114]
 MeasurementsDelimiter=|||
 HelpContext=565
 BarValuesTypeNumber=Average
@@ -5476,7 +5344,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of MQ Series Object
-[117]
+[115]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=0
@@ -5518,7 +5386,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of SiteScope monitors for each Topology Node.
-[118]
+[116]
 MeasurementsDelimiter=|||
 HelpContext=632
 BarValuesTypeNumber=Average
@@ -5559,7 +5427,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by Dynatrace AppMon.
-[119]
+[117]
 MeasurementsDelimiter=|||
 HelpContext=632
 BarValuesTypeNumber=Average
@@ -5600,7 +5468,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by CaApm.
-[120]
+[118]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=632
@@ -5642,7 +5510,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by New Relic.
-[121]
+[119]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=632
@@ -5684,7 +5552,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by AppDynamics.
-[122]
+[120]
 MeasurementsDelimiter=|||
 HelpContext=513
 BarValuesTypeNumber=Average
@@ -5725,7 +5593,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a selected SYS topics.
-[123]
+[121]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=632
@@ -5767,7 +5635,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by Heapster.
-[124]
+[122]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=633
@@ -5809,7 +5677,7 @@ Granularities=-1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays measurements reported by Prometheus.
-[125]
+[123]
 MeasurementsDelimiter=|||
 HelpContext=669
 BarValuesTypeNumber=Average
@@ -5848,7 +5716,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=0
 Description=Displays number of active JMeter threads run by JMeter test.
-[126]
+[124]
 MeasurementsDelimiter=|||
 HelpContext=669
 BarValuesTypeNumber=Average
@@ -5887,7 +5755,7 @@ DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=0
 Description=Displays number of transactions created by JMeter test.
-[127]
+[125]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1070
@@ -5931,7 +5799,7 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on BroadVision web application server.
-[128]
+[126]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1070
@@ -5975,7 +5843,7 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on BroadVision (5.5-6.x) web application server.
-[129]
+[127]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1104
@@ -6019,7 +5887,7 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebLogic web application server.
-[130]
+[128]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=1075
@@ -6063,7 +5931,7 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebSphere web application server.
-[131]
+[129]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=4003
@@ -6107,7 +5975,7 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of resources on WebSphere 4.x-5.x web application server.
-[132]
+[130]
 MeasurementsDelimiter=|||
 EnableInUi=0
 HelpContext=543
@@ -6151,6 +6019,92 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=0
 Description=Displays a summary of DB2 Resources.
+[131]
+MeasurementsDelimiter=|||
+HelpContext=513
+BarValuesTypeNumber=Average
+ESSectionName=es_rm_svr_res_nt
+GraphType=es_rm_svr_res_nt
+Granularities=1
+is_load_From_save=1
+MaxNumOfBuckets=60
+GroupName=System Resource Graphs
+GraphTitle=% Usage Memory
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+CustomData=
+GraphYAxisName=
+MissingDataBehavior=Connect
+BreakdownApplicable=0
+AnySubPathAtStart=-1
+OpenChildGraph=0
+KeepLegendSort=0
+LegendSortDirection=1
+LegendUserMovedColumn=0
+XAxisLabelsStyle=RelativeTime
+Is_On_Panel=10
+SampleRate=2
+MaxDispMeasurments=15
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+OverlayGraph=0
+Auto_Y_Scale=1
+DefaultMsrAutoScale=0
+Granularities=-1
+Is_Resource_Graph=1
+MeasurementCount=1
+Measurement_0=|||2|||0|||1|||localhost|||0|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_0="% использования выделенной памяти (Память)"
+Description=Displays a summary of the System Resources usage for each Windows based host.
+[132]
+MeasurementsDelimiter=|||
+HelpContext=513
+BarValuesTypeNumber=Average
+ESSectionName=es_rm_svr_res_nt
+GraphType=es_rm_svr_res_nt
+Granularities=1
+is_load_From_save=1
+MaxNumOfBuckets=60
+GroupName=System Resource Graphs
+GraphTitle=Copy of % Usage Memory
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+CustomData=
+GraphYAxisName=
+MissingDataBehavior=Connect
+BreakdownApplicable=0
+AnySubPathAtStart=-1
+OpenChildGraph=0
+KeepLegendSort=0
+LegendSortDirection=1
+LegendUserMovedColumn=0
+XAxisLabelsStyle=RelativeTime
+Is_On_Panel=7
+SampleRate=2
+MaxDispMeasurments=15
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+OverlayGraph=0
+Auto_Y_Scale=1
+DefaultMsrAutoScale=0
+Granularities=-1
+Is_Resource_Graph=1
+MeasurementCount=1
+Measurement_0=|||2|||0|||1|||localhost|||0|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_0="% использования выделенной памяти (Память)"
+Description=Displays a summary of the System Resources usage for each Windows based host.
 
 }
 
@@ -6187,7 +6141,7 @@ MonMachinePlatform=IntV1|14
 
 {ItemList
 CMPIListVersion=IntV1|1
-ListCount=IntV1|15
+ListCount=IntV1|16
 
 {MonItemPlus
 MonItemPlusVersion=IntV1|1
@@ -6413,6 +6367,21 @@ ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
 }
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Memory|% Committed Bytes In Use|
+Name=StringV1|% использования выделенной памяти (Память)
+Data=StringV1|
+Description=StringV1|Процент использования выделенной памяти - это процентное отношение объема выделенной памяти (Committed Bytes) к пределу выделенной памяти (Commit Limit). Эта величина отражает реально используемый объем доступной виртуальной памяти. Учтите, что предел выделенной памяти может быть изменен, если файл подкачки (страничный файл) будет увеличен. Эта величина представляет собой конкретное текущее значение, и не является средним значением по некоторому интервалу времени.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
 }
 }
 }
@@ -6425,7 +6394,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="5f21204ee" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="5f25f348e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -6461,7 +6430,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                   <Count>1</Count>
                   <Interval>5</Interval>
                 </Batch>
-                <TotalVusersNumber>18</TotalVusersNumber>
+                <TotalVusersNumber>10</TotalVusersNumber>
               </RampUp>
               <Duration>
                 <StartCondition>
@@ -6499,7 +6468,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
+                  <TotalVusersNumber>5</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
@@ -6535,7 +6504,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
+                  <TotalVusersNumber>8</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
@@ -6571,7 +6540,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
+                  <TotalVusersNumber>6</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
@@ -6607,7 +6576,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
+                  <TotalVusersNumber>2</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
@@ -6643,7 +6612,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
+                  <TotalVusersNumber>2</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
@@ -6679,7 +6648,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>15</Interval>
                   </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
+                  <TotalVusersNumber>2</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>

@@ -29,7 +29,7 @@ ActionClearFilterEnabled=0
 ChartFile=D:\SusPecT\Documents\Appline_Study\Результаты\Confirm_Param_2\Result0_Graph0.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T94118070T
+TableName=T63597622T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -113,7 +113,7 @@ LikeMode=0
 [Granularity]
 Dimension=Scenario Elapsed Time
 TimeScaleType=2
-Granularity=32
+Granularity=1
 BaseGranularityUIName=
 MinimumDefaultGranularity=1
 
