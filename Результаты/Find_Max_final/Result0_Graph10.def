@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=Win % Disk Time (Disk)
+Title=Win Committed Bytes (Mamory)
 TemplateName=WindowsResources
 ChartType=Simple
 Description=Displays a summary of the System Resources usage for each Windows based host.
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63255233T
+TableName=T63255090T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -104,7 +104,7 @@ DimensionTableName=Event_map
 NumValues=1
 UseEscapeSequence=1
 DimCount=1
-Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_0=Committed Bytes (Memory)
 LikeMode=0
 
 [DimensionFunctions]

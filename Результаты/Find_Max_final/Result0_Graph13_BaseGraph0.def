@@ -1,16 +1,16 @@
 ﻿[BasicInfo]
-Title=Total Transactions per Second
-TemplateName=TotalTransactionsPass
-ChartGroup=Transactions
-PerformanceClass=General
+Title=Hits per Second
+TemplateName=HitsperSecond
+ChartGroup=Web Server Resources
+PerformanceClass=Network
 
 [Graph Definitions]
-MainFactTableName=Event_meter
+MainFactTableName=WebEvent_meter
 DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63250638T
+TableName=T63248830T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -24,14 +24,14 @@ ForceCompleteValsOnArea=1
 IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=
-NumBasicFilters=1
+NumBasicFilters=2
 NumAdditionalFilters=0
 NumRawDataFilters=0
 HiddenDimensions=
-BasicGroupBy=Transaction End Status
+BasicGroupBy=Web Server Resource Name
 AdditionalGroupBy=
 HasGranularity=1
-YLeftAxisTitle=Total Number of Transactions
+YLeftAxisTitle=Hits per Second
 YRightAxisTitle=
 TimeBasedXAxis=1
 XBottomAxisTitle=Elapsed scenario time hh:mm
@@ -46,8 +46,8 @@ BreakdownTree=0
 TransactionBreakdownGraph=0
 
 [SelectString0]
-Dimension=Acount
-CountField=
+Dimension=![Value]!
+CountField=![Acount]!
 AggregateFunction=SumG
 ResultSetAggregateFunction=Y Value
 Title=
@@ -62,23 +62,33 @@ DimensionTableName=Event_Map
 NumValues=1
 UseEscapeSequence=1
 DimCount=1
-Dim_0=Transaction
+Dim_0=Web
 LikeMode=0
 
+[BasicFilter1]
+DimensionType=Discrete
+InternalDimName=
+Dimension=Event Name
+EqualFlag=0
+DimensionTableName=Event_Map
+NumValues=1
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Throughput
+LikeMode=0
+
+[Filter Data]
+SingleValue=Hits
+
 [DimensionFunctions]
-DimeFuncCount=1
-DimeFuncType0=FuncFragment
-FunctionName_UI0=Think Time
-DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
-FunctionFragmentValues_UI0=-Include Think Time
-DimensionFragmentValues_UI0=
+DimeFuncCount=0
 
 [Granularity]
 Dimension=Scenario Elapsed Time
 TimeScaleType=2
-Granularity=1
-BaseGranularityUIName=
-MinimumDefaultGranularity=1
+Granularity=5
+BaseGranularityUIName=Hits
+MinimumDefaultGranularity=5
 
 [Alerts]
 Number Of Alerts=0

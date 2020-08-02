@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=% Processor Time (CPU)
+Title=Windows Resources
 TemplateName=WindowsResources
 ChartGroup=System Resources
 PerformanceClass=Resources
@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63246748T
+TableName=T4382637T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -25,7 +25,7 @@ IdsToStrs=1
 StdMonitor=1
 HiddenFunctions=
 NumBasicFilters=1
-NumAdditionalFilters=1
+NumAdditionalFilters=2
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=System Resource Name, Host Name
@@ -74,8 +74,19 @@ DimensionTableName=Event_map
 NumValues=1
 UseEscapeSequence=1
 DimCount=1
-Dim_0=% Processor Time (Processor _Total)
+Dim_0=Avg. Disk Queue Length (PhysicalDisk _Total)
 LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimCount=2
+Dim_0=1620.000000
+Dim_1=2820.000000
 
 [DimensionFunctions]
 DimeFuncCount=0

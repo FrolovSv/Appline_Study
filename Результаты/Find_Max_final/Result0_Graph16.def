@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=2 st Win % Memory In Use
+Title=2 st Win % Processor Time (CPU)
 TemplateName=WindowsResources
 ChartType=Simple
 Description=Displays a summary of the System Resources usage for each Windows based host.
@@ -12,7 +12,7 @@ CustomData=
 
 [TabSheet]
 Visible=1
-ActivePage=1
+ActivePage=0
 
 [MultiUIInfos]
 Count=1
@@ -29,7 +29,7 @@ ActionClearFilterEnabled=1
 ChartFile=D:\SusPecT\Documents\Appline_Study\Результаты\Find_Max_final\Result0_Graph16.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T74773256T
+TableName=T3922089T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -104,7 +104,7 @@ DimensionTableName=Event_map
 NumValues=1
 UseEscapeSequence=1
 DimCount=1
-Dim_0=% использования выделенной памяти (Память)
+Dim_0=% Processor Time (Processor _Total)
 LikeMode=0
 
 [AdditionalFilter1]
@@ -169,7 +169,7 @@ LastValues0=Avg
 LastIsMsr0=0
 LastAbsoluteTime0=0
 LastBDMsrShow0=0
-LastDisplayType1=None
+LastDisplayType1=Line
 LastValues1=Avg
 LastIsMsr1=0
 LastAbsoluteTime1=0

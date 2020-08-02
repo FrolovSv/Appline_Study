@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63246755T
+TableName=T3632441T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ ActiveState=1
 
 [AdditionalFilter0]
 DimensionType=Discrete
-InternalDimName=Vuser Status Name
+InternalDimName=
 Dimension=Vuser Status
 EqualFlag=1
 DimensionTableName=VuserStatus

@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=2 st Win % Processor Time (CPU)
+Title=Win % Memory In Use
 TemplateName=WindowsResources
 ChartType=Simple
 Description=Displays a summary of the System Resources usage for each Windows based host.
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T74739536T
+TableName=T74976647T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ IdsToStrs=1
 StdMonitor=1
 HiddenFunctions=
 NumBasicFilters=1
-NumAdditionalFilters=2
+NumAdditionalFilters=1
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=System Resource Name, Host Name
@@ -104,19 +104,8 @@ DimensionTableName=Event_map
 NumValues=1
 UseEscapeSequence=1
 DimCount=1
-Dim_0=% Processor Time (Processor _Total)
+Dim_0=% использования выделенной памяти (Память)
 LikeMode=0
-
-[AdditionalFilter1]
-DimensionType=Continuous
-InternalDimName=End Time
-Dimension=Scenario Elapsed Time
-EqualFlag=1
-DimensionTableName=Monitor_meter
-NumValues=1
-DimCount=2
-Dim_0=1620.000000
-Dim_1=2820.000000
 
 [DimensionFunctions]
 DimeFuncCount=0

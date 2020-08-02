@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63248837T
+TableName=T63246755T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ ActiveState=1
 
 [AdditionalFilter0]
 DimensionType=Discrete
-InternalDimName=
+InternalDimName=Vuser Status Name
 Dimension=Vuser Status
 EqualFlag=1
 DimensionTableName=VuserStatus
@@ -83,7 +83,7 @@ LikeMode=0
 [Granularity]
 Dimension=Scenario Elapsed Time
 TimeScaleType=2
-Granularity=5
+Granularity=1
 BaseGranularityUIName=
 MinimumDefaultGranularity=1
 

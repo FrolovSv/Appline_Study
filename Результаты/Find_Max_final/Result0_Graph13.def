@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=Total Transactions per Second - Running Vusers
+Title=Hits per Second - Running Vusers
 TemplateName=
 ChartType=Overlay
 Description=

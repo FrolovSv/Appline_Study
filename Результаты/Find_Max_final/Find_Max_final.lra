@@ -59,7 +59,7 @@ Schedule Name=Find Max
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
 Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:24:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:24:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:24:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:24:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:24:00 (HH:MM:SS); Stop all Vusers: 4 every 00:00:05 (HH:MM:SS)
-NumGraphs=17
+NumGraphs=35
 
 [DimensionFunctions]
 DimeFuncCount=0

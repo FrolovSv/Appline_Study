@@ -1,5 +1,5 @@
 ﻿[BasicInfo]
-Title=Win Queue Lenght (CPU)
+Title=Win % Processor Time (CPU)
 TemplateName=WindowsResources
 ChartType=Simple
 Description=Displays a summary of the System Resources usage for each Windows based host.
@@ -18,6 +18,24 @@ ActivePage=0
 Count=1
 
 [UIInfo0]
+Title0=% Privileged Time (Processor _Total):localhost
+Color0=8559404
+Active0=0
+Scale0=1
+ScaleState0=Auto
+UITitle0=
+Title1=% Processor Time (Processor _Total):localhost
+Color1=4276695
+Active1=-1
+Scale1=1
+ScaleState1=Auto
+UITitle1=
+Title2=% работы в пользовательском режиме (Процессор _Total):localhost
+Color2=50677
+Active2=0
+Scale2=1
+ScaleState2=Auto
+UITitle2=
 
 [MoreUiInfos]
 ShowPieMarks=1
@@ -40,7 +58,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63254881T
+TableName=T4701198T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -101,10 +119,12 @@ InternalDimName=Event Name
 Dimension=System Resource Name
 EqualFlag=1
 DimensionTableName=Event_map
-NumValues=1
+NumValues=3
 UseEscapeSequence=1
-DimCount=1
-Dim_0=Поставлено в очередь DPC/сек (Процессор _Total)
+DimCount=3
+Dim_0=% Privileged Time (Processor _Total)
+Dim_1=% Processor Time (Processor _Total)
+Dim_2=% работы в пользовательском режиме (Процессор _Total)
 LikeMode=0
 
 [DimensionFunctions]
@@ -158,7 +178,7 @@ LastValues0=Avg
 LastIsMsr0=0
 LastAbsoluteTime0=0
 LastBDMsrShow0=0
-LastDisplayType1=Line
+LastDisplayType1=None
 LastValues1=Avg
 LastIsMsr1=0
 LastAbsoluteTime1=0

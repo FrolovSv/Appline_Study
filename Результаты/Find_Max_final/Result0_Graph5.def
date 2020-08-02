@@ -1,9 +1,9 @@
 ﻿[BasicInfo]
-Title=Transaction Response Time (Percentile)
-TemplateName=percentile
+Title=Average Transaction Response Time
+TemplateName=ResponseTime
 ChartType=Simple
-Description=Displays the percentage of transactions that were performed within a given time range. This graph helps you determine the percentage of transactions that meet the performance criteria defined for your system.
-HelpContext=509
+Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
+HelpContext=506
 EventType=Transaction
 EventName=
 ChartGroup=Transactions
@@ -37,23 +37,22 @@ Pen_Width=1
 Pen_Color=0
 MainFactTableName=Event_meter
 DefaultDisplayType=Line
-UserGranularity=0
+UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T63048525T
-BasicTableName=BasicTransactionPercentile
+TableName=T63252899T
+BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
 SetPieToPercent=0
 DescFromFID=0
-NumSelectStrings=0
-ProduceRealStatis=0
+NumSelectStrings=1
+ProduceRealStatis=1
 CompleteMissingValuesWithZeroes=0
 CompleteMissingValues=0
 ForceCompleteValsOnArea=1
 IdsToStrs=1
 StdMonitor=0
-Percentile=1
 HiddenFunctions=
 NumBasicFilters=1
 NumAdditionalFilters=1
@@ -61,26 +60,28 @@ NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Transaction Name
 AdditionalGroupBy=
-HasGranularity=0
-YLeftAxisTitle=Transaction response time (seconds)
+HasGranularity=1
+YLeftAxisTitle=Average Response Time (seconds)
 YRightAxisTitle=
-TimeBasedXAxis=0
-XBottomAxisTitle=Percent of transactions
+TimeBasedXAxis=1
+XBottomAxisTitle=Elapsed scenario time hh:mm
 XTopAxisTitle=
 DisplayAsStairs=0
-RawDataDimension=Transaction Response Time
+RawDataDimension=Scenario Elapsed Time
 Scaling=0
 ZeroValue=0
 CompleteValFromLast=0
 Stacked=0
 BreakdownTree=0
-TransactionBreakdownGraph=0
+TransactionBreakdownGraph=1
 
-[Percentile]
-ValueField=!([Value]-[Think Time])!
-ResultSetColumnName=Response Time
-DivideInQuery=Divide
-CountField=Acount
+[SelectString0]
+Dimension=!([Value]-[Think Time])!
+CountField=![Acount]!
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=Response_Time
+ActiveState=1
 
 [BasicFilter0]
 DimensionType=Discrete
@@ -96,7 +97,7 @@ LikeMode=0
 
 [AdditionalFilter0]
 DimensionType=Discrete
-InternalDimName=Transaction End Status
+InternalDimName=
 Dimension=Transaction End Status
 EqualFlag=1
 DimensionTableName=TransactionEndStatus
@@ -114,6 +115,13 @@ DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
 FunctionFragmentValues_UI0=-Include Think Time
 DimensionFragmentValues_UI0=
 
+[Granularity]
+Dimension=Scenario Elapsed Time
+TimeScaleType=2
+Granularity=1
+BaseGranularityUIName=
+MinimumDefaultGranularity=1
+
 [Alerts]
 Number Of Alerts=0
 
@@ -121,7 +129,7 @@ Number Of Alerts=0
 SmartCorrBool=0
 
 [Legend]
-NumColumns=8
+NumColumns=7
 Column0Name=Color
 Column0Type=Color
 Column0Width=38
@@ -131,21 +139,18 @@ Column1Width=40
 Column2Name=Measurement
 Column2Type=Measurement
 Column2Width=242
-Column3Name=Graph Minimum
-Column3Type=Min
+Column3Name=Minimum
+Column3Type=Real Min
 Column3Width=120
-Column4Name=Graph Average
-Column4Type=Avg
+Column4Name=Average
+Column4Type=Real Avg
 Column4Width=120
-Column5Name=Graph Maximum
-Column5Type=Max
+Column5Name=Maximum
+Column5Type=Real Max
 Column5Width=120
-Column6Name=Graph Median
-Column6Type=Med
+Column6Name=Std. Deviation
+Column6Type=Real Std
 Column6Width=120
-Column7Name=Graph Std. Deviation
-Column7Type=Std
-Column7Width=120
 
 [ChartDisplayOptions]
 DisplayType=Line
