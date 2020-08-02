@@ -2604,7 +2604,6 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	 
 	lr_start_transaction("03_Search_itinerary_delete");
 	
 		lr_start_transaction("Load_start_Page");
@@ -2617,7 +2616,6 @@ Action()
 					"SEARCH_FILTERS",
 				"LAST");	
 		
-			 
 			web_reg_find("Text=Welcome to the Web Tours site", "LAST");
 			
 			web_url("WebTours",
@@ -2632,12 +2630,9 @@ Action()
 					
 		lr_end_transaction("Load_start_Page", 2);
 		
-		 
-		lr_think_time(5);
-					
+		lr_think_time(5);					
 	
 		lr_start_transaction("login_user");			
-			 
 			web_reg_find("Text=User password was correct", "LAST");
 			
 			web_submit_data("login.pl",
@@ -2658,12 +2653,10 @@ Action()
 				"LAST");			
 		lr_end_transaction("login_user",2);
 	
-		 
 		lr_think_time(5);			
 			
 		lr_start_transaction("goto_Flight");		
 			
-			 
 			web_reg_find("Text=Find Flight",
 			"LAST");
 			
@@ -2679,12 +2672,10 @@ Action()
 			
 		lr_end_transaction("goto_Flight",2);
 		
-		 
 		lr_think_time(5);
 	
 		lr_start_transaction("goto_Itinerary");	
 
-			 
 			web_reg_find("Fail=Found",
 				"Text=No flights have been reserved",
 				"SaveCount=erroMess",
@@ -2700,8 +2691,8 @@ Action()
 			
 			web_reg_find("Text={flightId_1}",
 	             "SaveCount=Count_before_Flight_1",
-					"LAST");	
-			
+					"LAST");		
+
 			web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 				"TargetFrame=body", 
@@ -2714,7 +2705,6 @@ Action()
 						
 		lr_end_transaction("goto_Itinerary", 2);	
 					
-		 
 		lr_think_time(5);
 		
 		lr_start_transaction("Delete_first");
@@ -2722,35 +2712,11 @@ Action()
 			if (atoi(lr_eval_string("{flightId_count}")) == 0){
 				lr_error_message("No flight to delete");		
 			}else {			
-		
-				lr_save_string(lr_eval_string("{flightId_1}"),
-	    			"cancelflight");
-				
-				web_reg_find("Text={cancelflight}",
-			             "SaveCount=cancelflight_Count",
-					"LAST");		
-							
 					
- 
- 
- 
- 
- 
- 
-			
-				web_reg_find("Text={flightId_1}",
+				web_reg_find("Fail=Found","Text={flightId_1}",
 	             	"SaveCount=Count_after_Flight_1",
 					"LAST");	
-			
-				if (atoi(lr_eval_string("{Count_after_Flight_1}")) > 0)
-					if (atoi(lr_eval_string("{Count_after_Flight_1}")) > atoi(lr_eval_string("{Count_before_Flight_1}"))){
 
-					lr_error_message(lr_eval_string("User - {User_Login}; " 
-					                                "flightId_1 - {flightId_1}; "
-					                                "Count_before_Flight_1 - {Count_before_Flight_1}; "
-					                                "Count_after_Flight_1 - {Count_after_Flight_1}"));		
-				}
-				
 				web_submit_form("itinerary.pl",
 			        "Snapshot=t10.inf", 
 			        "ITEMDATA", 
@@ -2761,11 +2727,11 @@ Action()
 			}
 		lr_end_transaction("Delete_first", 2);	
 		
-		 
+		
 		lr_think_time(5);
 		
 		lr_start_transaction("goto_home");
-			 
+			
 			web_reg_find("Text=Welcome, <b>{User_Login}</b>, to the Web Tours reservation pages.",
 				"LAST");	
 			
@@ -2782,7 +2748,11 @@ Action()
 		lr_end_transaction("goto_home",2);
 				
 		 
+		lr_think_time(2);
+		 
+
 		lr_think_time(7);
+
 		
 	lr_end_transaction("03_Search_itinerary_delete", 2);
 
