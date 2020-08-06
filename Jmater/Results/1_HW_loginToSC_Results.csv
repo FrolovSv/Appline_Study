@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1596704728838,12,goto_Main,200,,1_HW_loginToSC 1-1,true,,22667,1,1,12,1,0,SusPecT-PC
+1596704728852,8,goto_progect,200,,1_HW_loginToSC 1-1,true,,11863,1,1,7,1,0,SusPecT-PC
+1596704728862,25,goto_007,200,,1_HW_loginToSC 1-1,true,,1233,1,1,6,1,0,SusPecT-PC
+1596704728889,14,login_007,200,,1_HW_loginToSC 1-1,true,,1721,1,1,4,1,0,SusPecT-PC
+1596704728934,21,SOAP Request,200,,1_HW_loginToSC 1-1,true,,626,1,1,21,1,0,SusPecT-PC
+1596704728956,28,logout,200,,1_HW_loginToSC 1-1,true,,1240,1,1,4,1,0,SusPecT-PC
+1596704728985,0,Debug Sampler,200,OK,1_HW_loginToSC 1-1,true,,701,1,1,0,1,0,SusPecT-PC

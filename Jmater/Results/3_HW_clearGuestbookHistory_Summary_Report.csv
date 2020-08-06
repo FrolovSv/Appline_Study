@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1596708094465,12,goto_Main,200,,3_HW_clearGuestbookHistory 1-1,text,true,,22653,116,1,1,http://localhost:8080/,11,0,3
+1596708094478,7,goto_guestbook,200,,3_HW_clearGuestbookHistory 1-1,text,true,,4112,130,1,1,http://localhost:8080/guestbook.html,7,0,0
+1596708094486,70,Request_To_Base_Count,200,OK,3_HW_clearGuestbookHistory 1-1,text,true,,14,0,1,1,null,69,0,66
+1596708094588,8,Request_to_Base_TRUNCATE,200,OK,3_HW_clearGuestbookHistory 1-1,text,true,,9,0,1,1,null,6,0,0
+1596708094597,0,Debug Sampler,200,OK,3_HW_clearGuestbookHistory 1-1,text,true,,566,0,1,1,null,0,0,0
