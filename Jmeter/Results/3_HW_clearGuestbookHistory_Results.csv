@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
-1596715272796,9,goto_Main,200,,3_HW_clearGuestbookHistory 1-1,true,,22653,1,1,8,1,0,SusPecT-PC
-1596715272806,6,goto_guestbook,200,,3_HW_clearGuestbookHistory 1-1,true,,4112,1,1,6,1,0,SusPecT-PC
-1596715272812,35,Request_To_Base_Count,200,OK,3_HW_clearGuestbookHistory 1-1,true,,15,1,1,35,1,0,SusPecT-PC
-1596715272870,2,Request_to_Base_TRUNCATE,200,OK,3_HW_clearGuestbookHistory 1-1,true,,9,1,1,2,1,0,SusPecT-PC
-1596715272872,0,Debug Sampler,200,OK,3_HW_clearGuestbookHistory 1-1,true,,568,1,1,0,1,0,SusPecT-PC

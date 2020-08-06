@@ -1,7 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
-1596714393934,17,goto_Main,200,,sendComment 1-1,true,,22653,1,1,17,1,0,SusPecT-PC
-1596714393953,8,goto_clients,200,,sendComment 1-1,true,,6135,1,1,8,1,0,SusPecT-PC
-1596714393962,9,goto_guestbook,200,,sendComment 1-1,true,,4112,1,1,9,1,0,SusPecT-PC
-1596714393972,9,POST Request to Base,200,,sendComment 1-1,true,,274,1,1,9,1,0,SusPecT-PC
-1596714393982,69,Request_lastAddField,200,OK,sendComment 1-1,true,,68,1,1,68,1,0,SusPecT-PC
-1596714394052,0,Debug Sampler,200,OK,sendComment 1-1,true,,2691,1,1,0,1,0,SusPecT-PC
