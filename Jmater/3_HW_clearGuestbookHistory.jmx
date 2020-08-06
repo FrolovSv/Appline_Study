@@ -195,7 +195,7 @@
           <hashTree/>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If_Count&gt;20" enabled="true">
-          <stringProp name="IfController.condition">${RESPONCE_val_1}&gt;2</stringProp>
+          <stringProp name="IfController.condition">${RESPONCE_val_1}&gt;20</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
         </IfController>
         <hashTree>
