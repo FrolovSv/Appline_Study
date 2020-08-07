@@ -7452,4 +7452,1404 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1596807808203,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
 1596807808209,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
 1596807808213,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
-1596807
+1596807808218,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,298,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808222,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4933,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808328,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808333,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807808337,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807808341,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,308,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808345,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4976,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808452,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808457,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807808461,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807808465,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,325,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808468,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5027,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808573,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808579,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807808583,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807808587,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,435,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808591,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5112,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808697,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808702,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807808706,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807808711,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,410,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808715,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5188,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808719,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808725,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807808730,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807808734,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,376,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808738,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5254,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807808844,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807808849,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807808854,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807808858,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,395,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808863,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5329,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807808969,21,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,21,0,0
+1596807808991,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807808995,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809000,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807809009,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5373,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809015,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809021,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807809027,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809031,14,POST Request to Base,500,,Main Thraed 1-1,text,false,,1127,563,1,2,http://localhost:8080/service/guestbook,14,0,0
+1596807809046,7,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все сделали супер-пупер'/,5373,136,1,2,http://localhost:8080/service/guestbook,7,0,2
+1596807809157,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807809162,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807809167,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809171,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,441,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807809175,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5460,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809281,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809288,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807809292,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809297,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,412,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809301,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5536,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809306,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809312,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807809318,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807809323,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,332,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809328,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5584,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807809436,3,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807809440,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807809445,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807809450,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,395,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807809454,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5663,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807809558,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809565,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807809569,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809574,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,372,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809578,11,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5725,136,1,2,http://localhost:8080/service/guestbook,11,0,0
+1596807809694,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809701,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807809705,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807809710,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,386,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809714,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5793,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809719,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809725,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807809730,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807809733,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,283,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809737,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5829,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809842,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809849,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807809854,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807809859,6,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807809865,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5901,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807809972,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807809978,7,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807809985,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807809990,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,340,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807809994,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5953,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807810000,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807810012,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810017,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807810020,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,367,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807810023,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6014,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810129,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807810135,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807810139,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807810144,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,377,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810149,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6077,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807810255,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807810261,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810266,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807810271,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,474,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807810274,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6175,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810381,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807810386,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810391,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807810395,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,258,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807810400,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6210,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810406,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807810411,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810416,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807810420,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810424,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6255,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807810532,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807810537,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810542,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807810547,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,364,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807810551,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6315,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810657,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807810664,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810669,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807810673,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,311,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810678,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6357,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810785,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807810791,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807810796,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807810802,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,385,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807810806,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6424,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807810813,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807810820,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807810826,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807810832,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807810841,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6468,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807810951,8,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807810960,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807810966,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807810970,11,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,11,0,0
+1596807810981,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6540,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811089,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807811094,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807811099,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811104,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1099,485,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807811115,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Спасибо!'/,6540,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807811124,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807811130,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807811135,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811140,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,379,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811145,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6605,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811270,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807811277,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807811283,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811288,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,348,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807811293,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6659,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807811400,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807811407,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807811413,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807811418,20,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,419,1,2,http://localhost:8080/service/guestbook,20,0,0
+1596807811439,20,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6738,136,1,2,http://localhost:8080/service/guestbook,20,0,0
+1596807811460,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807811467,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807811472,12,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,12,0,0
+1596807811485,10,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,400,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807811495,10,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6810,136,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807811506,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807811514,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807811519,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811524,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811530,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6854,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811637,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807811642,2,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,2,0,0
+1596807811645,6,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,6,0,0
+1596807811651,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,443,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811656,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6941,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807811764,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807811769,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807811775,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811779,10,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,349,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807811789,12,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6996,136,1,2,http://localhost:8080/service/guestbook,12,0,0
+1596807811802,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807811808,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807811813,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811818,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807811822,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7051,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807811930,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807811936,7,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,7,0,0
+1596807811944,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807811948,13,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,378,1,2,http://localhost:8080/service/guestbook,13,0,0
+1596807811963,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7115,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812069,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812075,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807812080,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807812084,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812088,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7160,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807812195,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812199,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807812203,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807812207,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807812210,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7204,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812215,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812220,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807812223,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807812227,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,336,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807812231,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7254,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812337,3,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807812341,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807812345,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807812349,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,410,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807812353,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7330,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812459,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812464,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807812469,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807812473,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,440,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807812477,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7416,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807812584,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812589,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807812593,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807812597,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812601,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7488,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807812607,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812612,10,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,10,0,0
+1596807812623,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807812627,7,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,410,1,2,http://localhost:8080/service/guestbook,7,0,0
+1596807812635,16,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7566,136,1,2,http://localhost:8080/service/guestbook,16,0,0
+1596807812754,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812759,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807812764,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807812769,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807812777,9,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7611,136,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807812888,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807812894,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807812900,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807812905,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807812909,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7683,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807812916,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807812924,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807812931,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807812936,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,393,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807812945,12,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7754,136,1,2,http://localhost:8080/service/guestbook,12,0,0
+1596807813060,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807813065,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807813069,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807813073,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813078,10,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7798,136,1,2,http://localhost:8080/service/guestbook,10,0,3
+1596807813190,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807813196,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807813202,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807813207,15,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,346,1,2,http://localhost:8080/service/guestbook,15,0,0
+1596807813222,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7852,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807813229,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807813235,7,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,7,0,0
+1596807813244,6,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,6,0,0
+1596807813250,13,POST Request to Base,500,,Main Thraed 1-1,text,false,,1103,495,1,2,http://localhost:8080/service/guestbook,12,0,0
+1596807813264,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Вы молодцы'/,7852,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807813376,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807813382,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807813387,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807813392,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,316,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813396,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7895,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807813402,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807813408,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807813414,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807813418,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,258,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813423,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7930,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813530,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807813535,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807813539,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807813543,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,400,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807813547,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8002,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813653,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807813658,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807813662,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807813666,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,377,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807813670,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8069,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813777,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807813782,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807813786,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807813790,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,364,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813794,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8129,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807813901,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807813907,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807813913,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807813918,18,POST Request to Base,500,,Main Thraed 1-1,text,false,,1114,526,1,2,http://localhost:8080/service/guestbook,17,0,0
+1596807813937,7,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Отличные ребята.'/,8129,136,1,2,http://localhost:8080/service/guestbook,7,0,1
+1596807813947,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807813952,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807813957,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807813963,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,317,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807813967,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8173,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814075,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814080,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807814084,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814088,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814091,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8209,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814198,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814203,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814208,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807814213,2,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,435,1,2,http://localhost:8080/service/guestbook,2,0,0
+1596807814216,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8294,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807814222,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814227,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814232,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814236,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,270,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814239,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8329,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814346,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814351,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814356,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814360,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,431,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814364,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8412,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814471,3,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807814475,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807814479,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814482,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,409,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814486,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8487,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814591,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807814595,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814599,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814603,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,399,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807814607,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8560,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814614,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814619,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814623,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807814627,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807814632,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8604,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807814739,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807814744,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807814749,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807814754,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,283,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807814758,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8640,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807814865,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807814871,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807814876,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807814880,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,311,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807814885,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8682,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815004,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807815010,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807815014,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807815018,13,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,346,1,2,http://localhost:8080/service/guestbook,13,0,0
+1596807815032,9,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8736,136,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807815143,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807815149,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815154,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807815158,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,374,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815164,10,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8800,136,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807815276,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807815283,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815288,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807815292,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,479,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807815296,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8899,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807815303,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807815309,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807815313,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807815318,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,363,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807815323,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8958,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815430,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807815435,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815439,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807815444,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,497,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807815448,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9065,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815555,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807815561,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815566,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807815571,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,348,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807815574,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9119,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815682,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807815686,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815690,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807815694,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,294,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807815698,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9162,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815704,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807815708,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815713,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807815717,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807815720,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9206,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807815827,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807815833,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807815838,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807815843,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,365,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807815847,8,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9267,136,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807815957,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807815963,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807815968,10,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,10,0,0
+1596807815978,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,298,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807815983,15,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9306,136,1,2,http://localhost:8080/service/guestbook,14,0,8
+1596807816100,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816105,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816109,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816113,11,POST Request to Base,500,,Main Thraed 1-1,text,false,,1126,562,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807816125,7,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все просто божественно'/,9306,136,1,2,http://localhost:8080/service/guestbook,7,0,1
+1596807816135,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816140,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807816144,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816149,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,361,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816153,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9365,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816260,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807816267,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816272,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807816276,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,399,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807816280,10,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9438,136,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807816392,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816398,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816402,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816407,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,419,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816411,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9517,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816418,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807816424,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807816429,6,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807816435,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,415,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816440,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9594,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816548,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816553,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816557,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816561,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,303,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816565,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9642,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816673,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807816679,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807816686,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816690,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,373,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816694,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9705,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816701,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816706,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816711,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816716,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,330,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816720,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9753,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807816827,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807816833,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807816837,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816841,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,298,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816846,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9792,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816953,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807816958,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807816964,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807816968,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,367,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807816972,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9853,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817079,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817084,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807817089,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807817092,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,405,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817097,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9936,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817103,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817108,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807817113,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817117,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,327,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817121,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9991,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817229,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817235,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807817239,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807817243,6,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,399,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807817249,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10064,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817356,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817361,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807817366,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817370,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,293,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817374,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10108,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807817482,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817488,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807817492,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817497,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,346,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807817501,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10162,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817507,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807817514,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807817518,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817522,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,377,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817526,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10225,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807817634,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817640,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807817644,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817649,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817653,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10281,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817761,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807817767,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807817771,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817775,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,376,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817779,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10347,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807817887,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807817892,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807817897,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817901,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817905,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10406,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807817912,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807817918,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807817922,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807817926,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807817930,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10486,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807818038,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807818043,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807818048,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818053,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,342,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807818057,7,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10538,136,1,2,http://localhost:8080/service/guestbook,7,0,1
+1596807818166,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807818171,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818176,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818181,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,404,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807818185,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10612,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807818292,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807818300,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807818306,9,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,9,0,0
+1596807818315,6,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,326,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807818321,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10658,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807818328,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807818336,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818341,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818346,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,473,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807818350,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10755,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807818457,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807818462,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818467,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818471,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,409,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807818475,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10830,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807818583,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807818588,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818592,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818597,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,335,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807818601,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10879,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807818608,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807818614,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818619,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807818623,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,354,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807818627,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10935,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807818734,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807818739,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818744,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818748,11,POST Request to Base,500,,Main Thraed 1-1,text,false,,1115,529,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807818760,10,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'А Сережа молодец!'/,10935,136,1,2,http://localhost:8080/service/guestbook,10,0,2
+1596807818874,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807818882,7,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,7,0,0
+1596807818889,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807818894,29,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,431,1,2,http://localhost:8080/service/guestbook,29,0,0
+1596807818923,8,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11018,136,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807818932,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807818940,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807818945,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807818949,7,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,308,1,2,http://localhost:8080/service/guestbook,7,0,0
+1596807818956,113,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11067,136,1,2,http://localhost:8080/service/guestbook,113,0,0
+1596807819070,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807819076,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807819080,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807819085,840,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,840,0,0
+1596807819926,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11126,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807819933,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807819938,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807819942,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807819945,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,422,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807819953,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11206,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807819960,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807819965,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807819970,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807819974,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,361,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807819977,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11269,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807819985,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807819989,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807819993,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807819997,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,368,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820001,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11329,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807820008,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807820013,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807820017,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807820021,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820025,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11382,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807820132,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820137,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807820141,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807820143,5,goto_guestbook,200,,Thread Group 2-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807820144,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,344,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807820149,5,goto_Main,200,,Thread Group 2-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820149,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,11434,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807820154,6,goto_service/guestbook,200,,Thread Group 2-1,text,true,,11434,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807820177,2,Request_to_Base_TRUNCATE,200,OK,Thread Group 2-1,text,true,,9,0,1,2,null,2,0,0
+1596807820256,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820262,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807820267,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807820271,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,410,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820275,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,349,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820398,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820403,8,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,8,0,0
+1596807820412,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807820417,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,372,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820421,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,412,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820425,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820431,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807820435,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807820439,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,393,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820442,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,483,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820548,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820553,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807820557,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807820562,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,326,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820566,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,529,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820671,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820676,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807820681,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807820685,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820689,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,601,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820798,29,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,29,0,0
+1596807820829,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807820834,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807820838,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820841,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,646,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807820847,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807820852,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807820857,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807820861,9,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,270,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807820870,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,681,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820975,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807820981,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807820985,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807820990,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,316,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807820994,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,724,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807821103,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807821110,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821116,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807821120,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,431,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807821123,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,807,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807821127,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807821134,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807821138,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807821142,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,396,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807821146,8,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,879,136,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807821256,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807821261,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821267,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807821273,16,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,415,1,2,http://localhost:8080/service/guestbook,16,0,0
+1596807821290,18,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,956,136,1,2,http://localhost:8080/service/guestbook,18,0,0
+1596807821309,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807821315,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821320,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807821324,7,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,403,1,2,http://localhost:8080/service/guestbook,7,0,0
+1596807821332,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1029,136,1,2,http://localhost:8080/service/guestbook,6,0,3
+1596807821440,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807821448,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821454,6,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,6,0,0
+1596807821460,6,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,377,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807821467,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1096,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807821576,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807821584,9,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,8,0,0
+1596807821593,6,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,6,0,0
+1596807821600,18,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,294,1,2,http://localhost:8080/service/guestbook,18,0,0
+1596807821619,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1139,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807821625,11,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,11,0,0
+1596807821637,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821642,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807821647,18,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,328,1,2,http://localhost:8080/service/guestbook,18,0,0
+1596807821666,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1191,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807821771,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807821778,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807821783,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807821789,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,352,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807821795,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1247,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807821800,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807821806,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807821813,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807821818,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,444,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807821822,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1336,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807821929,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807821935,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807821940,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807821946,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,344,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807821951,11,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1388,136,1,2,http://localhost:8080/service/guestbook,11,0,0
+1596807822065,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822069,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807822073,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822076,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,317,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822080,2,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1432,136,1,2,http://localhost:8080/service/guestbook,2,0,0
+1596807822184,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822189,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807822192,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807822197,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,403,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822201,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1505,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822206,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822211,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822216,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822220,10,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,374,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807822230,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1569,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822336,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822341,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807822374,11,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,11,0,0
+1596807822385,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,511,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807822393,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1680,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822499,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822504,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822509,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822513,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822516,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1760,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822521,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822525,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822530,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822534,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,410,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822538,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1836,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822645,10,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,9,0,0
+1596807822655,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822660,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822664,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,330,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822668,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1884,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822773,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822778,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822783,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807822787,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,396,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822791,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,1956,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822896,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822901,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807822905,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807822909,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822913,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2009,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807822918,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807822923,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807822927,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807822931,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807822935,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2054,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823040,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807823046,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807823050,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807823054,24,POST Request to Base,500,,Main Thraed 1-1,text,false,,1104,500,1,2,http://localhost:8080/service/guestbook,13,0,0
+1596807823079,5,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Рекомендую'/,2054,136,1,2,http://localhost:8080/service/guestbook,5,0,1
+1596807823187,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823193,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807823197,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807823201,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,294,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823205,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2097,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823210,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823215,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807823219,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807823223,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823227,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2141,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823332,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823338,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807823342,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807823346,29,POST Request to Base,500,,Main Thraed 1-1,text,false,,1138,596,1,2,http://localhost:8080/service/guestbook,28,0,0
+1596807823376,10,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Благодарю за отличную работу!'/,2141,136,1,2,http://localhost:8080/service/guestbook,10,0,1
+1596807823492,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807823499,12,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,12,0,0
+1596807823512,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807823516,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,305,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823520,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2181,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807823526,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823532,13,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,13,0,0
+1596807823546,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807823549,12,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,337,1,2,http://localhost:8080/service/guestbook,12,0,0
+1596807823562,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2238,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807823669,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823674,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807823679,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807823683,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823686,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2283,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823791,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823797,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807823801,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807823806,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,373,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823811,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2346,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807823816,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807823821,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807823825,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807823828,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,396,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823832,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2418,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807823937,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807823942,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807823947,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807823952,16,POST Request to Base,500,,Main Thraed 1-1,text,false,,1127,563,1,2,http://localhost:8080/service/guestbook,16,0,0
+1596807823969,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все сделали супер-пупер'/,2418,136,1,2,http://localhost:8080/service/guestbook,6,0,2
+1596807824077,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824083,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807824087,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807824091,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,397,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824095,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2489,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824200,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824205,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824209,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807824213,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,335,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824217,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2538,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824221,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824226,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807824230,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807824234,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,473,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824237,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2635,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824342,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807824348,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824353,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807824357,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824361,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2680,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824466,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824471,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824475,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807824479,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,372,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824483,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2752,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824588,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824593,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824597,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807824602,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,409,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824605,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2827,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824610,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824615,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824619,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807824623,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,361,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824627,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2890,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824733,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824739,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807824743,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807824747,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,343,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824751,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2945,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807824856,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807824861,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824866,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807824869,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,283,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824873,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,2981,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807824979,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807824987,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807824992,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807824996,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1098,460,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807825007,5,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Aplana TOP! ))'/,2981,136,1,2,http://localhost:8080/service/guestbook,5,0,2
+1596807825015,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807825020,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807825024,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825028,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,430,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825032,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3065,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825138,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825144,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807825148,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807825152,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,383,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825156,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3130,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825262,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825267,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825272,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825276,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,298,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825280,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3169,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825385,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825390,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825395,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825398,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,337,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825402,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3226,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825406,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807825411,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807825415,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825418,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825421,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3270,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825526,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825531,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825536,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825540,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,354,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825544,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3326,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825649,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825654,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825658,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807825662,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,367,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825666,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3387,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825772,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825777,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825781,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807825786,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,335,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825790,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3436,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825895,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825900,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825904,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807825908,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,370,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825912,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3498,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807825917,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807825922,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807825927,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807825931,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,440,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807825934,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3584,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826040,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826045,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826050,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807826054,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,431,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826058,29,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3667,136,1,2,http://localhost:8080/service/guestbook,29,0,0
+1596807826189,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826194,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826199,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807826202,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,445,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826206,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3754,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826211,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826216,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807826220,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807826224,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,404,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826228,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3828,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826334,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826339,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807826344,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807826348,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826352,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3908,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826458,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807826464,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826469,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807826473,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,378,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826477,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,3972,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826582,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826587,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826592,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807826595,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,371,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807826599,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4043,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807826603,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807826608,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807826612,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807826615,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,464,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807826619,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4139,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807826723,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826728,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826732,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807826736,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,311,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826740,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4181,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826847,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826853,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807826857,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807826861,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,283,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826865,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4217,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826973,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807826978,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807826983,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807826987,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,372,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807826991,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4289,136,1,2,http://localhost:8080/service/guestbook,5,0,2
+1596807827098,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807827104,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807827108,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827112,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,463,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827116,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4384,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827120,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827126,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807827130,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827134,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,375,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827138,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4455,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827243,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827248,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827253,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827257,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,326,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827260,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4501,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827366,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827371,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827376,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827380,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,373,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827383,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4564,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827489,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827494,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827499,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827502,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,399,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827506,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4637,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827511,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827516,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827521,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827525,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,359,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827529,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4694,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827634,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827639,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827644,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827648,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,318,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827652,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4745,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827757,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827762,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827766,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827770,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,404,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827773,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4819,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827878,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827884,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807827888,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827892,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,308,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827896,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4862,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807827901,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807827906,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807827911,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807827915,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807827918,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4942,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828024,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807828030,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807828034,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807828038,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,328,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807828041,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,4994,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828147,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828152,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828157,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807828161,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,437,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807828165,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5079,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807828270,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807828276,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828281,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807828285,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,445,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828289,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5166,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828395,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828400,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828405,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807828409,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,374,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828413,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5230,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828418,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828423,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828428,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807828432,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,422,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828436,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5310,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828542,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828548,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807828552,7,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,7,0,0
+1596807828559,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,303,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828563,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5358,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828669,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807828675,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807828679,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807828683,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,376,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828687,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5422,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828794,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828799,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807828803,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807828807,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,407,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828812,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5497,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807828817,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828822,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828826,12,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,12,0,0
+1596807828839,17,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,363,1,2,http://localhost:8080/service/guestbook,17,0,0
+1596807828856,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5556,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807828964,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807828969,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807828973,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807828986,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,276,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807828989,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5593,136,1,2,http://localhost:8080/service/guestbook,5,0,1
+1596807829096,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807829101,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807829105,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829109,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829114,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5673,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829119,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807829127,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807829133,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807829139,8,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,336,1,2,http://localhost:8080/service/guestbook,7,0,0
+1596807829147,8,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5723,136,1,2,http://localhost:8080/service/guestbook,8,0,0
+1596807829261,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,7,0,0
+1596807829269,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807829276,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829281,7,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,7,0,0
+1596807829288,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5803,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807829396,7,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807829404,6,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,6,0,0
+1596807829411,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829416,6,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807829423,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5847,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829429,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807829435,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807829440,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829445,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,440,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829449,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5933,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829555,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807829560,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807829564,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807829567,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,341,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829571,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,5984,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829677,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807829682,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807829686,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807829689,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,439,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829693,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6069,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829799,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807829804,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807829809,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807829813,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,373,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807829817,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6132,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829822,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807829827,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807829831,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829835,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829839,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6176,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829945,10,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,10,0,0
+1596807829958,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807829964,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807829969,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,305,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807829974,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6216,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830079,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807830085,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807830089,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807830093,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,405,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807830097,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6299,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830102,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830107,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807830111,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807830115,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,406,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830119,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6373,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807830225,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830231,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807830235,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807830239,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,388,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830243,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6441,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830311,13,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,13,0,0
+1596807830325,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807830330,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807830334,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,377,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830338,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6508,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830444,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830449,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807830454,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807830458,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,461,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807830462,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6603,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830567,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830573,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807830577,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807830581,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,332,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830585,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6651,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830691,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830696,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807830701,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807830705,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,497,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830709,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6758,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830714,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830719,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807830724,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807830727,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,407,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830731,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6833,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807830837,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807830844,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807830849,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807830854,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,258,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807830858,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6868,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807830964,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807830970,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807830974,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807830978,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,308,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807830982,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6917,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807831089,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831095,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807831099,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831103,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,420,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807831107,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,6997,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831112,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831118,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807831122,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831126,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,342,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807831129,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7049,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807831236,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831241,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807831246,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807831250,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,432,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831254,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7133,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807831361,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831367,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807831371,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831375,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,301,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831379,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7171,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831485,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831490,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807831495,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831499,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831503,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7215,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831509,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831514,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807831518,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831522,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1126,562,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807831533,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все просто божественно'/,7215,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807831642,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807831648,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807831652,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831656,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,498,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831660,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7323,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831766,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831771,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807831776,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831779,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,333,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831783,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7372,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807831889,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807831894,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807831899,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831903,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,367,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807831907,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7433,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807831912,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807831917,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807831922,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807831926,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,311,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807831930,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7475,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832036,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807832042,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832046,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832050,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,341,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832054,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7526,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832160,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807832166,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832170,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832174,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,388,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807832178,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7594,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832284,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807832289,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807832294,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832298,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,398,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807832301,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7666,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807832308,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807832313,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807832318,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832322,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,298,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807832325,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7707,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807832431,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807832437,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832441,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807832445,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,362,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832449,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7765,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807832555,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807832561,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832565,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832569,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1098,460,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807832580,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Aplana TOP! ))'/,7765,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807832689,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807832694,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807832699,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832703,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,373,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832708,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7828,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832714,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807832719,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832723,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807832728,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,430,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807832731,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7912,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807832838,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807832844,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807832848,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807832852,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,344,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832857,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,7964,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832963,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807832969,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807832974,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807832977,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,407,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807832982,3,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8039,136,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833087,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807833093,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833097,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833101,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,386,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833105,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8107,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807833111,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807833117,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833121,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833126,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,352,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833130,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8163,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833236,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807833242,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833246,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807833250,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,361,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833254,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8222,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833360,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833365,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807833370,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807833374,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833378,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8267,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833484,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833489,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807833494,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807833498,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,463,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833501,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8362,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807833508,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833513,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833517,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833522,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,352,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833526,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8418,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833632,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833638,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833642,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833646,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,478,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833650,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8518,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807833756,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833762,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833766,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833770,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,282,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833774,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8557,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807833880,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807833886,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807833890,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807833895,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,335,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807833898,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8606,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807833904,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807833911,7,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,7,0,0
+1596807833919,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807833923,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,445,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807833927,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8693,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807834033,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834039,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807834043,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807834048,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,365,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807834052,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8754,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807834158,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834164,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807834168,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807834172,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,372,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807834176,225,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8816,136,1,2,http://localhost:8080/service/guestbook,225,0,0
+1596807834403,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807834410,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807834415,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807834420,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,368,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807834426,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8876,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807834433,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834439,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807834445,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807834450,5,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,383,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807834456,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8941,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807834463,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834469,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807834475,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807834480,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,319,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807834484,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,8985,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807834591,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834598,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807834603,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807834607,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,293,340,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807834610,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9037,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807834617,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,3,0,0
+1596807834622,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807834627,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807834631,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807834634,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9081,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807834740,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807834746,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807834751,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807834756,12,POST Request to Base,500,,Main Thraed 1-1,text,false,,1127,563,1,2,http://localhost:8080/service/guestbook,12,0,0
+1596807834769,7,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все сделали супер-пупер'/,9081,136,1,2,http://localhost:8080/service/guestbook,7,0,1
+1596807834880,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807834885,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807834888,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807834892,2,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,407,1,2,http://localhost:8080/service/guestbook,2,0,0
+1596807834895,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9156,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835001,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835007,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835011,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807835015,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,337,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835019,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9207,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835125,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835130,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807835135,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835139,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,430,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835143,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9291,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835249,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807835255,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835259,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835263,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,429,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835267,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9374,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807835373,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835379,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835383,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835387,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,352,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835390,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9430,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807835497,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807835503,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835507,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807835511,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,368,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835515,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9490,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807835521,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835526,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807835531,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835535,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,330,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835539,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9538,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835645,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835650,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807835655,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835659,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,307,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835663,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9586,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807835769,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807835775,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835779,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835783,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,332,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807835787,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9634,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835893,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807835899,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835903,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807835907,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1114,526,1,2,http://localhost:8080/service/guestbook,10,0,0
+1596807835918,7,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Отличные ребята.'/,9634,136,1,2,http://localhost:8080/service/guestbook,7,0,1
+1596807835928,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807835933,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807835937,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807835942,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,336,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807835946,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9684,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807836053,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807836059,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807836063,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836067,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,419,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807836070,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9763,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836176,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807836182,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807836186,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807836190,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,399,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807836194,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9836,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836299,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807836304,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807836309,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836313,10,POST Request to Base,500,,Main Thraed 1-1,text,false,,1126,562,1,2,http://localhost:8080/service/guestbook,9,0,0
+1596807836324,6,goto_service/guestbook,200,,Main Thraed 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Все просто божественно'/,9836,136,1,2,http://localhost:8080/service/guestbook,6,0,1
+1596807836336,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807836341,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807836346,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836349,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,386,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836353,4,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9904,136,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836459,6,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,6,0,0
+1596807836466,5,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,5,0,0
+1596807836472,5,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,5,0,0
+1596807836477,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,361,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836482,6,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,9963,136,1,2,http://localhost:8080/service/guestbook,6,0,0
+1596807836590,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807836596,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807836600,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807836604,4,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,409,1,2,http://localhost:8080/service/guestbook,4,0,0
+1596807836609,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10038,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807836615,4,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807836620,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807836625,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836629,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,336,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807836633,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10088,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807836739,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807836745,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807836749,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836753,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,320,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807836757,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10133,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807836863,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,4,0,0
+1596807836868,4,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,4,0,0
+1596807836873,3,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,3,0,0
+1596807836877,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,352,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807836881,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10189,136,1,2,http://localhost:8080/service/guestbook,5,0,0
+1596807836987,5,goto_Main,200,,Main Thraed 1-1,text,true,,22653,119,1,2,http://localhost:8080/,5,0,0
+1596807836993,3,goto_clients,200,,Main Thraed 1-1,text,true,,6135,131,1,2,http://localhost:8080/clients.html,3,0,0
+1596807836997,4,goto_guestbook,200,,Main Thraed 1-1,text,true,,4112,133,1,2,http://localhost:8080/guestbook.html,4,0,0
+1596807837002,3,POST Request to Base,200,,Main Thraed 1-1,text,true,,274,295,1,2,http://localhost:8080/service/guestbook,3,0,0
+1596807837006,5,goto_service/guestbook,200,,Main Thraed 1-1,text,true,,10233,136,1,2,http://localhost:8080/service/guestbook,5,0,0
