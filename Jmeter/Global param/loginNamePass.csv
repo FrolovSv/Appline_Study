@@ -1,0 +1,55 @@
+login,pass,FirstName,Name,Street,Sity,CreditCardNum,CreditCardDate
+jojo,bean,Bean,Jojo,Novoe shosse,Moscow MO Leninskiy r,1234567812345670,11/22
+averina,salo,David,Averina,Vnukovskaya 3-ya ulitsa,Moscow MO Moscow,1234567812534240,11/22
+aleksandrov,sani,Daniil,Aleksandrov,Volgogradskiy prospekt Volzhskiy Bulvar 113a,Moscow MO Moscow,1234567813167630,05/23
+andreyev,sapa,Dementiy,Andreyev,kvartal Volzhskiy Bulvar 114a,Moscow MO Moscow,1234567814164430,01/23
+anisimov,sard,Denis,Anisimov,kvartal Volzhskiy Bulvar 95,Moscow MO Moscow,1234567815643730,09/23
+arkadyev,sari,Dmitpiy,Arkadyev,kvartal Volzhskiy bulvar Volkov pereulok Volkonskiy 1-y,Moscow MO Moscow,1234567821349640,11/22
+arkhipov,sashe,Yevgeniy,Arkhipov,pereulok Volkonskiy 2-y,Moscow MO Moscow,1234567825735360,09/23
+barinov,sbeg,Yevdokim,Barinov,pereulok Volovya ,Moscow MO Moscow,1234567829544050,03/23
+bezrukov,sbir,Yegor,Bezrukov,proyezd Volokolamskiy 3-y,Moscow MO Moscow,1234567831521800,09/23
+belokrylov,sboy,Yelisey,Belokrylov,ulitsa Volynskaya ,Moscow MO Moscow,1234567835312730,05/23
+berdinskikh,sbor,Yermolay,Berdinskikh,Polevoy pereulok Polenova,Moscow MO Moscow,1234567838210570,08/23
+berestov,sbyt,Zhan,Berestov,ulitsa Polesskiy proyezd Polikarpova,Moscow MO Moscow,1234567843565730,05/23
+bogdanov,sval,Kirill,Bogdanov,ulitsa Polimernaya ,Moscow MO Moscow,1234567849361180,11/22
+bondarenko,svan,Klimentiy,Bondarenko,ulitsa Politekhnicheskiy proyezd Polkovaya ,Moscow MO Moscow,1234567849689100,09/23
+bratislavskaya,svat,Konstantin,Bratislavskaya,ulitsa Polotskaya ,Moscow MO Moscow,1234567850927400,03/23
+vsnetsov,svaya,Lavrentiy,vsnetsov,pereulok Polyanskiy pereulok Polyany,Moscow MO Moscow,1234567856392430,12/22
+vershinina,sves,Lazar,Vershinina,ulitsa Polyarnaya ,Moscow MO Moscow,1234567858281830,04/23
+vishnevskaya,svet,Lev,Vishnevskaya,proyezd Poperechnyy 2-y,Moscow MO Moscow,1234567860995780,12/22
+vladov,svikh,Leonid,Vladov,proyezd Poperechnyy,Moscow MO Moscow,1234567862951330,08/23
+volkov,svishch,Leontiy,Volkov,ulitsa Poliny Osipenko,Moscow MO Moscow,1234567863650470,03/23
+volochkov,svod,Lukyan,Volochkov,ulitsa Volnaya ,Moscow MO Moscow,1234567866974630,05/23
+voloshchuk,svoye,Makar,Voloshchuk,ulitsa Potapovskiy pereulok Poteshnaya ,Moscow MO Moscow,1234567871708930,03/23
+vysotskaya,svoz,Maksim,Vysotskaya,ulitsa Pokhodnyy proyezd,Moscow MO Moscow,1234567873435200,09/23
+galaktionov,svoy,Maksimilian,Galaktionov,ulitsa Potylikha,Moscow MO Moscow,1234567873562360,02/23
+golitsyna,sgib,Markel,Golitsyna,ulitsa Vologodskiy proyezd Volokolamskiy 1-y,Moscow MO Moscow,1234567877829390,08/23
+generalov,sgon,Marlen,Generalov,Shiryayevo Pole,Moscow MO Moscow,1234567881615270,04/23
+gorodetskaya,sdoy,Mikhail,Gorodetskaya,ulitsa Shiryayevskiy 2-y,Moscow MO Moscow,1234567885653200,01/23
+gronskaya,sduv,Nikita,Gronskaya,pereulok Shitova,Moscow MO Moscow,1234567886109730,03/23
+darov,sebe,Nikolay,Darov,naberezhnaya Shishkina,Moscow MO Moscow,1234567891065060,04/23
+dementyev,sebya,Oleg,Dementyev,ulitsa Shkolnaya ,Moscow MO Moscow,1234567893068420,11/22
+demidov,sevr,Oles,Demidov,ulitsa Shlomina,Moscow MO Moscow,1234567894616950,09/23
+denisov,sezha,Oskar,Denisov,proyezd Shlyuzovaya naberezhnaya Shlyuzy,Moscow MO Moscow,1234567896632090,01/23
+dobrovolskaya,seid,Petr,Dobrovolskaya,ulitsa Shkolnaya ,Moscow MO Moscow,1234567901225170,03/23
+dubrovskaya,seym,Platon,Dubrovskaya,ulitsa (Kryukovo) Shkolnaya ,Moscow MO Moscow,1234567907134210,09/23
+yefimov,seyf,Rodion,Yefimov,ulitsa (pos. Malino) Shkulova,Moscow MO Moscow,1234567910646600,06/23
+zvezdnaya,seks,Roman,Zvezdnaya,kvartal Volzhskiy bulvar Volkov pereulok Volkonskiy 1-y,Moscow MO Moscow,1234567916069660,02/23
+ivnov,selo,Ruslan,Ivnov,pereulok Volkonskiy 2-y,Moscow MO Moscow,1234567917947530,04/23
+ivlev,sel,Saveliy,Ivlev,pereulok Volovya ,Moscow MO Moscow,1234567920470050,11/22
+ignatov,sema,Svetoslav,Ignatov,proyezd Volokolamskiy 3-y,Moscow MO Moscow,1234567926012470,09/23
+istomina,semo,Semen,Istomina,pereulok Shitova,Moscow MO Moscow,1234567926912340,04/23
+kamenskaya,sem,Sergey,Kamenskaya,kvartal Volzhskiy Bulvar 95,Moscow MO Moscow,1234567927178920,01/23
+kanayev,semya,Stanislav,Kanayev,kvartal Volzhskiy bulvar Volkov pereulok Volkonskiy 1-y,Moscow MO Moscow,1234567928301510,04/23
+karamzina,seni,Stepan,Karamzina,pereulok Volkonskiy 2-y,Moscow MO Moscow,1234567929654830,08/23
+kovlevskaya,seno,Terentiy,Kovlevskaya,pereulok Volovya ,Moscow MO Moscow,1234567929952440,10/23
+kovl,sen,Timofey,Kovl,proyezd Volokolamskiy 3-y,Moscow MO Moscow,1234567934266670,02/23
+kovlchuk,sera,Tikhon,Kovlchuk,ulitsa Volynskaya ,Moscow MO Moscow,1234567938552350,06/23
+kozhevnikov,serb,Tomas,Kozhevnikov,Polevoy pereulok Polenova,Moscow MO Moscow,1234567943023200,09/23
+koltsov,serv,Fedor,Koltsov,ulitsa Polesskiy proyezd Polikarpova,Moscow MO Moscow,1234567946054950,04/23
+konovlov,serp,Fedot,Konovlov,ulitsa Polimernaya ,Moscow MO Moscow,1234567951245600,02/23
+korolev,ser,Filipp,Korolev,ulitsa Politekhnicheskiy proyezd Polkovaya ,Moscow MO Moscow,1234567954781430,08/23
+kotov,set,Khariton,Kotov,ulitsa Polotskaya ,Moscow MO Moscow,1234567956972630,08/23
+krasnov,secha,Eduard,Krasnov,pereulok Polyanskiy pereulok Polyany,Moscow MO Moscow,1234567961753820,09/23
+kruchinina,sech,Ernest,Kruchinina,ulitsa Polyarnaya ,Moscow MO Moscow,1234567967638160,05/23
+kulikovskaya,szhim,Yuriy,Kulikovskaya,proyezd Poperechnyy 2-y,Moscow MO Moscow,1234567971741680,10/23
