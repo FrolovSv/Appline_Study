@@ -1,0 +1,1836 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1597085908607,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085908616,54576,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085908620,65904,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085909678,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085909680,54453,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085910680,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085910681,54445,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085910681,60242,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085911683,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085911683,54419,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085911684,62834,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085912685,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085912686,54456,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085912686,70032,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085913686,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085913687,54428,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085913687,62124,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085914687,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085914688,54439,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085914688,66775,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085915689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085915691,54558,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085915691,60472,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085916691,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085916692,54622,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085916692,51115,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085917692,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085917693,54752,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085917693,42967,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085918694,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085918695,54769,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085918695,42194,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085919695,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085919695,54793,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085919696,68745,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085920696,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085920696,54788,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085920697,69020,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085921697,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085921697,54777,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085921697,71225,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085922698,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085922698,54409,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085922698,67306,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085923699,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085923699,54065,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085923700,65754,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085924700,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085924725,54079,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085924725,69240,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085925725,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085925725,54116,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085925725,68409,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085926726,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085926727,54353,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085926727,38657,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085927727,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085927727,54106,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085927727,52378,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085928727,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085928727,54164,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085928728,65214,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085929728,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085929728,54106,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085929728,70856,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085930729,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085930729,54122,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085930729,66404,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085931730,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085931730,54355,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085931731,62549,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085932732,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085932732,54777,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085932732,41311,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085933732,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085933733,54932,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085933733,30077,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085934733,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085934733,55010,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085934733,51965,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085935734,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085935734,55002,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085935734,67305,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085936734,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085936735,55018,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085936735,66666,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085937736,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085937736,55030,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085937736,71117,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085938737,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085938738,55031,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085938738,66641,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085939738,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085939738,54988,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085939738,73562,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085940739,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085940759,55002,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085940760,68635,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085941760,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085941760,55044,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085941760,57021,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085942761,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085942761,55063,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085942761,54745,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085943762,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085943762,55044,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085943762,70373,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085944762,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085944762,55068,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085944762,71504,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085945762,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085945763,55067,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085945763,73043,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085946763,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085946763,55068,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085946763,70570,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085947764,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085947790,55098,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085947790,58072,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085948790,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085948790,55205,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085948790,26177,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085949791,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085949791,55186,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085949791,67857,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085950792,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085950928,55191,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085950928,74012,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085951928,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085951928,55199,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085951928,69976,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085952929,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085952929,55213,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085952929,72871,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085953929,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085953929,54907,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085953929,65230,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085954929,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085954929,54931,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085954929,75918,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085955930,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085955930,54918,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085955931,73269,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085956931,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085956931,54929,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085956931,72620,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085957931,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085957931,55089,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085957931,52473,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085958931,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085958931,54948,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085958931,42622,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085959932,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085959932,54986,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085959932,65239,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085960932,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085960932,54975,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085960933,70651,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085961933,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085961933,55215,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085961933,57114,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085962933,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085962934,55212,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085962934,64811,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085963934,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085963934,54998,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085963934,62475,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085964934,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085964934,55007,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085964934,62385,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085965937,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085965937,54974,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085965937,70262,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085966937,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085966937,55008,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085966937,69327,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085967938,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085967938,55009,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085967938,69431,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085968938,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085968938,55002,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085968939,67047,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085969939,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085969939,55006,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085969939,64471,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085970939,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085970939,55005,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085970939,75655,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085971939,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085971940,54981,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085971940,73935,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085972940,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085972941,55060,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085972941,43649,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085973941,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085973942,55014,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085973942,44530,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085974942,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085974942,55093,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085974943,39469,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085975943,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085975943,55096,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085975943,47838,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085976943,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085976944,55101,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085976944,45667,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085977944,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085977945,55052,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085977945,51563,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085978945,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085978945,55054,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085978946,45902,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085979946,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085979946,55064,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085979946,46080,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085980946,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085980946,55047,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085980947,49413,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085981947,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085981947,55107,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085981948,46349,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085982972,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085982973,55149,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085982973,45389,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085983974,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085983975,55126,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085983975,43466,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085984976,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085984977,55158,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085984977,42202,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085985977,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085985977,55245,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085985977,42746,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085986977,3000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085986977,55236,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085986977,45461,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085987977,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085987978,55219,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085987978,41798,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085988978,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085988978,55211,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085988978,48422,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085989980,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085989981,55239,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085989981,50201,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085990986,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085990986,55203,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085990986,48229,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085991989,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085991993,55189,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085991993,45704,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085992997,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085992997,55188,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085992997,51591,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085994008,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085994010,55211,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085994017,52715,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085995017,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085995017,55240,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085995017,50972,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085996017,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085996017,55198,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085996017,58331,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085997017,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085997017,55185,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085997017,56474,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085998021,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085998047,55240,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085998047,52736,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597085999047,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597085999047,55194,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597085999047,60303,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086000061,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086000061,55185,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086000061,57595,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086001062,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086001062,55173,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086001063,51346,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086002063,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086002063,55188,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086002063,39767,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086003064,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086003064,55209,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086003064,33199,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086004064,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086004064,55264,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086004064,40635,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086005064,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086005064,55236,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086005064,43685,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086006064,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086006064,55220,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086006064,47259,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086007064,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086007064,55208,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086007064,42975,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086008064,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086008088,55177,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086008088,48422,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086009088,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086009088,55198,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086009089,35997,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086010091,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086010091,55231,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086010091,42450,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086011091,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086011091,55315,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086011092,22631,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086012092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086012092,55332,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086012092,26958,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086013092,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086013092,55313,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086013092,40409,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086014092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086014092,55350,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086014092,48798,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086015092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086015092,55327,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086015092,42194,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086016092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086016092,54943,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086016092,48853,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086017092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086017092,54953,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086017092,51773,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086018092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086018092,54936,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086018092,47117,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086019092,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086019092,54978,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086019092,48031,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086020093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086020093,55102,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086020093,42475,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086021093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086021093,54982,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086021093,40220,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086022093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086022093,54999,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086022093,42978,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086023093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086023093,54962,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086023093,43354,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086024093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086024093,55000,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086024093,41007,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086025093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086025093,55023,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086025093,17702,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086026093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086026093,55072,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086026093,31622,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086027093,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086027093,54949,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086027093,39083,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086028094,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086028094,54932,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086028094,49636,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086029095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086029095,54959,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086029095,41748,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086030095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086030095,54971,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086030095,44564,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086031095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086031095,54994,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086031095,46858,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086032095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086032095,55004,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086032095,37130,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086033095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086033095,54965,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086033095,44892,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086034095,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086034095,54992,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086034095,45317,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086035099,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086035100,55091,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086035100,40009,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086036100,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086036146,55103,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086036146,51176,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086037148,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086037148,54847,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086037148,49629,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086038149,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086038149,54903,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086038149,31630,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086039151,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086039152,54918,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086039152,26916,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086040152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086040152,54928,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086040152,28117,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086041152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086041152,55024,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086041152,21526,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086042152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086042152,55004,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086042152,20992,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086043152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086043152,55035,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086043152,33448,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086044152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086044152,55057,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086044152,20691,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086045152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086045152,55032,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086045152,25795,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086046152,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086046152,55122,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086046152,19914,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086047153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086047153,55106,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086047153,28532,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086048153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086048153,55119,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086048153,32807,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086049153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086049153,55127,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086049153,29687,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086050153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086050153,55070,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086050153,23348,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086051153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086051153,55123,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086051153,17956,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086052153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086052153,55153,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086052153,25025,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086053153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086053153,55074,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086053153,21101,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086054153,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086054153,55068,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086054153,23034,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086055154,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086055154,55100,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086055154,29301,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086056154,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086056154,55077,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086056154,34777,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086057154,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086057154,55072,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086057154,28839,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086058154,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086058154,55096,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086058154,30763,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086059154,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086059154,55135,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086059154,24974,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086060155,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086060155,55109,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086060155,32824,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086061155,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086061155,55311,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086061155,9361,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086062155,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086062155,55333,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086062155,18678,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086063160,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086063160,55053,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086063160,31638,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086064160,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086064160,55024,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086064160,26517,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086065160,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086065160,55072,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086065160,27009,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086066163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086066163,55101,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086066163,24974,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086067163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086067163,55099,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086067163,29694,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086068163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086068163,55122,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086068163,27900,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086069163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086069163,55127,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086069163,27359,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086070163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086070163,55183,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086070163,34368,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086071163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086071163,55134,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086071163,24611,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086072163,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086072163,55141,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086072163,21902,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086073164,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086073164,55155,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086073164,32397,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086074164,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086074164,55141,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086074164,25394,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086075164,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086075165,55178,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086075165,25394,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086076165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086076165,55181,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086076165,31256,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086077165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086077165,55184,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086077165,34613,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086078165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086078165,55184,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086078165,25400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086079165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086079165,55218,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086079165,18332,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086080165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086080165,55170,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086080167,28124,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086081167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086081167,55177,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086081167,26558,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086082167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086082167,55181,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086082167,32824,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086083167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086083167,55144,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086083167,31237,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086084167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086084167,55166,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086084167,34385,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086085167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086085167,55213,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086085167,27712,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086086167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086086167,55155,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086086167,30838,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086087167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086087167,55154,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086087167,24618,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086088167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086088167,55160,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086088167,24611,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086089167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086089167,55161,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086089167,37709,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086090168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086090168,55157,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086090168,31239,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086091168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086091168,55227,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086091168,32431,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086092168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086092168,55225,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086092168,9366,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086093168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086093168,55212,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086093168,15799,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086094168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086094168,55222,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086094168,17571,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086095168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086095168,55212,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086095168,21473,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086096168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086096168,55178,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086096168,26072,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086097168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086097168,55230,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086097168,31639,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086098168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086098168,55229,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086098168,34384,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086099168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086099168,55166,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086099168,34753,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086100168,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086100168,55447,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086100168,26164,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086101168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086101168,55537,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086101168,13695,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086102168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086102168,55403,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086102168,29610,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086103168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086103168,55460,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086103168,14825,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086104168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086104168,55416,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086104168,12697,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086105168,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086105168,55431,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086105168,17431,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086106173,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086106189,55394,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086106189,14990,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086107189,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086107189,55553,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086107189,1419,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086108191,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086108192,55570,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086108192,7875,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086109192,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086109192,55540,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086109192,8454,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086110199,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086110200,55244,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086110200,16420,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086111200,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086111201,55424,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086111201,5376,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086112201,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086112225,55411,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086112238,14764,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086113238,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086113238,55523,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086113238,1858,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086114238,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086114238,55468,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086114238,10910,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086115238,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086115238,55178,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086115238,13042,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086116238,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086116238,55187,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086116238,16403,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086117239,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086117239,55151,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086117239,7457,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086118239,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086118239,55201,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086118239,9746,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086119239,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086119239,55121,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086119239,9762,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086120239,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086120250,55140,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086120250,11165,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086121250,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086121265,55161,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086121265,16024,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086122266,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086122266,55220,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086122266,9595,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086123267,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086123283,55185,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086123283,20725,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086124283,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086124283,55172,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086124283,13070,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086125284,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086125284,55205,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086125284,15602,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086126302,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086126326,55198,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086126326,14420,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086127326,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086127326,55366,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086127326,8318,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086128326,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086128326,55343,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086128326,12457,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086129326,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086129326,55335,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086129326,9593,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086130327,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086130327,55201,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086130327,15244,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086131327,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086131340,55140,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086131340,12875,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086132340,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086132340,55118,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086132340,15269,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086133340,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086133345,55292,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086133345,10951,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086134345,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086134369,55245,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086134369,14194,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086135369,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086135370,55269,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086135370,15230,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086136373,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086136373,55249,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086136373,9610,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086137373,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086137413,55272,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086137413,10546,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086138413,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086138431,55264,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086138431,12694,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086139431,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086139431,55299,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086139431,12515,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086140431,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086140431,55232,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086140431,10752,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086141431,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086141431,55301,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086141431,11143,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086142432,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086142433,55264,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086142433,18860,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086143433,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086143450,55273,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086143450,15359,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086144450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086144450,55331,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086144450,17332,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086145450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086145450,55400,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086145450,9742,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086146450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086146450,55166,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086146450,9267,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086147450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086147450,55355,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086147450,5857,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086148450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086148450,55369,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086148450,13859,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086149450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086149450,55351,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086149450,4905,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086150450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086150450,55353,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086150450,10963,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086151450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086151450,55399,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086151450,10360,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086152450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086152450,55356,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086152450,11122,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086153450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086153450,55358,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086153450,15401,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086154450,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086154450,55385,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086154450,3847,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086155451,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086155451,55420,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086155451,16028,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086156455,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086156455,55398,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086156455,13288,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086157455,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086157455,55467,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086157455,10430,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086158455,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086158455,55499,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086158455,11717,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086159455,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086159455,55505,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086159455,13834,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086160456,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086160456,55529,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086160456,15644,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086161456,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086161456,55194,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086161456,12457,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086162458,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086162458,55185,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086162458,17555,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086163458,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086163458,55135,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086163458,16741,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086164460,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086164460,55160,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086164460,13059,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086165474,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086165474,55190,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086165474,15509,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086166488,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086166488,55311,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086166488,10515,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086167489,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086167489,55172,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086167489,3847,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086168491,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086168491,55251,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086168491,394,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086169493,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086169494,55298,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086169494,4472,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086170499,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086170499,55319,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086170499,777,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086171506,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086171507,55371,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086171507,6410,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086172520,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086172521,55218,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086172521,3475,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086173531,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086173531,55578,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086173531,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086174555,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086174555,55504,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086174555,4983,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086175560,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086175560,55543,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086175560,3904,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086176560,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086176560,55555,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086176560,1953,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086177566,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086177566,55199,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086177566,5504,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086178570,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086178570,55315,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086178570,8307,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086179571,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086179571,55258,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086179571,3399,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086180575,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086180575,55272,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086180575,2688,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086181578,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086181579,55324,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086181579,1923,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086182607,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086182608,55400,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086182608,7100,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086183613,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086183613,55370,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086183613,2730,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086184620,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086184620,55370,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086184620,3081,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086185626,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086185626,55437,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086185626,2318,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086186630,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086186630,55418,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086186630,4473,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086187631,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086187631,55463,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086187631,364,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086188633,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086188642,55640,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086188642,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086189646,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086189646,55649,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086189646,3845,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086190660,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086190805,55630,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086190805,3069,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086191812,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086191812,55669,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086191812,3528,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086192815,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086192815,55653,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086192815,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086193817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086193817,55516,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086193817,1898,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086194824,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086194824,55495,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086194824,3890,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086195834,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086195834,55511,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086195834,1201,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086196843,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086196843,55502,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086196843,4981,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086197863,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086197863,55512,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086197863,3104,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086198869,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086198869,55473,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086198869,1882,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086199870,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086199948,55526,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086199948,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086200950,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086201185,55781,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086201185,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086202185,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086202185,55793,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086202186,1528,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086203214,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086203214,55773,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086203214,4242,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086204223,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086204223,55661,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086204223,2704,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086205228,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086205228,55677,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086205228,754,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086206232,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086206232,55658,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086206232,1159,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086207236,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086207236,55782,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086207236,1176,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086208238,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086208238,55826,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086208238,1922,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086209261,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086209261,55767,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086209261,5747,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086210261,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086210261,55798,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086210261,1176,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086211265,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086211265,55838,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086211265,3932,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086212266,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086212267,55761,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086212267,4609,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086213269,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086213269,55771,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086213269,3507,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086214269,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086214269,55743,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086214269,1576,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086215338,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086215338,55752,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086215338,3452,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086216346,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086216346,56026,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086216346,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086217346,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086217346,55739,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086217346,8437,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086218347,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086218347,55763,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086218347,5400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086219347,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086219348,55375,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086219348,7210,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086220348,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086220348,55340,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086220348,3398,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086221349,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086221349,55390,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086221349,2258,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086222349,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086222349,55365,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086222349,3931,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086223358,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086223358,55378,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086223358,3821,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086224368,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086224368,55350,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086224368,3451,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086225376,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086225376,55342,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086225376,1577,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086226383,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086226399,55350,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086226399,3844,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086227413,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086227522,55381,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086227522,1141,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086228528,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086228528,55519,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086228528,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086229556,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086229556,55761,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086229556,392,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086230562,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086230562,55797,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086230562,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086231564,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086231564,55892,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086231564,7809,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086232570,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086232571,55815,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086232571,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086233572,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086233572,55789,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086233572,7267,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086234574,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086234574,55809,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086234574,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086235579,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086235579,55742,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086235579,1921,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086236600,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086236600,55791,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086236600,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086237605,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086237605,55859,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086237605,382,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086238644,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086238644,55832,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086238644,353,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086239644,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086239644,55703,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086239644,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086240648,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086240821,55446,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086240821,1152,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086241830,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086241830,55396,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086241830,1552,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086242843,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086242843,55417,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086242843,381,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086243855,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086243855,55469,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086243855,2965,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086244865,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086244865,55365,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086244865,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086245888,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086245888,55497,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086245888,765,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086246892,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086246892,55469,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086246892,764,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086247893,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086247947,55430,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086247947,2743,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086248947,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086248947,55513,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086248947,1869,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086249950,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086249950,55454,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086249950,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086250962,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086250962,55519,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086250962,1176,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086251964,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086251964,55407,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086251964,3401,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086252981,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086252981,55460,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086252981,2291,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086253981,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086254018,55460,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086254018,1197,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086255029,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086255029,55510,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086255029,2669,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086256032,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086256078,55518,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086256078,2705,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086257083,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086257110,55458,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086257110,370,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086258127,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086258202,55479,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086258202,1947,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086259206,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086259206,55515,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086259206,1528,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086260212,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086260246,55431,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086260246,776,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086261246,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086261248,55520,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086261248,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086262248,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086262288,55543,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086262297,5004,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086263308,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086263416,55500,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086263416,2183,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086264423,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086264444,55435,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086264444,1551,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086265445,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086265445,55605,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086265445,1528,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086266446,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086266638,55451,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086266638,3500,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086267643,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086267643,55563,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086267643,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086268644,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086268644,55690,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086268644,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086269654,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086269654,55571,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086269654,6876,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086270654,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086270654,55584,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086270654,1894,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086271661,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086271661,55236,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086271661,399,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086272665,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086272666,55314,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086272666,3452,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086273668,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086273668,55344,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086273668,1083,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086274670,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086274670,55349,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086274670,2378,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086275670,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086275670,55297,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086275670,1553,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086276693,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086276693,55321,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086276693,2305,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086277693,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086277778,55419,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086277778,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086278778,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086278778,55337,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086278778,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086279778,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086279778,55311,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086279778,776,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086280778,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086280778,55441,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086280778,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086281778,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086281778,55434,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086281778,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086282779,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086282779,55365,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086282779,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086283783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086283783,55386,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086283783,1552,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086284783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086284783,55393,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086284783,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086285783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086285783,55357,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086285783,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086286783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086286783,55371,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086286783,370,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086287783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086287783,55321,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086287783,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086288783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086288783,55325,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086288783,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086289783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086289783,55392,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086289783,1577,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086290783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086290783,55411,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086290783,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086291783,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086291783,55394,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086291783,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086292799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086292799,55366,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086292799,3905,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086293799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086293799,55416,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086293799,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086294799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086294799,55394,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086294799,1527,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086295799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086295799,55385,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086295799,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086296799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086296799,55325,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086296799,3081,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086297799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086297799,55425,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086297799,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086298799,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086298799,55497,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086298799,1976,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086299800,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086299800,55401,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086299800,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086300800,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086300800,55404,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086300800,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086301800,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086301800,55403,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086301800,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086302800,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086302800,55432,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086302800,1828,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086303800,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086303813,55472,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086303813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086304813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086304813,55469,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086304813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086305813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086305813,55537,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086305813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086306813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086306813,55543,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086306813,369,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086307813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086307813,55495,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086307813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086308813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086308813,55444,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086308813,2712,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086309817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086309817,55487,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086309817,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086310817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086310817,55510,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086310817,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086311817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086311817,55567,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086311817,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086312817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086312817,55479,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086312817,1953,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086313817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086313817,55507,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086313817,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086314817,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086314817,55400,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086314817,1553,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086315826,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086315826,55491,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086315826,3129,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086316826,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086316826,55427,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086316826,1100,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086317827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086317827,55473,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086317827,1894,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086318827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086318827,55537,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086318827,394,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086319827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086319827,55606,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086319827,382,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086320827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086320827,55558,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086320827,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086321827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086321827,55599,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086321827,382,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086322827,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086322827,55568,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086322827,739,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086323831,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086323848,55682,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086323848,1176,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086324848,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086324848,55680,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086324848,370,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086325848,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086325848,55724,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086325848,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086326848,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086326848,55668,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086326848,382,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086327848,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086327848,55697,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086327848,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086328859,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086328859,55759,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086328859,400,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086329859,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086329859,55709,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086329859,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086330859,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086330859,55719,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086330859,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086331859,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086331900,55599,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086331900,1977,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086332900,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086332900,55673,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086332900,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086333900,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086333900,55651,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086333900,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086334901,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086334937,55666,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086334937,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086335938,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086335938,55650,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086335938,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086336940,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086336940,55590,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086336940,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086337941,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086338300,55811,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086338301,739,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086339301,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086339301,55874,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086339301,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086340301,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086340301,55804,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086340301,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086341301,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086341301,55874,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086341301,1553,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086342301,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086342301,55870,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086342301,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086343314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086343314,55875,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086343314,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086344314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086344397,55840,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086344397,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086345397,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086345469,55914,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086345469,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086346469,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086346469,55841,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086346469,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086347469,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086347469,55802,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086347469,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086348469,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086348469,55753,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086348469,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086349469,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086349469,55832,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086349469,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086350469,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086350474,55790,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086350474,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086351474,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086351474,55793,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086351474,388,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086352475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086352475,55892,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086352475,1023,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086353475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086353475,55885,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086353475,2248,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086354475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086354475,55820,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086354475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086355475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086355475,55769,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086355475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086356475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086356475,55792,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086356475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086357475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086357475,55787,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086357475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086358475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086358475,55895,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086358475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086359475,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086359475,55826,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086359475,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086360479,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086360480,55776,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086360480,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086361480,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086361534,55877,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086361534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086362534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086362534,55827,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086362534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086363534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086363534,55878,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086363534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086364534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086364534,55888,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086364534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086365534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086365534,55869,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086365534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086366534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086366534,55866,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086366534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086367534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086367534,55915,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086367534,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086368534,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086368834,55835,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086368834,1158,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086369848,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086370161,55844,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086370161,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086371161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086371161,55866,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086371161,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086372161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086372161,55859,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086372161,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086373161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086373161,55842,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086373161,752,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086374161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086374161,55900,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086374161,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086375161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086375161,55823,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086375161,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086376161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086376161,55984,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086376161,358,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086377161,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086377161,55892,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086377161,2293,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086378162,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086378162,55819,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086378162,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086379162,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086379396,55877,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086379396,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086380396,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086380396,55808,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086380396,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086381396,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086381416,55792,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086381416,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086382416,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086382416,55798,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086382416,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086383416,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086383441,55833,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086383441,361,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086384441,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086384573,55761,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086384573,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086385573,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086385573,55836,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086385573,788,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086386573,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086386573,55819,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086386573,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086387626,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086387676,55799,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086387676,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086388676,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086388680,55882,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086388680,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086389680,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086389911,55816,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086389911,1893,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086390911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086390911,55765,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086390911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086391911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086391911,55847,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086391911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086392911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086392911,55845,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086392911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086393911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086393911,55803,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086393911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086394911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086394911,55868,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086394911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086395911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086395911,55879,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086395911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086396911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086396911,55803,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086396911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086397911,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086397911,55909,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086397911,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086398920,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086398920,55947,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086398920,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086399920,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086399920,55919,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086399920,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086400920,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086400920,55917,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086400920,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086401927,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086401927,55742,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086401927,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086402927,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086402927,55589,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086402927,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086403927,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086403927,55479,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086403927,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086404928,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086404928,55610,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086404928,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086405935,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086405936,55586,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086405936,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086406936,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086406936,55717,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086406936,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086407936,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086407936,55680,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086407936,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086408936,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086408936,55690,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086408936,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086409936,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086410687,55762,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086410687,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086411689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086411689,55662,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086411689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086412689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086412689,55699,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086412689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086413689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086413689,55594,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086413689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086414689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086414689,55594,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086414689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086415689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086415689,55641,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086415689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086416689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086416689,55659,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086416689,371,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086417689,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086417689,55702,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086417689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086418689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086418689,55692,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086418689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086419689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086419689,55475,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086419689,394,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086420689,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086420689,55452,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086420689,1158,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086421689,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086421689,55502,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086421689,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086422690,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086422690,55526,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086422690,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086423690,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086423690,55587,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086423690,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086424690,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086424690,55524,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086424690,741,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086425690,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086425690,55580,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086425690,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086426690,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086426871,55535,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086426871,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086427871,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086428193,55593,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086428193,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086429193,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086429193,55647,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086429193,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086430193,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086430193,55630,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086430193,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086431201,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086431201,55525,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086431201,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086432201,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086432764,55596,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086432764,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086433764,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086433764,55602,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086433764,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086434764,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086434764,55649,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086434764,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086435764,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086436144,55590,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086436144,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086437144,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086437479,55630,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086437479,388,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086438479,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086438900,55592,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086438900,364,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086439901,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086440051,55680,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086440051,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086441051,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086441051,55712,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086441051,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086442051,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086442051,55488,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086442051,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086443051,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086443131,55504,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086443131,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086444136,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086444171,55504,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086444171,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086445171,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086445445,55536,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086445445,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086446445,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086446445,55529,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086446445,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086447445,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086447655,55483,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086447655,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086448655,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086448676,55410,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086448676,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086449676,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086449676,55610,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086449676,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086450676,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086450676,55436,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086450676,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086451676,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086451753,55420,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086451753,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086452753,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086452753,55586,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086452753,364,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086453757,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086453757,55625,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086453757,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086454757,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086455133,55538,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086455133,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086456133,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086456219,55580,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086456219,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086457220,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086457328,55545,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086457328,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086458328,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086458721,55644,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086458721,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086459721,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086460546,55574,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086460546,1140,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086461546,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086461683,55648,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086461683,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086462683,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086463194,55615,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086463194,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086464194,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086464318,55754,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086464318,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086465318,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086465318,55821,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086465318,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086466318,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086466577,55957,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086466577,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086467577,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086467577,55895,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086467577,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086468577,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086469400,56035,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086469400,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086470400,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086470525,55958,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086470525,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086471525,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086471525,55974,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086471525,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086472525,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086472525,56005,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086472525,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086473525,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086473525,56024,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086473525,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086474526,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086474526,55926,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086474526,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086475526,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086475526,55951,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086475526,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086476526,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086477307,56041,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086477307,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086478307,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086478314,55923,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086478314,788,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086479314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086479314,56043,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086479314,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086480314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086480314,55956,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086480314,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086481314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086481314,56001,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086481314,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086482314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086482314,55978,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086482314,707,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086483314,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086483386,55780,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086483386,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086484387,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086484387,55873,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086484387,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086485387,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086485387,55839,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086485387,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086486387,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086486894,55875,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086486894,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086487894,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086487894,55893,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086487894,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086488894,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086488894,55930,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086488894,2352,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086489897,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086491501,56092,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086491501,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086492515,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086492515,55997,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086492515,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086493523,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086493523,56045,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086493523,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086494570,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086494570,56019,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086494570,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086495593,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086496112,55941,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086496113,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086497134,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086497263,55871,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086497263,375,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086498268,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086500243,55980,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086500243,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086501247,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086502620,55997,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086502620,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086503642,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086503799,56025,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086503799,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086504803,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086504813,55992,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086504813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086505820,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086505820,56010,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086505820,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086506825,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086507077,56133,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086507077,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086508122,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086509290,56265,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086509290,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086510291,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086512210,56254,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086512211,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086513219,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086513332,56199,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086513332,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086514337,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086515667,55917,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086515667,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086516676,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086517547,55954,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086517547,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086518574,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086519242,55988,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086519292,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086520292,3000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086520760,56104,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086520760,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086521766,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086522919,56251,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086522919,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086523971,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086524162,56378,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086524162,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086525170,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086525618,56217,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086525618,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086526631,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086526730,56322,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086526730,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086527739,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086528112,56384,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086528112,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086529123,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086529123,56333,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086529123,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086530125,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086530125,56418,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086530125,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086531132,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086531132,56515,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086531132,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086532136,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086532136,56464,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086532136,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086533136,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086533136,56655,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086533136,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086534136,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086534136,56652,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086534136,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086535165,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086535165,56417,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086535165,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086536167,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086536167,56409,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086536167,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086537179,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086537180,56834,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086537180,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086538182,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086538809,56512,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086538809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086539809,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086539809,56630,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086539809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086540809,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086540809,56330,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086540809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086541809,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086541809,56391,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086541809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086542809,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086542809,56213,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086542809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086543809,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086543809,56261,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086543809,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086544813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086544813,56439,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086544813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086545813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086545813,56365,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086545813,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086546813,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086547124,56588,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086547124,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086548124,1000,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086548188,56666,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086548188,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086549188,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086549436,56672,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086549436,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
+1597086550436,0,localhost Disks I/O queue,,,,,true,,0,0,0,0,null,0,0,0
+1597086551114,56712,localhost Memory usedperc,,,,,true,,0,0,0,0,null,0,0,0
+1597086551114,0,localhost CPU idle,,,,,true,,0,0,0,0,null,0,0,0
